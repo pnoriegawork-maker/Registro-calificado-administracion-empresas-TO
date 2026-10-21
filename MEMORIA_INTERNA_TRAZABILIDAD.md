@@ -2,9 +2,9 @@
 ## Renovación de Registro Calificado Único — Administración de Empresas
 **Institución:** Corporación Escuela Tecnológica del Oriente (**TO**)  
 **Modalidades:** Presencial y Virtual · **Normativa:** Decreto 1330 de 2019  
-**Fecha de corte:** 21 de Octubre de 2026  
-**Repositorio GitHub:** [`pnoriegawork-maker/Registro-calificado-administracion-empresas-TO`](https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO)  
-**URL Pública (GitHub Pages):** [Plataforma de Evidencias TO](https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/)  
+**Fecha de corte:** 21 de Octubre de 2026
+**Repositorio GitHub:** [`pedronoriega-eng/Registro-calificado-administracion-empresas-TO`](https://github.com/pedronoriega-eng/Registro-calificado-administracion-empresas-TO)  
+**URL Pública (GitHub Pages):** [Plataforma de Evidencias TO](https://pedronoriega-eng.github.io/Registro-calificado-administracion-empresas-TO/)  
 **Clave de Acceso Institucional:** `TO2026` (o `TO`)
 
 ---
@@ -203,24 +203,83 @@ Todos los siguientes elementos están formalmente aprobados, implementados en c�
     * **Condición 7:** Observaciones 8, 9, 10 y 11 (Planta docente completa, cualificación para modalidad virtual, distribución horaria y organización de estudiantes por grupo).
     * **Condición 8:** Observación 12 (Medios educativos físicos y digitales, plataformas LMS, actualización y reposición, y protocolo Decreto 1421/2017).
     * **Condición 9:** Observación 13 (Infraestructura física y tecnológica asignada en Sedes A y B, CIDRE, salas de informática y garantía de disponibilidad a 7 años).
-  - **Integración Orgánica de Sustentación (Sin Cajas Burocráticas ni Modales Literales):**
-    Por instrucción expresa de la dirección del programa, **NO se muestran tarjetas de aviso taxativas de "Respuesta a la Sala" ni modales burocráticos**, sino que **el contenido mismo de la presentación y sus subsecciones en primer plano incorporan de forma natural, técnica y contundente toda la evidencia y respuestas dadas a la Sala**, permitiendo una sustentación académica impecable ante los pares evaluadores del MEN / CONACES:
-    * **Condición 1 (Denominación):** Titulación inclusiva oficial *Administrador(a) de Empresas* (Acuerdo CS 010 de 2021 de Inclusión), nivel profesional universitario directo (sin ciclos propedéuticos) y Registro Único (Presencial SNIES 108445 y Virtual SNIES 115833).
-    * **Condición 2 (Justificación):** Diferenciación clara de Presencial (enclave productivo Bucaramanga/Santander) y Virtual (cobertura nacional 33 deptos.), sincretismo normativo Decreto 1330 y datos de egresados (93.2% ocupabilidad).
-    * **Condición 3 (Aspectos Curriculares):** Formación integral, flexibilidad e interdisciplinariedad en ambas modalidades; resultados cuantitativos de interacción (semilleros, 8 tutorías presenciales/semestre, 96 sesiones sincrónicas virtuales, 85% acceso regular LMS); y Plan de Transición Curricular (158 cr a 144 cr, homologación 1:1, cero sobrecosto y protección de cohortes).
-    * **Condición 4 (Organización de Actividades Académicas):** Tabla oficial de horas HAD vs HTI por crédito (16/32 presencial vs 12/36 virtual mediada) y Política Institucional de Organización de Grupos (20 a 30 estudiantes en presencial; máximo 35 en virtual).
-    * **Condición 5 (Investigación):** Rediseño ejecutivo sin desperdicio visual de Slide 8 (Líneas de Investigación); Grupo COLLEGIUM Minciencias, Semillero GESTNOVA, Spin-off MYB S.A.S. y Ruta Formativa oficial.
-    * **Condición 6 (Sector Externo):** 4 subsecciones interactivas en primer plano: Convenios activos con evidencia (AMB, Bomberos Floridablanca, Cajasan, Municipio de Girón, Fenalco), Consultorio CIDRE, Alianza CUEES y Metas a 7 años.
-    * **Condición 7 (Profesores):** 4 subsecciones en primer plano: Planta docente completa con posgrados, Competencias Digitales Docentes (DigComp 2.2 / Moodle AWS), Distribución Horaria Docente (TC 40h / MT 22h) y Ratios estudiante/docente (1:15 a 1:20).
-    * **Condición 8 (Medios Educativos):** 4 subsecciones en primer plano: Biblioteca física Bucaramanga y digital E-Libro (98k títulos), Campus Virtual LMS Moodle AWS 24/7 y motor de similitud, Software especializado y Protocolo de Inclusión / Ajustes Razonables (Decreto 1421).
-    * **Condición 9 (Infraestructura Física y Tecnológica):** 4 subsecciones en primer plano: Sedes oficiales en Bucaramanga (Sede A Calle 41 # 10-30 y Sede B Calle 48 # 27-64), Capacidad Instalada (6 aulas 180 puestos, 2 laboratorios 60 puestos), Espacios CIDRE y Semilleros, y Contratos de Arrendamiento a 7 años.
-- **Cachebuster Actualizado:** `sections_c1.js?v=20261021_v2`, `sections_c2_google.js?v=20261021_v2`, `sections_c3.js?v=20261021_v2`, `sections_c4.js?v=20261021_v2`, `sections_c5.js?v=20261021_c5_slide8_redesign_v2`, `sections_c6.js?v=20261021_v2`, `sections_c7.js?v=20261021_v2`, `sections_c8.js?v=20261021_v2`, `sections_c9.js?v=20261021_v2`.
+  - Despliegue estricto en **PRIMER PLANO (z-index: 100000)** al hacer clic en las tarjetas de activación `completitud-trigger-card` en cada condición o desde el botón general de cabecera `Respuestas a la Sala (Completitud CONACES)`.
+  - Navegación por pestañas entre observaciones de cada condición, visualización de la observación oficial entrecomillada, fundamentación en el Decreto 1330 de 2019 y tablas ejecutivas formateadas.
+- **Cachebuster Actualizado:** `sections_c5.js?v=20261021_c5_slide8_redesign_v2`, `sections_c1.js?v=20261021_completitud_v1`, `completitud_data.js?v=20261021_v1`.
+
+---
+
+### N. Fortalecimiento Integral del Componente de Interacción (Condiciones 3 y 4) según Aclaración Oficial
+- **Integración del Documento Institucional:** Se integró la fundamentación oficial del documento `Aclaración de Organización de actividades académicas y proceso formativo (2).pdf`.
+- **Modelo Pedagógico en 4 Dimensiones:**
+  1. *Dimensión Socioformativa:* Resolución de problemas reales en organizaciones de Santander, articulación con ODS y competencias ético-sociales.
+  2. *Dimensión Pedagógica:* Modelo de "Formación en contextos de aplicación", mediación del docente como facilitador y retroalimentación formativa cualitativa/cuantitativa.
+  3. *Dimensión Tecnológica:* Ecosistema Moodle LMS 24/7, simuladores gerenciales en la nube y herramientas de trabajo colaborativo.
+  4. *Dimensión Organizacional-Gestión:* Gobernanza académica, aseguramiento de la calidad, seguimiento de permanencia y comités curriculares.
+- **8 Estrategias Didácticas Activas de Interacción:** Matriz estructurada con horas de acompañamiento docente (HAD) e independientes (HTI):
+  1. Foros Académicos Asincrónicos de Discusión Crítica (rúbrica TIGRIS).
+  2. Encuentros Sincrónicos Interactivos / Clases Espejo Nacionales e Internacionales.
+  3. Aprendizaje Basado en Problemas y Casos Empresariales Reales (Harvard / Mipymes).
+  4. Talleres Prácticos y Laboratorios Virtuales de Simulación Gerencial.
+  5. Proyectos Integradores Formativos de Aula (tríada docencia-investigación-empresa).
+  6. Asesorías y Tutorías Académicas Personalizadas y Grupales.
+  7. Evaluaciones Formativas con Rúbricas Analíticas y Retroalimentación Cualitativa.
+  8. Trabajo Colaborativo en Entornos Virtuales y Comunidades de Aprendizaje.
+- **Arquitectura Canónica del Aula Virtual Moodle (5 Secciones):** 1. Información General, 2. Contenidos de Aprendizaje, 3. Actividades de Aprendizaje, 4. Evaluación y 5. Canales de Comunicación e Interacción.
+- **Distribución de Dedicación Docente (Jornada 40 Horas Semanales):** 18h docencia directa, 8h preparación y evaluación, 6h interacción virtual tutorial sincrónica/asincrónica, 4h investigación formativa y 4h proyección social/extensión.
+- **Informes Oficiales Generados en Word:** `INFORME_TRAZABILIDAD_RESPUESTAS_SALA_CONACES_SUSTENTACION.docx` y versión actualizada completa.
+
+### O. Eliminación Definitiva de la Condición 10 y Consolidación de Analítica en Condición 2
+- **Directriz Institucional:** La Condición 10 fue suprimida formalmente del catálogo y menú del aplicativo web (`app.js`, `index.html`), dado que no constituye una de las condiciones institucionales según la estructura del Decreto 1330 de 2019.
+- **Unificación de Datos Estadísticos en Condición 2:** Toda la trazabilidad de matrícula activa histórica (Tabla 12), tasas de deserción por cohortes SPADIES (Tabla 11) y tasa de permanencia institucional >94% (Tabla 13) se encuentran consolidadas, activas e interactivas con gráficas Chart.js en la **Condición 2 (Justificación del Programa)**.
+- **Ajuste de Enlaces Cruzados:** Se reconfiguraron los botones de navegación en `sections_c4.js` y `sections_c2_google.js` / `sections_c2.js` para referenciar formalmente a la Condición 2.
+
+### P. Ajustes Oficiales en Condición 5 (Investigación) Solicitados por el Experto Temático
+- **Diapositiva 2 (Marco Normativo):** Exclusión de la tarjeta de texto tachado (*«Guía para la Elaboración del Documento Maestro (Trámites de Renovación)»*). Rediseño proporcional (`1fr : 1.8fr`) y ampliación de la imagen del diagrama de procesos (`c5_slide2_img3.png`) a formato amplio (`max-height: 480px`) para garantizar total legibilidad de sus nodos.
+- **Diapositiva 3 (Desarrollo y Proyección):** Eliminación total de la diapositiva 3 según la instrucción directa del experto (*«es parte del discurso y además no está en la PPT original»*).
+- **Reconfiguración Integral a 29 Diapositivas:**
+  * Reajuste de la barra de píldoras numeradas del 1 al 29 (`c5-pills-container`).
+  * Actualización de pie de página: *«Diapositiva X de 29»* con sus botones de anterior, siguiente y retorno.
+  * Sincronización del mapeo de los 7 Ejes Temáticos (`totalSlides = 29`): Eje 1 (1–5), Eje 2 (6–12), Eje 3 (13–14), Eje 4 (15–19), Eje 5 (20–22), Eje 6 (23–25), Eje 7 (26–29).
+  * Contador del banner de cabecera actualizado a *«29 Diapositivas PPT Oficiales»*.
+- **Diapositiva 6 (antes Diap. 7 - Evolución del Compromiso Investigativo):** Eliminación del recuadro inferior de *«Incremento Sostenido»* (horas de dedicación y presupuesto docente) para prevenir cuestionamientos sensibles de los pares evaluadores. Línea de tiempo 2013–2030 centrada y maximizada.
+- **Diapositiva 7 (antes Diap. 8 - Líneas de Investigación):** Supresión de la versión reducida en tira vertical. Restauración directa desde el PowerPoint oficial en Full HD (1920×1080: `c5_slide8_ppt_export.png`), desplegando con total fidelidad las **3 Líneas Transversales**, el contenedor de las **2 Líneas Específicas** y la **Línea de Tiempo 2018–2030**.
+- **Diapositiva 8 (antes Diap. 9 - Investigación 4.0):** Eliminación del recuadro de 300px; proyección panorámica en 1920×1080 (`c5_slide9_ppt_export.png`) destacada y nítida.
+- **Escala Ampliada de Imágenes:** Ajuste en todas las diapositivas de la condición a `max-height: 480px` para evitar diagramas ilegibles.
+
+### Q. Rediseño Ejecutivo de Tarjetas de Tendencias en Diapositiva 12 (Cero Solapamiento Visual)
+- **Problema Corregido:** En la diapositiva *«Evolución del Conocimiento y Líneas de Investigación»*, los títulos extensos colisionaban horizontalmente con las etiquetas (*«Línea 1»*, *«Línea 2»*), provocando que los navegadores rompieran el texto de la etiqueta en dos líneas (*«Línea»* arriba y *«1»* o *«2»* abajo) y montaran los elementos sobre los iconos.
+- **Solución Implementada:**
+  1. *Fila Superior (Eyebrow):* Icono temático dentro de un recuadro suavizado de `36×36px` a la izquierda, y etiquetas de línea a la derecha con `white-space: nowrap`, borde y padding tipo píldora (`border-radius: 20px`). Espacio horizontal garantizado (>120px libres).
+  2. *Fila de Título Dedicada:* Título de la tendencia en fila propia al 100% de ancho con tipografía `Montserrat 800`.
+  3. *Bloques de Aplicación y Énfasis:* Formato ejecutivo con separación clara y colores acordes al tema de cada tarjeta.
+- **Cachebuster Actualizado:** `sections_c5.js?v=20261021_clean_badges_v3`.
+- **Commits y Trazabilidad Git:**
+  * `28a18fb`: `fix(c5-c10): eliminar condicion 10 y ajustar diapositivas 2, 3, 7, 8 y 9 de investigacion segun solicitud de expertos` (subido a `main`).
+  * `ad08b3a`: `fix(c5): rediseñar tarjetas de evolucion del conocimiento eliminando solapamiento de badges y texto`.
+  * `1ba741e`: `chore(cache): actualizar version de sections_c5.js para refresco forzado de cache`.
+### R. Incorporación de Video Oficial en Condición 5 (Diapositiva 15 – Semillero GESTNOVA)
+- **Solicitud y Requerimiento:** Integración del video `[Video congreso_2025]` en la Diapositiva 15 de la Condición 5 (Investigación, Innovación y/o Creación Artística), correspondiente al Semillero de Investigación del Programa GESTNOVA.
+- **Asset Oficial Integrado:**
+  * Archivo fuente: `Video congreso_2025.mp4` (40.314.665 bytes / ~40.3 MB).
+  * Destino web: `sitio_web/assets/c5/Video_congreso_2025.mp4`.
+- **Implementación en Interfaz (`sections_c5.js`):**
+  * Ubicado en el panel `c5-slide-panel-15` (Eje 4: Semillero GESTNOVA & COLLEGIUM).
+  * Posicionado inmediatamente después de la galería fotográfica de 6 evidencias de semilleristas y antes de la barra de navegación entre diapositivas.
+  * Encabezado temático con icono: `<i class="fas fa-video" style="color:#F39200;"></i> Video Congreso 2025 – Participación Semillero GESTNOVA`.
+  * Contenedor con gradiente institucional oscuro (`#1A1A1B` a `#2D2D2E`), borde `#374151`, radio de `12px` y sombra de profundidad (`box-shadow: 0 6px 20px rgba(0,0,0,0.15)`).
+  * Reproductor nativo HTML5 `<video controls preload="metadata">` con ancho al 100%, fondo negro y restricción visual responsiva (`max-height: 480px`).
+  * Pie interactivo con descripción de evidencia (*"Video Congreso 2025 · Evidencia de participación del semillero GESTNOVA"*) e insignia tipo píldora de *"Evidencia Oficial"* con acento naranja institucional (`rgba(243,146,0,0.18)` y borde `#F39200`).
+- **Cachebuster Actualizado:** `sections_c5.js?v=20261021_video_congreso_v1` en `sitio_web/index.html`.
 
 ---
 
 ## 2. Verificación y Pruebas Técnicas
-- **Validación de Sintaxis:** Todos los scripts JS pasaron `node -c` con 0 errores (`app.js`, `sections_c1.js`, `sections_c2_google.js`, `sections_c3.js`, `sections_c4.js`, `sections_c5.js`, `sections_c6.js`, `sections_c7.js`, `sections_c8.js`, `sections_c9.js`).
-- **Pruebas de Presentación:**
-  - Cero elementos burocráticos o tarjetas de advertencia de "Respuesta a la Sala".
-  - Flujo natural de sustentación de alto impacto visual con subsecciones en primer plano.
-  - Toda la información y evidencia del documento oficial de completitud está incorporada como parte constitutiva del discurso del programa.
+- **Validación de Sintaxis:** Todos los scripts JS pasaron `node -c` con 0 errores (`app.js`, `sections_c1.js`, `sections_c2.js`, `sections_c2_google.js`, `sections_c3.js`, `sections_c4.js`, `sections_c5.js`, `sections_c6.js`, `sections_c7.js`, `sections_c8.js`, `sections_c9.js`, `completitud_data.js`).
+- **Pruebas en Navegador:**
+  - Rediseño de Slide 8 verificado con infografía ejecutiva de 3 líneas transversales y 2 específicas.
+  - Botón de cabecera "Respuestas a la Sala (Completitud CONACES)" verificado para acceso rápido a las 13 observaciones.
+  - Tarjetas de activación `completitud-trigger-card` verificadas en todas las condiciones para despliegue en primer plano.
+
+
+

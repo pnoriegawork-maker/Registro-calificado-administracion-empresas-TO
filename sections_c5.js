@@ -619,119 +619,168 @@ window.SECTIONS['c5'] = `
         <h4 style="font-family:'Montserrat',sans-serif; font-size:1.18rem; font-weight:800; color:#1A1A1B; margin:0;">
             <i class="fas fa-random" style="color:#F39200;"></i> Evolución del Conocimiento y Líneas de Investigación
         </h4>
-        <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.72rem; font-weight:800; padding:3px 12px; border-radius:12px;">
+        <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.72rem; font-weight:800; padding:4px 14px; border-radius:20px; white-space:nowrap;">
             Comparativa 2019 vs. Renovación 2025
         </span>
     </div>
-    <p style="font-size:0.76rem; color:#4B5563; margin:0 0 16px; line-height:1.5;">
+    <p style="font-size:0.78rem; color:#4B5563; margin:0 0 18px; line-height:1.5;">
         Articulación entre las 5 tendencias contemporáneas de la administración, las evidencias formativas ejecutadas en la vigencia y las dos líneas de investigación consolidadas:
     </p>
 
-    <!-- MATRIZ DE TENDENCIAS EN FORMATO CARDS EXECUTIVE (CERO OVERFLOW) -->
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(310px, 1fr)); gap:14px; margin-bottom:16px;">
+    <!-- MATRIZ DE TENDENCIAS EN FORMATO CARDS EXECUTIVE (CERO OVERFLOW / CLEAN LUXURY DESIGN) -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(330px, 1fr)); gap:18px; margin-bottom:18px;">
         
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-left:4px solid #F39200; border-radius:10px; padding:15px; box-shadow:0 2px 8px rgba(0,0,0,0.03); display:flex; flex-direction:column; justify-content:space-between;">
+        <!-- CARD 1 -->
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:4px solid #F39200; border-radius:12px; padding:18px; box-shadow:0 3px 12px rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; transition:all 0.2s;">
             <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <div style="font-size:0.86rem; font-weight:800; color:#1A1A1B; display:flex; align-items:center; gap:8px;">
-                        <i class="fas fa-rocket" style="color:#F39200; font-size:0.95rem;"></i> Emprendimiento e Innovación
+                <!-- Eyebrow: Icon on left, Badges on right (always clean, never wrapped) -->
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <span style="width:36px; height:36px; border-radius:8px; background:#FFF7ED; border:1px solid #FFEDD5; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-rocket" style="color:#F39200; font-size:1.05rem;"></i>
+                    </span>
+                    <div style="display:flex; gap:6px; align-items:center; flex-shrink:0;">
+                        <span style="white-space:nowrap; background:#FFF7ED; color:#C2410C; border:1px solid #FED7AA; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 1</span>
+                        <span style="white-space:nowrap; background:#FFF7ED; color:#C2410C; border:1px solid #FED7AA; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 2</span>
                     </div>
-                    <div><span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 1</span> <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 2</span></div>
                 </div>
-                <div style="margin-bottom:8px;">
-                    <span style="font-size:0.66rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
-                    <p style="font-size:0.75rem; color:#334155; margin:3px 0 0; line-height:1.4;">Planes de negocio, estudios de mercado aplicados a unidades productivas y diseño de aplicación financiera para evaluación de emprendimientos.</p>
+                <!-- Title has 100% of card width -->
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 10px; line-height:1.35;">
+                    Emprendimiento e Innovación
+                </h5>
+                <div style="margin-bottom:12px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
+                    <p style="font-size:0.78rem; color:#334155; margin:4px 0 0; line-height:1.5;">
+                        Planes de negocio, estudios de mercado aplicados a unidades productivas y diseño de aplicación financiera para evaluación de emprendimientos.
+                    </p>
                 </div>
             </div>
-            <div style="background:#F8FAFC; border-radius:6px; padding:6px 10px; border:1px dashed #CBD5E1; margin-top:6px;">
-                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase;">Énfasis Propuesto:</span>
-                <div style="font-size:0.73rem; color:#475569; font-weight:600; margin-top:2px;">Viabilidad, innovación y modelos de negocio</div>
+            <!-- Énfasis Box -->
+            <div style="background:#F8FAFC; border-radius:8px; padding:8px 12px; border:1px dashed #CBD5E1; margin-top:8px;">
+                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase; letter-spacing:0.5px;">Énfasis Propuesto:</span>
+                <div style="font-size:0.75rem; color:#475569; font-weight:600; margin-top:2px;">Viabilidad, innovación y modelos de negocio</div>
             </div>
         </div>
-        
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-left:4px solid #10B981; border-radius:10px; padding:15px; box-shadow:0 2px 8px rgba(0,0,0,0.03); display:flex; flex-direction:column; justify-content:space-between;">
+
+        <!-- CARD 2 -->
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:4px solid #10B981; border-radius:12px; padding:18px; box-shadow:0 3px 12px rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; transition:all 0.2s;">
             <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <div style="font-size:0.86rem; font-weight:800; color:#1A1A1B; display:flex; align-items:center; gap:8px;">
-                        <i class="fas fa-leaf" style="color:#10B981; font-size:0.95rem;"></i> Sostenibilidad y Responsabilidad Social
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <span style="width:36px; height:36px; border-radius:8px; background:#ECFDF5; border:1px solid #D1FAE5; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-leaf" style="color:#10B981; font-size:1.05rem;"></i>
+                    </span>
+                    <div style="display:flex; gap:6px; align-items:center; flex-shrink:0;">
+                        <span style="white-space:nowrap; background:#ECFDF5; color:#047857; border:1px solid #A7F3D0; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 1</span>
                     </div>
-                    <div><span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 1</span></div>
                 </div>
-                <div style="margin-bottom:8px;">
-                    <span style="font-size:0.66rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
-                    <p style="font-size:0.75rem; color:#334155; margin:3px 0 0; line-height:1.4;">Registros de costos ambientales, gestión del SG-SST en empresas manufactureras y proyectos de empaques biodegradables (hoja de plátano).</p>
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 10px; line-height:1.35;">
+                    Sostenibilidad y Responsabilidad Social
+                </h5>
+                <div style="margin-bottom:12px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
+                    <p style="font-size:0.78rem; color:#334155; margin:4px 0 0; line-height:1.5;">
+                        Registros de costos ambientales, gestión del SG-SST en empresas manufactureras y proyectos de empaques biodegradables (hoja de plátano).
+                    </p>
                 </div>
             </div>
-            <div style="background:#F8FAFC; border-radius:6px; padding:6px 10px; border:1px dashed #CBD5E1; margin-top:6px;">
-                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase;">Énfasis Propuesto:</span>
-                <div style="font-size:0.73rem; color:#475569; font-weight:600; margin-top:2px;">Gestión financiera y competitividad sostenible</div>
+            <div style="background:#F8FAFC; border-radius:8px; padding:8px 12px; border:1px dashed #CBD5E1; margin-top:8px;">
+                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase; letter-spacing:0.5px;">Énfasis Propuesto:</span>
+                <div style="font-size:0.75rem; color:#475569; font-weight:600; margin-top:2px;">Gestión financiera y competitividad sostenible</div>
             </div>
         </div>
-        
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-left:4px solid #6366F1; border-radius:10px; padding:15px; box-shadow:0 2px 8px rgba(0,0,0,0.03); display:flex; flex-direction:column; justify-content:space-between;">
+
+        <!-- CARD 3 -->
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:4px solid #6366F1; border-radius:12px; padding:18px; box-shadow:0 3px 12px rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; transition:all 0.2s;">
             <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <div style="font-size:0.86rem; font-weight:800; color:#1A1A1B; display:flex; align-items:center; gap:8px;">
-                        <i class="fas fa-users-cog" style="color:#6366F1; font-size:0.95rem;"></i> Liderazgo y Talento Humano
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <span style="width:36px; height:36px; border-radius:8px; background:#EEF2FF; border:1px solid #E0E7FF; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-users-cog" style="color:#6366F1; font-size:1.05rem;"></i>
+                    </span>
+                    <div style="display:flex; gap:6px; align-items:center; flex-shrink:0;">
+                        <span style="white-space:nowrap; background:#EEF2FF; color:#4338CA; border:1px solid #C7D2FE; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 1</span>
+                        <span style="white-space:nowrap; background:#EEF2FF; color:#4338CA; border:1px solid #C7D2FE; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 2</span>
                     </div>
-                    <div><span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 1</span> <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 2</span></div>
                 </div>
-                <div style="margin-bottom:8px;">
-                    <span style="font-size:0.66rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
-                    <p style="font-size:0.75rem; color:#334155; margin:3px 0 0; line-height:1.4;">Optimización de selección de personal mediante psicotecnia, diagnóstico de brechas de habilidades y planes de capacitación basados en ECCL en salud.</p>
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 10px; line-height:1.35;">
+                    Liderazgo y Talento Humano
+                </h5>
+                <div style="margin-bottom:12px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
+                    <p style="font-size:0.78rem; color:#334155; margin:4px 0 0; line-height:1.5;">
+                        Optimización de selección de personal mediante psicotecnia, diagnóstico de brechas de habilidades y planes de capacitación basados en ECCL en salud.
+                    </p>
                 </div>
             </div>
-            <div style="background:#F8FAFC; border-radius:6px; padding:6px 10px; border:1px dashed #CBD5E1; margin-top:6px;">
-                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase;">Énfasis Propuesto:</span>
-                <div style="font-size:0.73rem; color:#475569; font-weight:600; margin-top:2px;">Gestión del talento, liderazgo y gestión del cambio</div>
+            <div style="background:#F8FAFC; border-radius:8px; padding:8px 12px; border:1px dashed #CBD5E1; margin-top:8px;">
+                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase; letter-spacing:0.5px;">Énfasis Propuesto:</span>
+                <div style="font-size:0.75rem; color:#475569; font-weight:600; margin-top:2px;">Gestión del talento, liderazgo y gestión del cambio</div>
             </div>
         </div>
-        
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-left:4px solid #0284C7; border-radius:10px; padding:15px; box-shadow:0 2px 8px rgba(0,0,0,0.03); display:flex; flex-direction:column; justify-content:space-between;">
+
+        <!-- CARD 4 -->
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:4px solid #0284C7; border-radius:12px; padding:18px; box-shadow:0 3px 12px rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; transition:all 0.2s;">
             <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <div style="font-size:0.86rem; font-weight:800; color:#1A1A1B; display:flex; align-items:center; gap:8px;">
-                        <i class="fas fa-laptop-code" style="color:#0284C7; font-size:0.95rem;"></i> Transformación Digital y Tecnología
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <span style="width:36px; height:36px; border-radius:8px; background:#F0F9FF; border:1px solid #E0F2FE; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-laptop-code" style="color:#0284C7; font-size:1.05rem;"></i>
+                    </span>
+                    <div style="display:flex; gap:6px; align-items:center; flex-shrink:0;">
+                        <span style="white-space:nowrap; background:#F0F9FF; color:#0369A1; border:1px solid #BAE6FD; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 1</span>
+                        <span style="white-space:nowrap; background:#F0F9FF; color:#0369A1; border:1px solid #BAE6FD; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 2</span>
                     </div>
-                    <div><span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 1</span> <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 2</span></div>
                 </div>
-                <div style="margin-bottom:8px;">
-                    <span style="font-size:0.66rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
-                    <p style="font-size:0.75rem; color:#334155; margin:3px 0 0; line-height:1.4;">Desarrollo de competencias digitales en estudiantes, instrumentos de inteligencia competitiva y estrategias de posicionamiento en redes para MIPYMES.</p>
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 10px; line-height:1.35;">
+                    Transformación Digital y Tecnología
+                </h5>
+                <div style="margin-bottom:12px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
+                    <p style="font-size:0.78rem; color:#334155; margin:4px 0 0; line-height:1.5;">
+                        Desarrollo de competencias digitales en estudiantes, instrumentos de inteligencia competitiva y estrategias de posicionamiento en redes para MIPYMES.
+                    </p>
                 </div>
             </div>
-            <div style="background:#F8FAFC; border-radius:6px; padding:6px 10px; border:1px dashed #CBD5E1; margin-top:6px;">
-                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase;">Énfasis Propuesto:</span>
-                <div style="font-size:0.73rem; color:#475569; font-weight:600; margin-top:2px;">Analítica de datos, digitalización y economía digital</div>
+            <div style="background:#F8FAFC; border-radius:8px; padding:8px 12px; border:1px dashed #CBD5E1; margin-top:8px;">
+                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase; letter-spacing:0.5px;">Énfasis Propuesto:</span>
+                <div style="font-size:0.75rem; color:#475569; font-weight:600; margin-top:2px;">Analítica de datos, digitalización y economía digital</div>
             </div>
         </div>
-        
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-left:4px solid #D97706; border-radius:10px; padding:15px; box-shadow:0 2px 8px rgba(0,0,0,0.03); display:flex; flex-direction:column; justify-content:space-between;">
+
+        <!-- CARD 5 -->
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:4px solid #D97706; border-radius:12px; padding:18px; box-shadow:0 3px 12px rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; transition:all 0.2s;">
             <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <div style="font-size:0.86rem; font-weight:800; color:#1A1A1B; display:flex; align-items:center; gap:8px;">
-                        <i class="fas fa-globe-americas" style="color:#D97706; font-size:0.95rem;"></i> Globalización y Nuevos Modelos de Negocio
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <span style="width:36px; height:36px; border-radius:8px; background:#FFFBEB; border:1px solid #FEF3C7; display:inline-flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-globe-americas" style="color:#D97706; font-size:1.05rem;"></i>
+                    </span>
+                    <div style="display:flex; gap:6px; align-items:center; flex-shrink:0;">
+                        <span style="white-space:nowrap; background:#FFFBEB; color:#B45309; border:1px solid #FDE68A; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 1</span>
+                        <span style="white-space:nowrap; background:#FFFBEB; color:#B45309; border:1px solid #FDE68A; font-size:0.68rem; font-weight:800; padding:3px 10px; border-radius:20px; letter-spacing:0.3px;">Línea 2</span>
                     </div>
-                    <div><span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 1</span> <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:10px;">Línea 2</span></div>
                 </div>
-                <div style="margin-bottom:8px;">
-                    <span style="font-size:0.66rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
-                    <p style="font-size:0.75rem; color:#334155; margin:3px 0 0; line-height:1.4;">Estudios empíricos sobre microempresas en Santander y participación activa en redes académicas internacionales (RedesLA, RELEP, RELAYN).</p>
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 10px; line-height:1.35;">
+                    Globalización y Nuevos Modelos de Negocio
+                </h5>
+                <div style="margin-bottom:12px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#64748B; text-transform:uppercase; letter-spacing:0.5px;">Aplicación en la Vigencia:</span>
+                    <p style="font-size:0.78rem; color:#334155; margin:4px 0 0; line-height:1.5;">
+                        Estudios empíricos sobre microempresas en Santander y participación activa en redes académicas internacionales (RedesLA, RELEP, RELAYN).
+                    </p>
                 </div>
             </div>
-            <div style="background:#F8FAFC; border-radius:6px; padding:6px 10px; border:1px dashed #CBD5E1; margin-top:6px;">
-                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase;">Énfasis Propuesto:</span>
-                <div style="font-size:0.73rem; color:#475569; font-weight:600; margin-top:2px;">Competitividad, comercio electrónico e innovación colaborativa</div>
+            <div style="background:#F8FAFC; border-radius:8px; padding:8px 12px; border:1px dashed #CBD5E1; margin-top:8px;">
+                <span style="font-size:0.66rem; font-weight:800; color:#0F172A; text-transform:uppercase; letter-spacing:0.5px;">Énfasis Propuesto:</span>
+                <div style="font-size:0.75rem; color:#475569; font-weight:600; margin-top:2px;">Competitividad, comercio electrónico e innovación colaborativa</div>
             </div>
         </div>
-        
+
     </div>
 
     <!-- BANNER DE CONSOLIDACIÓN ESTRATÉGICA -->
-    <div style="background:#FFF9F2; border-left:4px solid #F39200; padding:12px 16px; border-radius:0 8px 8px 0; font-size:0.75rem; color:#431407; line-height:1.45;">
+    <div style="background:#FFF9F2; border-left:4px solid #F39200; padding:14px 18px; border-radius:0 10px 10px 0; font-size:0.78rem; color:#431407; line-height:1.5; box-shadow:0 2px 8px rgba(243,146,0,0.05);">
         <strong>Consolidación Temática:</strong> En 2019 se previeron 3 líneas iniciales dispersas. Para la Renovación de Registro Único se optimizan en <strong>2 líneas estratégicas robustas</strong>: <em>L1. Gestión Estratégica y Competitividad Empresarial</em> y <em>L2. Transformación Digital y Gestión de la Innovación</em>, garantizando sinergia y pertinencia territorial.
     </div>
 </div>
+        
+    
         
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-top:22px; padding-top:14px; border-top:1px solid #E5E7EB;">
         <button onclick="prevC5Slide()" style="background:#F3F4F6; color:#1F2937; border:1px solid #D1D5DB; padding:8px 16px; border-radius:8px; font-size:0.78rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:6px;">
@@ -853,6 +902,27 @@ window.SECTIONS['c5'] = `
         <div style="border:1px solid #E2E8F0; border-radius:8px; overflow:hidden; background:#F8FAFC;">
             <img src="assets/c5/c5_slide16_img14.jpg" alt="GESTNOVA 6" style="width:100%; height:130px; object-fit:cover;">
             <div style="padding:6px; font-size:0.68rem; color:#475569; text-align:center;">Feria Científica CETO</div>
+        </div>
+    </div>
+
+    <!-- VIDEO CONGRESO 2025 -->
+    <div style="margin-top:22px;">
+        <div style="font-size:0.74rem; font-weight:800; color:#1A1A1B; text-transform:uppercase; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+            <i class="fas fa-video" style="color:#F39200;"></i> Video Congreso 2025 – Participación Semillero GESTNOVA
+        </div>
+        <div style="background:linear-gradient(135deg, #1A1A1B 0%, #2D2D2E 100%); border-radius:12px; padding:16px; border:1px solid #374151; box-shadow:0 6px 20px rgba(0,0,0,0.15);">
+            <video controls preload="metadata" style="width:100%; max-height:480px; border-radius:8px; background:#000; display:block;" poster="">
+                <source src="assets/c5/Video_congreso_2025.mp4" type="video/mp4">
+                Su navegador no soporta la reproducción de video HTML5.
+            </video>
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:10px;">
+                <div style="font-size:0.72rem; color:#D1D5DB; font-style:italic; display:flex; align-items:center; gap:5px;">
+                    <i class="fas fa-play-circle" style="color:#F39200;"></i> Video Congreso 2025 · Evidencia de participación del semillero GESTNOVA
+                </div>
+                <span style="background:rgba(243,146,0,0.18); color:#F39200; border:1px solid rgba(243,146,0,0.4); font-size:0.68rem; font-weight:700; padding:3px 10px; border-radius:12px;">
+                    <i class="fas fa-certificate"></i> Evidencia Oficial
+                </span>
+            </div>
         </div>
     </div>
 </div>

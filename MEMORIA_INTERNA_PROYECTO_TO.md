@@ -1,10 +1,10 @@
 # MEMORIA TÉCNICA E INSTITUCIONAL DE CONTROL Y CONTINUIDAD
 ## PROYECTO: RENOVACIÓN DE REGISTRO CALIFICADO - ADMINISTRACIÓN DE EMPRESAS (REGISTRO ÚNICO)
 ### INSTITUCIÓN: CORPORACIÓN ESCUELA TECNOLÓGICA DEL ORIENTE (TO)
-**Fecha de corte de sesión:** 21 de Octubre de 2026  
-**Rama activa Git:** `main`  
-**Repositorio remoto:** `https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO.git`  
-**URL Pública (GitHub Pages):** `https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/`  
+**Fecha de corte de sesión:** 21 de Octubre de 2026
+**Rama activa Git:** `main` (commit `a2783b3`)  
+**Repositorio remoto:** `https://github.com/pedronoriega-eng/Registro-calificado-administracion-empresas-TO.git`  
+**URL Pública (GitHub Pages):** `https://pedronoriega-eng.github.io/Registro-calificado-administracion-empresas-TO/`  
 **Clave de acceso institucional:** `TO2026` (o `TO`)
 
 ---
@@ -43,7 +43,7 @@
      - Malla Curricular Condición 3 (Presencial 1:2 con 48h/crédito, Virtual 1:3 con 36h/crédito, 144 créditos, 8 semestres, 48 asignaturas modulares, 100% fit-to-screen sin scroll horizontal).
      - Factores Diferenciadores y Resultados de Aprendizaje (RAP).
      - Condición 2: Observatorio Geoespacial Google Maps Relieve con datos oficiales del SNIES y gráficas de tendencia Chart.js en Tablas 12 y 13.
-     - Condición 10: Tableros dinámicos de permanencia, matrícula histórica y seguimiento a la deserción estudiantil (SPADIES/SAT).
+     - Condición 2: Tableros dinámicos unificados de permanencia, matrícula histórica y seguimiento a la deserción estudiantil (SPADIES/SAT) - (Condición 10 unificada).
 
 ---
 
@@ -79,8 +79,20 @@
 - **5 Dimensiones del Modelo Virtual:** Pedagógica, Tecnológica, Organizacional, Diseño Curricular y Calidad.
 - **Arquitectura de Plataforma:** Campus LMS Moodle 24/7, simuladores en la nube, acompañamiento tutorial y analítica de aprendizaje.
 
-#### F. Condición 10 — Permanencia y Graduación (`sections_c10.js`)
-- Tableros dinámicos SPADIES, Sistema de Alertas Tempranas (SAT), tasa de retención institucional >94%.
+#### F. Datos Estadísticos y Analítica de Permanencia Unificada en Condición 2 (`sections_c2_google.js`)
+- Tableros dinámicos SPADIES (Tabla 11), Sistema de Alertas Tempranas (SAT), matrícula histórica (Tabla 12) y tasa de permanencia institucional >94% (Tabla 13). Condición 10 retirada formalmente del menú.
+
+---
+
+#### G. Condición 5 — Investigación, Innovación y Creación Artística (`sections_c5.js`)
+- Presentación oficial de 29 diapositivas y 7 ejes temáticos en primer plano (fit-to-screen sin saltos forzados).
+- Diapositiva 2: Marco normativo con diagrama de procesos en gran escala y texto tachado excluido.
+- Diapositiva 3 original eliminada por solicitud del experto institucional.
+- Diapositiva 6 (antigua 7): Evolución 2013–2030 sin recuadros espinosos de horas o presupuesto.
+- Diapositiva 7 (antigua 8): Slide oficial en Full HD 1920×1080 (`c5_slide8_ppt_export.png`) con 3 transversales, 2 específicas y línea temporal.
+- Diapositiva 8 (antigua 9): Investigación 4.0 en alta resolución 1920×1080 (`c5_slide9_ppt_export.png`).
+- Diapositiva 12: Tarjetas de tendencias contemporáneas con diseño limpio, iconos en cajas dedicadas de 36×36px y badges horizontales anti-solapamiento (`white-space: nowrap`).
+- Caso de éxito Spin-off MYB S.A.S. (NIT 901604941-7), semillero GESTNOVA, Grupo COLLEGIUM y ruta formativa en IV, VI y VIII semestres.
 
 ---
 
