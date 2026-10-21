@@ -2,9 +2,9 @@
 ## Renovación de Registro Calificado Único — Administración de Empresas
 **Institución:** Corporación Escuela Tecnológica del Oriente (**TO**)  
 **Modalidades:** Presencial y Virtual · **Normativa:** Decreto 1330 de 2019  
-**Fecha de corte:** 19 de Octubre de 2026  
-**Repositorio GitHub:** [`pedronoriega-eng/Registro-calificado-administracion-empresas-TO`](https://github.com/pedronoriega-eng/Registro-calificado-administracion-empresas-TO)  
-**URL Pública (GitHub Pages):** [Plataforma de Evidencias TO](https://pedronoriega-eng.github.io/Registro-calificado-administracion-empresas-TO/)  
+**Fecha de corte:** 21 de Octubre de 2026  
+**Repositorio GitHub:** [`pnoriegawork-maker/Registro-calificado-administracion-empresas-TO`](https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO)  
+**URL Pública (GitHub Pages):** [Plataforma de Evidencias TO](https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/)  
 **Clave de Acceso Institucional:** `TO2026` (o `TO`)
 
 ---

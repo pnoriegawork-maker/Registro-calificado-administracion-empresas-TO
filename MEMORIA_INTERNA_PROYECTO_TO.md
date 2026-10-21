@@ -1,10 +1,10 @@
 # MEMORIA TÉCNICA E INSTITUCIONAL DE CONTROL Y CONTINUIDAD
 ## PROYECTO: RENOVACIÓN DE REGISTRO CALIFICADO - ADMINISTRACIÓN DE EMPRESAS (REGISTRO ÚNICO)
 ### INSTITUCIÓN: CORPORACIÓN ESCUELA TECNOLÓGICA DEL ORIENTE (TO)
-**Fecha de corte de sesión:** 19 de Octubre de 2026  
-**Rama activa Git:** `main` (commit `a2783b3`)  
-**Repositorio remoto:** `https://github.com/pedronoriega-eng/Registro-calificado-administracion-empresas-TO.git`  
-**URL Pública (GitHub Pages):** `https://pedronoriega-eng.github.io/Registro-calificado-administracion-empresas-TO/`  
+**Fecha de corte de sesión:** 21 de Octubre de 2026  
+**Rama activa Git:** `main`  
+**Repositorio remoto:** `https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO.git`  
+**URL Pública (GitHub Pages):** `https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/`  
 **Clave de acceso institucional:** `TO2026` (o `TO`)
 
 ---
