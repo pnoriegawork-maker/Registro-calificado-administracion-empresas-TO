@@ -272,6 +272,18 @@ Todos los siguientes elementos están formalmente aprobados, implementados en c�
   * Pie interactivo con descripción de evidencia (*"Video Congreso 2025 · Evidencia de participación del semillero GESTNOVA"*) e insignia tipo píldora de *"Evidencia Oficial"* con acento naranja institucional (`rgba(243,146,0,0.18)` y borde `#F39200`).
 - **Cachebuster Actualizado:** `sections_c5.js?v=20261021_video_congreso_v1` en `sitio_web/index.html`.
 
+### S. Ajustes de Precisión en Condición 5 (Diapositivas 9, 11, 14, 21 y 25)
+- **Diapositiva 9 (Trayectoria Progresiva):** Se ajustó el texto inferior exclusivamente al alcance solicitado: *«Trayectoria Progresiva: La maduración institucional pasó de una investigación declarativa en 2019 a una investigación operativa y aplicada en 2025»*, eliminando la mención redundante a semilleristas y patentes.
+- **Diapositiva 11 (Modalidad Presencial y Virtual):** Se sustituyó el conector «vs.» entre las dos modalidades por un guión en el encabezado y en el pie de diapositiva: *«Proceso Investigativo por Modalidad (Presencial - Virtual)»*.
+- **Diapositiva 14 (Convocatorias Minciencias):** Se suprimió en su totalidad el recuadro inferior de *«Avances Generales: Participación continua en las mediciones oficiales del Sistema Nacional de Ciencia, Tecnología e Innovación (SNCTeI)...»*.
+- **Diapositiva 21 (Proyectos de Investigación en el Aula):** Se integró un resumen ejecutivo de los productos de investigación formativa generados entre 2023 y 2026 en 4 pilares:
+  1. *Planes de Negocio (4):* Ebanistería tradicional, Comercializadora Aragü Fruit, Centro de ocio EGEO y Serviteca de alta gama (MYB).
+  2. *Casos & Diagnósticos (3):* Constructibilidad en vivienda VIS, Certificación ECCL en sector salud y Gestión de finanzas estudiantiles.
+  3. *Innovación & Procesos (2):* Metodología Six Sigma en manufactura y Tecnologías Industria 4.0 en el sector agroalimentario.
+  4. *Transferencia & Redes (2):* Spin-off formalizada MYB S.A.S. (6 empleos) y Aplicación Fintech clasificada a REDCOLSI 2026.
+- **Diapositiva 25 (Uso de TIC en I+D+i):** Se procesó e inpaintó mediante visión artificial la imagen oficial (`assets/c5/c5_slide26_img5.png`), erradicando de forma imperceptible el texto secundario `(NUEVA DENOMNACIÓN)` y conservando limpio el título `PROYECCIÓN E INNOVACIÓN`.
+- **Cachebuster:** Actualizado a `sections_c5.js?v=20261021_c5_updates_v2` en `index.html`.
+
 ---
 
 ## 2. Verificación y Pruebas Técnicas

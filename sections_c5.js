@@ -479,7 +479,7 @@ window.SECTIONS['c5'] = `
         <img src="assets/c5/c5_slide10_img4.png" alt="Avance de la Declaración" style="max-width:100%; max-height:480px; border-radius:10px; border:1px solid #E2E8F0; box-shadow:0 4px 16px rgba(0,0,0,0.08);">
     </div>
     <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-radius:8px; padding:12px 16px; font-size:0.76rem; color:#14532D; line-height:1.45;">
-        <strong>Trayectoria Progresiva:</strong> La maduración institucional pasó de una investigación declarativa en 2019 a una investigación operativa y aplicada en 2025, con semilleristas clasificados a nivel nacional y patentes/modelos empresariales en marcha.
+        <strong>Trayectoria Progresiva:</strong> La maduración institucional pasó de una investigación declarativa en 2019 a una investigación operativa y aplicada en 2025
     </div>
 </div>
         
@@ -553,7 +553,7 @@ window.SECTIONS['c5'] = `
         <div style="background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #2563EB; border-radius:12px; padding:24px 28px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:18px; border-bottom:1px solid #F1F5F9; padding-bottom:12px;">
         <h4 style="font-family:'Montserrat',sans-serif; font-size:1.18rem; font-weight:800; color:#1A1A1B; margin:0;">
-            <i class="fas fa-balance-scale-right" style="color:#2563EB;"></i> Proceso Investigativo por Modalidad (Presencial vs. Virtual)
+            <i class="fas fa-balance-scale-right" style="color:#2563EB;"></i> Proceso Investigativo por Modalidad (Presencial - Virtual)
         </h4>
         <span style="font-size:0.72rem; color:#64748B; font-weight:700;">Equivalencia en Resultados de Aprendizaje</span>
     </div>
@@ -604,7 +604,7 @@ window.SECTIONS['c5'] = `
         <i class="fas fa-arrow-left"></i> Anterior (Diapositiva 10)
     </button>
         <div style="font-size:0.8rem; font-weight:800; color:#64748B; text-transform:uppercase;">
-            Diapositiva 11 de 29 · <span style="color:#1A1A1B;">Proceso Investigativo por Modalidad (Presencial vs. Virtual)</span>
+            Diapositiva 11 de 29 · <span style="color:#1A1A1B;">Proceso Investigativo por Modalidad (Presencial - Virtual)</span>
         </div>
         <button onclick="nextC5Slide()" style="background:#1A1A1B; color:#FFFFFF; border:1px solid #F39200; padding:8px 18px; border-radius:8px; font-size:0.78rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:6px;">
         Siguiente (Diapositiva 12) <i class="fas fa-arrow-right"></i>
@@ -834,9 +834,7 @@ window.SECTIONS['c5'] = `
     <div style="text-align:center; margin-bottom:16px;">
         <img src="assets/c5/c5_slide15_img3.png" alt="Convocatorias Minciencias" style="max-width:100%; max-height:480px; border-radius:10px; border:1px solid #E2E8F0; box-shadow:0 4px 16px rgba(0,0,0,0.08);">
     </div>
-    <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:12px 16px; font-size:0.76rem; color:#334155;">
-        <strong>Avances Generales:</strong> Participación continua en las mediciones oficiales del Sistema Nacional de Ciencia, Tecnología e Innovación (SNCTeI), consolidando redes científicas con ASCOLFA, RedCOLSI y REDESLA.
-    </div>
+
 </div>
         
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-top:22px; padding-top:14px; border-top:1px solid #E5E7EB;">
@@ -1489,6 +1487,66 @@ window.SECTIONS['c5'] = `
         <span style="background:#ECFDF5; color:#047857; border:1px solid #A7F3D0; font-size:0.72rem; font-weight:800; padding:4px 12px; border-radius:12px;">
             <i class="fas fa-folder-open"></i> 11 Proyectos Registrados
         </span>
+    </div>
+
+    <!-- RESUMEN EJECUTIVO DE PRODUCTOS DE INVESTIGACIÓN DE AULA -->
+    <div style="background:linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%); border:1.5px solid #CBD5E1; border-left:5px solid #10B981; border-radius:10px; padding:14px 18px; margin-bottom:16px; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid #E2E8F0;">
+            <div style="font-size:0.82rem; font-weight:800; color:#0F172A; display:flex; align-items:center; gap:8px;">
+                <i class="fas fa-clipboard-check" style="color:#10B981; font-size:0.95rem;"></i>
+                Resumen de Productos de Investigación Formativa Generados (2023–2026)
+            </div>
+            <span style="font-size:0.68rem; color:#475569; font-weight:700; background:#FFFFFF; border:1px solid #CBD5E1; padding:3px 10px; border-radius:12px;">
+                11 Proyectos · 18 Estudiantes Coautores · 7 Sectores Económicos
+            </span>
+        </div>
+
+        <!-- 4 PILARES DE PRODUCTOS -->
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:10px;">
+            <!-- PRODUCTO 1 -->
+            <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:3px solid #F39200; border-radius:8px; padding:10px 12px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#C2410C; text-transform:uppercase;">Planes de Negocio</span>
+                    <span style="background:#FFF7ED; color:#C2410C; font-size:0.72rem; font-weight:800; padding:1px 7px; border-radius:10px; border:1px solid #FDBA74;">4</span>
+                </div>
+                <div style="font-size:0.71rem; color:#334155; line-height:1.4;">
+                    Ebanistería tradicional, Comercializadora Aragü Fruit, Centro de ocio EGEO y Serviteca de alta gama (MYB).
+                </div>
+            </div>
+
+            <!-- PRODUCTO 2 -->
+            <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:3px solid #2563EB; border-radius:8px; padding:10px 12px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#1D4ED8; text-transform:uppercase;">Casos & Diagnósticos</span>
+                    <span style="background:#EFF6FF; color:#1D4ED8; font-size:0.72rem; font-weight:800; padding:1px 7px; border-radius:10px; border:1px solid #BFDBFE;">3</span>
+                </div>
+                <div style="font-size:0.71rem; color:#334155; line-height:1.4;">
+                    Constructibilidad en vivienda VIS, Certificación ECCL en sector salud y Gestión de finanzas universitarias.
+                </div>
+            </div>
+
+            <!-- PRODUCTO 3 -->
+            <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:3px solid #059669; border-radius:8px; padding:10px 12px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#047857; text-transform:uppercase;">Innovación & Procesos</span>
+                    <span style="background:#ECFDF5; color:#047857; font-size:0.72rem; font-weight:800; padding:1px 7px; border-radius:10px; border:1px solid #A7F3D0;">2</span>
+                </div>
+                <div style="font-size:0.71rem; color:#334155; line-height:1.4;">
+                    Metodología Six Sigma en manufactura y Tecnologías Industria 4.0 en el sector agroalimentario colombiano.
+                </div>
+            </div>
+
+            <!-- PRODUCTO 4 -->
+            <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-top:3px solid #C8102E; border-radius:8px; padding:10px 12px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                    <span style="font-size:0.68rem; font-weight:800; color:#991B1B; text-transform:uppercase;">Transferencia & Redes</span>
+                    <span style="background:#FEF2F2; color:#991B1B; font-size:0.72rem; font-weight:800; padding:1px 7px; border-radius:10px; border:1px solid #FECACA;">2</span>
+                </div>
+                <div style="font-size:0.71rem; color:#334155; line-height:1.4;">
+                    Spin-off real formalizada <strong>MYB S.A.S.</strong> (6 empleos) y Aplicación Fintech clasificada a <strong>REDCOLSI 2026</strong>.
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- FILTRADO POR PERIODO -->
