@@ -540,7 +540,7 @@ window.SECTIONS['c5'] = `
         <i class="fas fa-arrow-left"></i> Anterior (Diapositiva 9)
     </button>
         <div style="font-size:0.8rem; font-weight:800; color:#64748B; text-transform:uppercase;">
-            Diapositiva 10 de 29 · <span style="color:#1A1A1B;">Coherencia Teórica (Taylor/Fayol vs. Porter/Schumpeter)</span>
+            Diapositiva 10 de 29 · <span style="color:#1A1A1B;">Coherencia Teórica (Taylor/Fayol - Porter/Schumpeter)</span>
         </div>
         <button onclick="nextC5Slide()" style="background:#1A1A1B; color:#FFFFFF; border:1px solid #F39200; padding:8px 18px; border-radius:8px; font-size:0.78rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:6px;">
         Siguiente (Diapositiva 11) <i class="fas fa-arrow-right"></i>
@@ -620,7 +620,7 @@ window.SECTIONS['c5'] = `
             <i class="fas fa-random" style="color:#F39200;"></i> Evolución del Conocimiento y Líneas de Investigación
         </h4>
         <span style="background:#FFF7ED; color:#C2410C; border:1px solid #FDBA74; font-size:0.72rem; font-weight:800; padding:4px 14px; border-radius:20px; white-space:nowrap;">
-            Comparativa 2019 vs. Renovación 2025
+            Comparativa Plan 2019 - Renovación 2025
         </span>
     </div>
     <p style="font-size:0.78rem; color:#4B5563; margin:0 0 18px; line-height:1.5;">
@@ -1392,7 +1392,7 @@ window.SECTIONS['c5'] = `
         <h4 style="font-family:'Montserrat',sans-serif; font-size:1.18rem; font-weight:800; color:#1A1A1B; margin:0;">
             <i class="fas fa-graduation-cap" style="color:#F39200;"></i> Estrategias de Aula y Ruta Formativa en Investigación
         </h4>
-        <span style="font-size:0.72rem; color:#64748B; font-weight:700;">Planes de Estudio 2019 vs. Renovación 8 Semestres</span>
+        <span style="font-size:0.72rem; color:#64748B; font-weight:700;">Planes de Estudio 2019 y Renovación 8 Semestres</span>
     </div>
 
     <!-- COMPARATIVA ESTRATEGIAS DE AULA -->

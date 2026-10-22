@@ -783,7 +783,7 @@ window.SECTIONS['c2'] = `
                         <i class="fas fa-shield-alt" style="color:#2ECC71;"></i> Tabla 13. Tasa de Permanencia Semestral (%)
                     </h6>
                     <div style="font-size:0.7rem; color:#6B6B6B;">
-                        <span style="font-weight:700; color:#166534;"><i class="fas fa-chart-line"></i> Consolidación SAT > 90%</span> &bull; 2025-1: 94.4% vs Meta: 80.0%
+                        <span style="font-weight:700; color:#166534;"><i class="fas fa-chart-line"></i> Consolidación SAT > 90%</span> &bull; 2025-1: 94.4% (Meta: 80.0%)
                     </div>
                 </div>
                 <div style="display:flex; align-items:center; gap:8px;">

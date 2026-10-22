@@ -293,5 +293,39 @@ Todos los siguientes elementos están formalmente aprobados, implementados en c�
   - Botón de cabecera "Respuestas a la Sala (Completitud CONACES)" verificado para acceso rápido a las 13 observaciones.
   - Tarjetas de activación `completitud-trigger-card` verificadas en todas las condiciones para despliegue en primer plano.
 
+### T. Eliminación Exhaustiva de «Vs.» y Reestructuración de la Presentación Institucional
+- **Eliminación Total de Términos de Rivalidad («Vs» / «vs.»):**
+  * Se eliminó el término en todas las presentaciones y archivos del aplicativo (`sections_c1.js`, `sections_c2.js`, `sections_c2_google.js`, `sections_c3.js`, `sections_c5.js`), reemplazándolo por conectores armónicos o guiones:
+    - C5 Diapositiva 10: *«Coherencia Teórica (Taylor/Fayol - Porter/Schumpeter)»*.
+    - C5 Diapositiva 12: *«Comparativa Plan 2019 - Renovación 2025»*.
+    - C5 Diapositiva 28: *«Planes de Estudio 2019 y Renovación 8 Semestres»*.
+    - C3 Matriz Canónica: *«Registro Actual - Registro Propuesto»*.
+    - C3 Lineamientos: *«PRESENCIAL Y VIRTUAL»*.
+    - C2 Egresados: *«94.4% (Meta: 80.0%)»*.
+  * Verificación automatizada con script de expresiones regulares arrojó **0 ocurrencias** en todo el sitio web.
+- **Presentación Institucional (`sections_inst.js`):**
+  * **Eliminación de la Subsección «Identidad»:** Se removió el botón del menú de pestañas y el contenedor completo. La pestaña **PEI** se configuró como la primera y activa por defecto al ingresar.
+  * **Rediseño Vectorizado de la Línea de Tiempo (1992 – 2026):** Replicación exacta del diseño infográfico S-curve / winding ribbon de la imagen oficial con 4 niveles interconectados por arcos punteados y pins de localización:
+    - *1992:* Fundación Institucional y Asamblea de Corporados.
+    - *1995:* Actualización del PEI y asamblea general.
+    - *1998:* Denominación como Corporación Escuela Tecnológica del Oriente (siglas TO - PJ).
+    - *2004:* Estatutos Generales consolidados.
+    - *2007–2009:* Programa Nacional de Erradicación del Analfabetismo y actualización PEI.
+    - *2012:* Apertura Esp. en Pedagogía y Didácticas Específicas (SNIES 101639).
+    - *2014:* Esp. Gerencia de Proyectos (103745) y TP Higiene y SST (103527).
+    - *2017–2019:* Pregrado SST Presencial (106177), Admon Empresas Presencial (108445, Res. 011375 de 2019) y Esp. GIR SST (110536).
+    - *2021:* Adopción del Modelo Pedagógico *"Formación en Contextos de Aplicación"*.
+    - *2022:* Visita de Evaluación de Condiciones Institucionales MEN.
+    - *2023:* Concepto Favorable MEN y otorgamiento RC Lic. en Educación Infantil (116357).
+    - *2024:* Despliegue de Modalidad Virtual: Admon Empresas Virtual (115833), LEI Virtual (115854), Esp. SST Virtual (118070) e Ing. Software (118074).
+    - *2025:* Expansión Nacional: Derecho Virtual (119385), SST Virtual (118713), Industrial, Esp. BI (118755), Esp. Innovación Educativa (011264) y Esp. Proyectos Virtual (118858).
+    - *2026:* Consolidación de 17 Programas Académicos Oficiales y Radicación de Renovación / Modificación hacia Registro Calificado Único de Administración de Empresas a 8 semestres y 144 créditos.
+  * **Eliminación de «Hitos Clave»:** Se suprimió la sección redundante de 5 tarjetas ubicada debajo de la línea de tiempo.
+  * **Subsección Estudiantes:** Distribución modal actualizada a **70% Virtual y 30% Presencial** en gráfico de dona e indicadores.
+  * **Subsección Infraestructura:** Sede B ajustada a 6 aulas, 1 oficina, 1 auditorio (eliminados laboratorio, biblioteca y sala de informática); Sede C ajustada a 8 aulas, 2 oficinas, 4 baños (eliminada sala de informática). Resumen consolidado: **25 Aulas de Clase**, **1 Laboratorio**, **1 Sala Informática**, **27 Oficinas Administrativas** y **3.071 m² Totales**.
+  * **Subsección Retos (7 Pilares Estratégicos):** Se eliminó el Pilar VII de Transformación a Universidad. El Pilar 3 quedó como *«Retención y bienestar estudiantil»*. Se implementaron los 7 pilares en tarjetas interactivas HTML/CSS de alta definición.
+- **Cachebusters Actualizados:** `sections_inst.js?v=20261021_inst_v3`, `sections_c1.js?v=20261021_v3`, `sections_c2_google.js?v=20261021_v3`, `sections_c3.js?v=20261021_v3`, `sections_c5.js?v=20261021_c5_v3`.
+
+
 
 

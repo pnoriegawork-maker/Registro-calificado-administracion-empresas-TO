@@ -46,7 +46,7 @@ window.SECTIONS['c1'] = `
             <i class="fas fa-route" style="color:#F39200;"></i> 1. Línea de Tiempo Normativa
         </button>
         <button onclick="window.showC1Section('c1-fichas-paralelo')" data-c1-target="c1-fichas-paralelo" class="c1-subtab-btn" style="background:#F8FAFC; color:#334155; border:1px solid #CBD5E1; padding:6px 13px; border-radius:20px; font-size:0.75rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:6px; transition:all 0.2s;">
-            <i class="fas fa-columns" style="color:#1A1A1B;"></i> 2. Fichas Vigente vs. Propuesto
+            <i class="fas fa-columns" style="color:#1A1A1B;"></i> 2. Fichas Vigente y Propuesto
         </button>
         <button onclick="window.showC1Section('c1-perfil-competencias')" data-c1-target="c1-perfil-competencias" class="c1-subtab-btn" style="background:#F8FAFC; color:#334155; border:1px solid #CBD5E1; padding:6px 13px; border-radius:20px; font-size:0.75rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:6px; transition:all 0.2s;">
             <i class="fas fa-user-graduate" style="color:#10B981;"></i> 3. Perfil &amp; Competencias (Tabla 35)
@@ -257,7 +257,7 @@ window.SECTIONS['c1'] = `
     
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:8px;">
         <h4 style="font-family:'Montserrat',sans-serif; font-size:1.15rem; font-weight:800; color:#1A1A1B; margin:0; display:flex; align-items:center; gap:8px;">
-            <i class="fas fa-columns" style="color:#F39200;"></i> Comparativo Técnico Oficial: Registro Único Vigente vs. Propuesto
+            <i class="fas fa-columns" style="color:#F39200;"></i> Comparativo Técnico Oficial: Registro Único Vigente - Propuesto
         </h4>
         <span style="font-size:0.75rem; color:#64748B;">Evidencia de evolución curricular y eficiencia formativa</span>
     </div>
@@ -430,7 +430,7 @@ window.SECTIONS['c1'] = `
             <div>
                 <span style="font-size:0.72rem; text-transform:uppercase; font-weight:800; color:#065F46; letter-spacing:0.5px;">Alineación Curricular Directa</span>
                 <h4 style="font-family:'Montserrat',sans-serif; font-size:1.22rem; font-weight:800; color:#1A1A1B; margin:0;">
-                    Perfil de Egreso &amp; Matriz de Competencias vs. Resultados de Aprendizaje (RAP)
+                    Perfil de Egreso &amp; Matriz de Competencias y Resultados de Aprendizaje (RAP)
                 </h4>
             </div>
         </div>
@@ -449,7 +449,7 @@ window.SECTIONS['c1'] = `
         </p>
     </div>
 
-    <!-- TABLA DE ALINEACIÓN: 10 COMPETENCIAS VS 10 RAP VS ASIGNATURAS -->
+    <!-- TABLA DE ALINEACIÓN: 10 COMPETENCIAS Y 10 RAP ARTICULADOS A ASIGNATURAS -->
     <div style="overflow-x:auto; border:1px solid #E2E8F0; border-radius:10px;">
         <table class="tbl" style="width:100%; font-size:0.8rem; margin:0; border-collapse:collapse;">
             <thead style="background:#1A1A1B; color:#FFFFFF;">

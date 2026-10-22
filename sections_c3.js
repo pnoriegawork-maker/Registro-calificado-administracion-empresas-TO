@@ -1,6 +1,6 @@
 /* =========================================================
    CONDICIÓN 3 – ASPECTOS CURRICULARES (DECRETO 1330 · ART. 2.5.3.2.3.2.4)
-   Plan de Estudios Vigente (158 cr) vs Plan Propuesto (144 cr)
+   Plan de Estudios Vigente (158 cr) y Plan Propuesto (144 cr)
    Subpestañas Canónicas:
      a) Componentes formativos
      b) Componentes pedagógicos
@@ -10872,7 +10872,7 @@ window.openAreaModal = function(areaId, type) {
     const totalPlanCr = isVig ? 158 : 144;
     const pctPlan = ((totalCr / totalPlanCr) * 100).toFixed(2);
 
-    // Conteo detallado de Teóricas vs Teórico-Prácticas
+    // Conteo detallado de Teóricas y Teórico-Prácticas
     const teoSubs = subList.filter(s => (s.tipo || 'T') === 'T');
     const tpSubs = subList.filter(s => s.tipo === 'TP');
     const teoCr = teoSubs.reduce((acc, s) => acc + s.creditos, 0);
@@ -15450,7 +15450,7 @@ window.SECTIONS['c3'] = `
             </div>
         </div>
 
-        <!-- 2. LINEAMIENTOS POR MODALIDAD: PRESENCIAL VS. VIRTUAL -->
+        <!-- 2. LINEAMIENTOS POR MODALIDAD: PRESENCIAL Y VIRTUAL -->
         <div class="card" style="margin-bottom:22px; border-top:4px solid #0284C7;">
             <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin-bottom:14px;">
                 <i class="fas fa-columns" style="color:#0284C7; margin-right:8px;"></i> 2. Innovación Pedagógica y Didáctica según Modalidad (Presencial & Virtual)
@@ -19708,7 +19708,7 @@ window.SECTIONS['c3'] = `
             </div>
         </div>
 
-        <!-- 2. LINEAMIENTOS POR MODALIDAD: PRESENCIAL VS. VIRTUAL -->
+        <!-- 2. LINEAMIENTOS POR MODALIDAD: PRESENCIAL Y VIRTUAL -->
         <div class="card" style="margin-bottom:22px; border-top:4px solid #0284C7;">
             <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin-bottom:14px;">
                 <i class="fas fa-columns" style="color:#0284C7; margin-right:8px;"></i> 2. Innovación Pedagógica y Didáctica según Modalidad (Presencial & Virtual)
@@ -20539,7 +20539,7 @@ window.SECTIONS['c3'] = `
 <div class="card" style="margin-bottom:24px; border-top:4px solid var(--orange); box-shadow:0 4px 6px -1px rgba(0,0,0,0.06);">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
         <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin:0;">
-            <i class="fas fa-balance-scale" style="color:var(--orange); margin-right:8px;"></i> Matriz Comparativa Canónica: Registro Actual vs. Registro Propuesto (Decreto 1330 · Art. 2.5.3.2.3.2.4)
+            <i class="fas fa-balance-scale" style="color:var(--orange); margin-right:8px;"></i> Matriz Comparativa Canónica: Registro Actual - Registro Propuesto (Decreto 1330 · Art. 2.5.3.2.3.2.4)
         </h4>
         <span style="font-size:0.75rem; color:#fff; background:#1E293B; font-weight:800; padding:4px 12px; border-radius:12px;">
             Síntesis de Evolución Curricular

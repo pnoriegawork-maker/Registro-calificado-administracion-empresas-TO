@@ -19,8 +19,7 @@ window.SECTIONS.inst = `
 
 <!-- ============ NAVEGACIÓN POR PESTAÑAS ============ -->
 <div id="instTabBar" style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:25px; border-bottom:2px solid #e5e7eb; padding-bottom:12px;">
-    <button class="inst-tab-btn active" onclick="window.switchInstTab('identidad')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#1A1A1B; color:white;"><i class="fas fa-university mr-1"></i> Identidad</button>
-    <button class="inst-tab-btn" onclick="window.switchInstTab('pei')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#e5e7eb; color:#374151;"><i class="fas fa-book mr-1"></i> PEI</button>
+    <button class="inst-tab-btn active" onclick="window.switchInstTab('pei')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#1A1A1B; color:white;"><i class="fas fa-book mr-1"></i> PEI</button>
     <button class="inst-tab-btn" onclick="window.switchInstTab('evolucion')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#e5e7eb; color:#374151;"><i class="fas fa-chart-line mr-1"></i> Evolución</button>
     <button class="inst-tab-btn" onclick="window.switchInstTab('convenios')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#e5e7eb; color:#374151;"><i class="fas fa-handshake mr-1"></i> Convenios</button>
     <button class="inst-tab-btn" onclick="window.switchInstTab('oferta')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#e5e7eb; color:#374151;"><i class="fas fa-graduation-cap mr-1"></i> Oferta</button>
@@ -29,56 +28,8 @@ window.SECTIONS.inst = `
     <button class="inst-tab-btn" onclick="window.switchInstTab('retos')" style="padding:10px 18px; border:none; border-radius:8px 8px 0 0; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.3s; background:#e5e7eb; color:#374151;"><i class="fas fa-bullseye mr-1"></i> Retos</button>
 </div>
 
-<!-- ==================== TAB: IDENTIDAD ==================== -->
-<div id="instTab_identidad" class="inst-tab-content" style="display:block;">
-    <!-- Hero Banner -->
-    <div style="position:relative; border-radius:16px; overflow:hidden; margin-bottom:25px; min-height:220px; background:linear-gradient(135deg, #1A1A1B 0%, #2D2D2E 60%, #3A3A3B 100%);">
-        <div style="position:absolute; top:0; right:0; width:45%; height:100%; opacity:0.15; background:url('assets/inst_slides/inst_slide_7_img_0.png') center/cover;"></div>
-        <div style="position:relative; z-index:2; padding:35px 30px; color:white;">
-            <div style="display:flex; align-items:center; gap:20px; margin-bottom:20px;">
-                <img src="assets/logo_oficial.png" alt="Logo" style="height:80px; background:white; padding:8px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-                <div>
-                    <h2 style="font-size:1.8rem; font-weight:800; margin:0; font-family:'Montserrat',sans-serif;">Tecnológica del Oriente</h2>
-                    <p style="font-size:1rem; color:#cbd5e1; margin:5px 0 0;">Institución de Educación Superior · Bucaramanga, Santander</p>
-                </div>
-            </div>
-            <p style="font-size:1.05rem; line-height:1.7; color:#ffffff; max-width:95%; text-align:justify; font-family:'Open Sans', sans-serif;">Institución de Educación Superior que contribuye al desarrollo integral de sus estudiantes, mediante un Modelo Pedagógico denominado <strong style="color:#fbbf24;">"Formación en Contextos de Aplicación"</strong> que incorpora la transferencia del conocimiento a la solución de los problemas reales del entorno.</p>
-        </div>
-    </div>
-
-    <!-- Contadores animados -->
-    <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px; margin-bottom:25px;">
-        <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:20px; text-align:center; transition:transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(26, 26, 27,0.15)';" onmouseout="this.style.transform=''; this.style.boxShadow='';">
-            <div style="width:55px; height:55px; background:linear-gradient(135deg, #C8102E, #e53e3e); border-radius:50%; margin:0 auto 10px; display:flex; align-items:center; justify-content:center;"><i class="fas fa-school" style="color:white; font-size:1.3rem;"></i></div>
-            <div style="font-size:2.5rem; font-weight:800; color:#1A1A1B; font-family:'Montserrat';">4</div>
-            <div style="font-size:0.78rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.5px;">Pregrado Presencial</div>
-        </div>
-        <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:20px; text-align:center; transition:transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(26, 26, 27,0.15)';" onmouseout="this.style.transform=''; this.style.boxShadow='';">
-            <div style="width:55px; height:55px; background:linear-gradient(135deg, #1A1A1B, #2D2D2E); border-radius:50%; margin:0 auto 10px; display:flex; align-items:center; justify-content:center;"><i class="fas fa-laptop" style="color:white; font-size:1.3rem;"></i></div>
-            <div style="font-size:2.5rem; font-weight:800; color:#1A1A1B; font-family:'Montserrat';">6</div>
-            <div style="font-size:0.78rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.5px;">Pregrado Virtual</div>
-        </div>
-        <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:20px; text-align:center; transition:transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(26, 26, 27,0.15)';" onmouseout="this.style.transform=''; this.style.boxShadow='';">
-            <div style="width:55px; height:55px; background:linear-gradient(135deg, #d97706, #f59e0b); border-radius:50%; margin:0 auto 10px; display:flex; align-items:center; justify-content:center;"><i class="fas fa-award" style="color:white; font-size:1.3rem;"></i></div>
-            <div style="font-size:2.5rem; font-weight:800; color:#1A1A1B; font-family:'Montserrat';">3</div>
-            <div style="font-size:0.78rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.5px;">Posgrado Presencial</div>
-        </div>
-        <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:20px; text-align:center; transition:transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(26, 26, 27,0.15)';" onmouseout="this.style.transform=''; this.style.boxShadow='';">
-            <div style="width:55px; height:55px; background:linear-gradient(135deg, #7c3aed, #8b5cf6); border-radius:50%; margin:0 auto 10px; display:flex; align-items:center; justify-content:center;"><i class="fas fa-wifi" style="color:white; font-size:1.3rem;"></i></div>
-            <div style="font-size:2.5rem; font-weight:800; color:#1A1A1B; font-family:'Montserrat';">4</div>
-            <div style="font-size:0.78rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.5px;">Posgrado Virtual</div>
-        </div>
-    </div>
-
-    <!-- Gráfico de programas -->
-    <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:25px;">
-        <h3 style="color:#1A1A1B; font-weight:700; font-size:1.2rem; margin-bottom:15px;"><i class="fas fa-chart-pie mr-2" style="color:#C8102E;"></i>Distribución de Oferta Académica</h3>
-        <div style="max-width:400px; margin:0 auto;"><canvas id="instOfertaChart"></canvas></div>
-    </div>
-</div>
-
 <!-- ==================== TAB: PEI ==================== -->
-<div id="instTab_pei" class="inst-tab-content" style="display:none;">
+<div id="instTab_pei" class="inst-tab-content" style="display:block;">
     <div style="background:linear-gradient(135deg, #1A1A1B 0%, #2D2D2E 100%); color:white; border-radius:16px; padding:30px; margin-bottom:25px;">
         <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px;">
             <div style="width:50px; height:50px; background:rgba(200,16,46,0.2); border:2px solid #C8102E; border-radius:50%; display:flex; align-items:center; justify-content:center;"><i class="fas fa-book-open" style="color:#C8102E; font-size:1.3rem;"></i></div>
@@ -156,72 +107,236 @@ window.SECTIONS.inst = `
 
 <!-- ==================== TAB: EVOLUCIÓN ==================== -->
 <div id="instTab_evolucion" class="inst-tab-content" style="display:none;">
-    <!-- Imagen de la línea temporal del PPTX -->
-    <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:25px; margin-bottom:25px; text-align:center;">
-        <h3 style="color:#1A1A1B; font-weight:800; font-size:1.5rem; margin-bottom:5px;"><i class="fas fa-history mr-2" style="color:#C8102E;"></i>Evolución Institucional (1992 – 2024)</h3>
-        <p style="color:#6b7280; margin-bottom:15px; font-size:0.95rem;">Más de 30 años de trayectoria en educación superior</p>
-        <img src="assets/evolucion_timeline.png" alt="Línea de Tiempo Institucional" style="max-width:100%; border-radius:10px; border:1px solid #e5e7eb; box-shadow:0 4px 15px rgba(0,0,0,0.08);">
-    </div>
+    <!-- Contenedor Principal de la Línea de Tiempo Oficial (1992 - 2026) -->
+    <div style="background:white; border:2px solid #e5e7eb; border-radius:16px; padding:25px 20px; margin-bottom:25px; box-shadow:0 8px 25px rgba(0,0,0,0.05);">
+        <div style="text-align:center; margin-bottom:20px;">
+            <div style="display:inline-flex; align-items:center; justify-content:center; gap:10px;">
+                <div style="width:36px; height:36px; border-radius:50%; background:#FEE2E2; border:2px solid #C8102E; display:flex; align-items:center; justify-content:center;">
+                    <i class="fas fa-history" style="color:#C8102E; font-size:1.1rem;"></i>
+                </div>
+                <h3 style="color:#1A1A1B; font-weight:800; font-size:1.6rem; margin:0; font-family:'Montserrat',sans-serif;">Evolución Institucional (1992 – 2026)</h3>
+            </div>
+            <p style="color:#6b7280; margin:6px 0 0 0; font-size:0.95rem;">Más de 30 años de trayectoria en educación superior y consolidación de la oferta académica oficial</p>
+        </div>
 
-    <!-- Timeline interactivo -->
-    <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; padding:25px;">
-        <h3 style="color:#1A1A1B; font-weight:700; font-size:1.3rem; margin-bottom:20px;">Hitos Clave</h3>
-        <div class="timeline" style="border-left:4px solid #C8102E; padding-left:25px; margin-left:15px;">
-            <div style="position:relative; margin-bottom:20px; background:linear-gradient(135deg, #FFF7ED, #fff); padding:18px; border-radius:10px; border:1px solid #FED7AA; cursor:pointer; transition:transform 0.2s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform=''">
-                <div style="position:absolute; left:-37px; top:18px; width:14px; height:14px; border-radius:50%; background:#C8102E; border:3px solid white; box-shadow:0 0 0 2px #C8102E;"></div>
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <div>
-                        <span style="background:#C8102E; color:white; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:4px;">1992</span>
-                        <h4 style="color:#1A1A1B; font-weight:700; font-size:1.1rem; margin:8px 0 4px;">Fundación Institucional</h4>
-                        <p style="color:#4b5563; font-size:0.9rem; margin:0;">Creación de Estatutos Generales y constitución de la Asamblea de Corporados.</p>
-                    </div>
-                    <i class="fas fa-landmark" style="font-size:1.5rem; color:#C8102E; opacity:0.5;"></i>
-                </div>
-            </div>
-            <div style="position:relative; margin-bottom:20px; background:linear-gradient(135deg, #f0fdf4, #fff); padding:18px; border-radius:10px; border:1px solid #bbf7d0; cursor:pointer; transition:transform 0.2s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform=''">
-                <div style="position:absolute; left:-37px; top:18px; width:14px; height:14px; border-radius:50%; background:#16a34a; border:3px solid white; box-shadow:0 0 0 2px #16a34a;"></div>
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <div>
-                        <span style="background:#16a34a; color:white; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:4px;">2004-2009</span>
-                        <h4 style="color:#1A1A1B; font-weight:700; font-size:1.1rem; margin:8px 0 4px;">Impacto Social</h4>
-                        <p style="color:#4b5563; font-size:0.9rem; margin:0;">Lidera el programa Nacional de Erradicación del Analfabetismo. Actualización del PEI.</p>
-                    </div>
-                    <i class="fas fa-heart" style="font-size:1.5rem; color:#16a34a; opacity:0.5;"></i>
-                </div>
-            </div>
-            <div style="position:relative; margin-bottom:20px; background:linear-gradient(135deg, #fef3c7, #fff); padding:18px; border-radius:10px; border:1px solid #fde68a; cursor:pointer; transition:transform 0.2s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform=''">
-                <div style="position:absolute; left:-37px; top:18px; width:14px; height:14px; border-radius:50%; background:#d97706; border:3px solid white; box-shadow:0 0 0 2px #d97706;"></div>
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <div>
-                        <span style="background:#d97706; color:white; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:4px;">2012-2014</span>
-                        <h4 style="color:#1A1A1B; font-weight:700; font-size:1.1rem; margin:8px 0 4px;">Transformación Institucional</h4>
-                        <p style="color:#4b5563; font-size:0.9rem; margin:0;">Cambio de denominación a <strong>Corporación Escuela Tecnológica del Oriente</strong>. Fortalecimiento del modelo virtual e investigación.</p>
-                    </div>
-                    <i class="fas fa-sync-alt" style="font-size:1.5rem; color:#d97706; opacity:0.5;"></i>
-                </div>
-            </div>
-            <div style="position:relative; margin-bottom:20px; background:linear-gradient(135deg, #f5f3ff, #fff); padding:18px; border-radius:10px; border:1px solid #ddd6fe; cursor:pointer; transition:transform 0.2s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform=''">
-                <div style="position:absolute; left:-37px; top:18px; width:14px; height:14px; border-radius:50%; background:#7c3aed; border:3px solid white; box-shadow:0 0 0 2px #7c3aed;"></div>
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <div>
-                        <span style="background:#7c3aed; color:white; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:4px;">2021-2022</span>
-                        <h4 style="color:#1A1A1B; font-weight:700; font-size:1.1rem; margin:8px 0 4px;">Expansión de Posgrados</h4>
-                        <p style="color:#4b5563; font-size:0.9rem; margin:0;">Especialización en Pedagogía y Didácticas Específicas (EGIRSST - EGP). Fortalecimiento de nuevos programas.</p>
-                    </div>
-                    <i class="fas fa-rocket" style="font-size:1.5rem; color:#7c3aed; opacity:0.5;"></i>
-                </div>
-            </div>
-            <div style="position:relative; background:linear-gradient(135deg, #1A1A1B, #2D2D2E); padding:18px; border-radius:10px; color:white; cursor:pointer; transition:transform 0.2s;" onmouseover="this.style.transform='translateX(5px)'" onmouseout="this.style.transform=''">
-                <div style="position:absolute; left:-37px; top:18px; width:14px; height:14px; border-radius:50%; background:#fbbf24; border:3px solid white; box-shadow:0 0 0 2px #fbbf24;"></div>
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <div>
-                        <span style="background:#fbbf24; color:#1A1A1B; font-size:0.75rem; font-weight:700; padding:3px 10px; border-radius:4px;">2023-2024</span>
-                        <h4 style="font-weight:700; font-size:1.1rem; margin:8px 0 4px;">Renovación RC · Concepto Favorable</h4>
-                        <p style="color:#cbd5e1; font-size:0.9rem; margin:0;">Renovación de Registro Calificado LEI. Visita de condiciones institucionales exitosa. Acreditación en marcha.</p>
-                    </div>
-                    <i class="fas fa-trophy" style="font-size:1.5rem; color:#fbbf24; opacity:0.7;"></i>
-                </div>
-            </div>
+        <!-- SVG Infografía S-Curve / Winding Snake Timeline idéntica a la imagen oficial -->
+        <div style="width:100%; overflow-x:auto; background:#ffffff; border-radius:12px; padding:10px 0;">
+            <svg viewBox="0 0 1260 880" width="100%" height="auto" style="display:block; min-width:980px; font-family:'Montserrat', sans-serif;">
+                <defs>
+                    <filter id="instDropShadow" x="-10%" y="-10%" width="130%" height="130%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.18"/>
+                    </filter>
+                    <linearGradient id="instArrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#EA580C"/>
+                        <stop offset="100%" stop-color="#F59E0B"/>
+                    </linearGradient>
+                    <linearGradient id="instFinishGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#D97706"/>
+                        <stop offset="100%" stop-color="#B45309"/>
+                    </linearGradient>
+                </defs>
+
+                <!-- 1. Flecha Indicadora de Inicio (Top-Left) -->
+                <path d="M 25,65 L 210,65 L 235,95 L 210,125 L 25,125 Z" fill="url(#instArrowGrad)" filter="url(#instDropShadow)"/>
+                <text x="115" y="88" fill="#ffffff" font-size="14.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">Evolución</text>
+                <text x="115" y="108" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">de la institución</text>
+
+                <!-- ==================== TIER 1: 1992 -> 1995 -> 1998 (Izquierda a Derecha) ==================== -->
+                <!-- Pistas y cintas horizontales -->
+                <rect x="235" y="78" width="220" height="34" fill="#7C3AED"/>
+                <rect x="455" y="78" width="250" height="34" fill="#4338CA"/>
+                <rect x="705" y="78" width="315" height="34" fill="#0284C7"/>
+
+                <!-- Curva U-Turn 1 Derecha (Conector hacia Tier 2) -->
+                <path d="M 1020,95 A 75 75 0 0 1 1020,245" fill="none" stroke="#0284C7" stroke-width="34" stroke-dasharray="7,7" stroke-linecap="round"/>
+
+                <!-- Pin 1992 -->
+                <g transform="translate(325, 78)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#6D28D9" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="325" y="101" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">1992</text>
+                <!-- Texto Explicativo 1992 -->
+                <text x="325" y="140" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Fundación Institucional</text>
+                <text x="325" y="156" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Constitución de Asamblea de</text>
+                <text x="325" y="170" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Corporados y primeros Estatutos</text>
+
+                <!-- Pin 1995 -->
+                <g transform="translate(565, 78)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#4338CA" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="565" y="101" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">1995</text>
+                <!-- Texto Explicativo 1995 -->
+                <text x="565" y="140" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Consolidación Corporativa</text>
+                <text x="565" y="156" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Cambio de Asamblea General</text>
+                <text x="565" y="170" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">de Corporados y actualización del PEI</text>
+
+                <!-- Pin 1998 -->
+                <g transform="translate(850, 78)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#0284C7" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="850" y="101" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">1998</text>
+                <!-- Texto Explicativo 1998 -->
+                <text x="850" y="140" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Cambio de Denominación</text>
+                <text x="850" y="156" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Corporación Escuela Tecnológica del Oriente</text>
+                <text x="850" y="170" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">entendiéndose con las siglas TO - PJ</text>
+
+                <!-- ==================== TIER 2: 2004 <- 2007-2009 (Derecha a Izquierda) ==================== -->
+                <!-- Pistas y cintas horizontales -->
+                <rect x="670" y="228" width="350" height="34" fill="#65A30D"/>
+                <rect x="240" y="228" width="430" height="34" fill="#EAB308"/>
+
+                <!-- Curva U-Turn 2 Izquierda (Conector hacia Tier 3) -->
+                <path d="M 240,245 A 75 75 0 0 0 240,395" fill="none" stroke="#EAB308" stroke-width="34" stroke-dasharray="7,7" stroke-linecap="round"/>
+
+                <!-- Texto e Hito 2004 -->
+                <text x="845" y="215" fill="#1E293B" font-size="12.5" font-weight="800" text-anchor="middle">Creación de Estatutos Generales</text>
+                <text x="845" y="251" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2004</text>
+                <text x="845" y="280" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Reforma estatutaria e institucional integral</text>
+
+                <!-- Texto e Hito 2007 - 2009 -->
+                <text x="450" y="215" fill="#1E293B" font-size="12.5" font-weight="800" text-anchor="middle">Impacto Social y Alfabetización Nacional</text>
+                <text x="450" y="251" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2007 - 2009</text>
+                <text x="450" y="280" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Lidera el Programa Nacional de Erradicación del Analfabetismo · Actualización del PEI</text>
+
+                <!-- ==================== TIER 3: 2012 -> 2014 -> 2017-2019 -> 2021 (Izquierda a Derecha) ==================== -->
+                <!-- Pistas y cintas horizontales -->
+                <rect x="240" y="378" width="185" height="34" fill="#EA580C"/>
+                <rect x="425" y="378" width="195" height="34" fill="#F97316"/>
+                <rect x="620" y="378" width="220" height="34" fill="#DC2626"/>
+                <rect x="840" y="378" width="180" height="34" fill="#BE185D"/>
+
+                <!-- Curva U-Turn 3 Derecha (Conector hacia Tier 4) -->
+                <path d="M 1020,395 A 75 75 0 0 1 1020,545" fill="none" stroke="#BE185D" stroke-width="34" stroke-dasharray="7,7" stroke-linecap="round"/>
+
+                <!-- Pin 2012 -->
+                <g transform="translate(325, 378)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#EA580C" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="325" y="401" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2012</text>
+                <!-- Texto 2012 -->
+                <text x="325" y="440" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Oferta de Posgrados</text>
+                <text x="325" y="456" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Inicio Esp. en Pedagogía y</text>
+                <text x="325" y="470" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Didácticas Específicas (101639)</text>
+
+                <!-- Pin 2014 -->
+                <g transform="translate(520, 378)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#F97316" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="520" y="401" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2014</text>
+                <!-- Texto 2014 -->
+                <text x="520" y="440" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Técnicas y Posgrados</text>
+                <text x="520" y="456" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Esp. Gerencia Proyectos (103745)</text>
+                <text x="520" y="470" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">TP Higiene y SST (103527)</text>
+
+                <!-- Pin 2017 - 2019 -->
+                <g transform="translate(730, 378)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#DC2626" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="730" y="401" fill="#ffffff" font-size="15" font-weight="800" text-anchor="middle">2017 - 2019</text>
+                <!-- Texto 2017 - 2019 -->
+                <text x="730" y="440" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Pregrado y Expansión</text>
+                <text x="730" y="456" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Admon Empresas Presencial (108445)</text>
+                <text x="730" y="470" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">SST Presencial (106177) · Esp. GIR SST</text>
+
+                <!-- Pin 2021 -->
+                <g transform="translate(930, 378)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#BE185D" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#ffffff"/>
+                </g>
+                <text x="930" y="401" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2021</text>
+                <!-- Texto 2021 -->
+                <text x="930" y="440" fill="#1E293B" font-size="12" font-weight="800" text-anchor="middle">Actualización del PEI</text>
+                <text x="930" y="456" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">Modelo Pedagógico Institucional:</text>
+                <text x="930" y="470" fill="#475569" font-size="10.5" font-weight="600" text-anchor="middle">"Formación en Contextos de Aplicación"</text>
+
+                <!-- ==================== TIER 4: 2022 <- 2023 <- 2024 <- 2025 <- 2026 (Derecha a Izquierda) ==================== -->
+                <!-- Pistas y cintas horizontales -->
+                <rect x="880" y="528" width="140" height="34" fill="#10B981"/>
+                <rect x="710" y="528" width="170" height="34" fill="#EC4899"/>
+                <rect x="510" y="528" width="200" height="34" fill="#06B6D4"/>
+                <rect x="290" y="528" width="220" height="34" fill="#4F46E5"/>
+                <rect x="30" y="528" width="260" height="34" fill="url(#instFinishGrad)" rx="6" filter="url(#instDropShadow)"/>
+
+                <!-- Hito 2022 -->
+                <text x="950" y="515" fill="#047857" font-size="11.5" font-weight="800" text-anchor="middle">Evaluación Externa</text>
+                <text x="950" y="551" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2022</text>
+                <text x="950" y="580" fill="#1E293B" font-size="11" font-weight="800" text-anchor="middle">Visita Institucional MEN</text>
+                <text x="950" y="595" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">Condiciones Institucionales</text>
+                <text x="950" y="609" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">de alta calidad</text>
+
+                <!-- Hito 2023 -->
+                <text x="795" y="515" fill="#BE185D" font-size="11.5" font-weight="800" text-anchor="middle">Concepto Favorable</text>
+                <text x="795" y="551" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2023</text>
+                <text x="795" y="580" fill="#1E293B" font-size="11" font-weight="800" text-anchor="middle">Concepto Favorable MEN</text>
+                <text x="795" y="595" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">Condiciones Institucionales</text>
+                <text x="795" y="609" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">RC Lic. Educación Infantil (116357)</text>
+
+                <!-- Hito 2024 -->
+                <text x="610" y="515" fill="#0E7490" font-size="11.5" font-weight="800" text-anchor="middle">Modelo Virtual &amp; I+D</text>
+                <text x="610" y="551" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2024</text>
+                <text x="610" y="580" fill="#1E293B" font-size="11" font-weight="800" text-anchor="middle">Despliegue Modalidad Virtual</text>
+                <text x="610" y="595" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">Admon Virtual (115833), LEI (115854)</text>
+                <text x="610" y="609" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">Esp. SST (118070), Software (118074)</text>
+
+                <!-- Hito 2025 -->
+                <text x="400" y="515" fill="#4338CA" font-size="11.5" font-weight="800" text-anchor="middle">Expansión Nacional</text>
+                <text x="400" y="551" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle">2025</text>
+                <text x="400" y="580" fill="#1E293B" font-size="11" font-weight="800" text-anchor="middle">Consolidación de Oferta Virtual</text>
+                <text x="400" y="595" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">Derecho (119385), SST (118713), Industrial</text>
+                <text x="400" y="609" fill="#475569" font-size="10" font-weight="600" text-anchor="middle">Esp. BI (118755), Innovación, Proy. (118858)</text>
+
+                <!-- Hito 2026 (META INSTITUCIONAL Y REGISTRO ÚNICO) -->
+                <!-- Pin Dorado 2026 -->
+                <g transform="translate(160, 528)">
+                    <path d="M 0,-42 C -18,-42 -18,-18 0,0 C 18,-18 18,-42 0,-42 Z" fill="#D97706" filter="url(#instDropShadow)"/>
+                    <circle cx="0" cy="-24" r="7.5" fill="#FEF3C7"/>
+                </g>
+                <text x="160" y="515" fill="#B45309" font-size="12" font-weight="900" text-anchor="middle">⭐ Hito Estratégico 2026</text>
+                <text x="160" y="551" fill="#ffffff" font-size="16" font-weight="900" text-anchor="middle">2026</text>
+                <text x="160" y="582" fill="#B45309" font-size="12" font-weight="800" text-anchor="middle">Consolidación 17 Programas</text>
+                <text x="160" y="598" fill="#1E293B" font-size="10.5" font-weight="700" text-anchor="middle">Renovación hacia REGISTRO ÚNICO</text>
+                <text x="160" y="612" fill="#C8102E" font-size="10.5" font-weight="800" text-anchor="middle">Admon Empresas (8 Sem / 144 Cr)</text>
+
+                <!-- Tarjeta Resumen Inferior de Trazabilidad Oficial 1992-2026 -->
+                <g transform="translate(30, 660)">
+                    <rect x="0" y="0" width="1200" height="175" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+                    <circle cx="45" cy="40" r="22" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+                    <text x="45" y="47" fill="#B45309" font-size="18" font-weight="900" text-anchor="middle">🏆</text>
+                    <text x="85" y="36" fill="#1E293B" font-size="14" font-weight="800">Trayectoria Progresiva y Oferta Académica Oficial (Actualizado 2026)</text>
+                    <text x="85" y="56" fill="#64748B" font-size="11.5" font-weight="600">Desde su constitución en 1992, la Tecnológica del Oriente ha evolucionado con registros calificados aprobados por el Ministerio de Educación Nacional (MEN):</text>
+                    
+                    <!-- 4 Columnas Sintéticas -->
+                    <rect x="25" y="75" width="270" height="80" rx="8" fill="#ffffff" stroke="#CBD5E1"/>
+                    <text x="40" y="96" fill="#C8102E" font-size="12" font-weight="800">Pregrado Presencial (4)</text>
+                    <text x="40" y="114" fill="#334155" font-size="10.5" font-weight="600">• Admon Empresas (SNIES 108445)</text>
+                    <text x="40" y="128" fill="#334155" font-size="10.5" font-weight="600">• Lic. Educ. Infantil (SNIES 116357)</text>
+                    <text x="40" y="142" fill="#334155" font-size="10.5" font-weight="600">• SST (106177) · TP Higiene (103527)</text>
+
+                    <rect x="315" y="75" width="280" height="80" rx="8" fill="#ffffff" stroke="#CBD5E1"/>
+                    <text x="330" y="96" fill="#1A1A1B" font-size="12" font-weight="800">Pregrado Virtual (6)</text>
+                    <text x="330" y="114" fill="#334155" font-size="10.5" font-weight="600">• Admon Empresas Virtual (115833)</text>
+                    <text x="330" y="128" fill="#334155" font-size="10.5" font-weight="600">• Derecho (119385) · Software (118074)</text>
+                    <text x="330" y="142" fill="#334155" font-size="10.5" font-weight="600">• LEI (115854) · SST (118713) · Industrial</text>
+
+                    <rect x="615" y="75" width="280" height="80" rx="8" fill="#ffffff" stroke="#CBD5E1"/>
+                    <text x="630" y="96" fill="#D97706" font-size="12" font-weight="800">Posgrado Presencial (3)</text>
+                    <text x="630" y="114" fill="#334155" font-size="10.5" font-weight="600">• Esp. Pedagogía y Didácticas (101639)</text>
+                    <text x="630" y="128" fill="#334155" font-size="10.5" font-weight="600">• Esp. Gerencia Proyectos (103745)</text>
+                    <text x="630" y="142" fill="#334155" font-size="10.5" font-weight="600">• Esp. Gerencia Integral SST (110536)</text>
+
+                    <rect x="915" y="75" width="265" height="80" rx="8" fill="#ffffff" stroke="#CBD5E1"/>
+                    <text x="930" y="96" fill="#7C3AED" font-size="12" font-weight="800">Posgrado Virtual (4)</text>
+                    <text x="930" y="114" fill="#334155" font-size="10.5" font-weight="600">• Esp. BI &amp; Analítica de Datos (118755)</text>
+                    <text x="930" y="128" fill="#334155" font-size="10.5" font-weight="600">• Esp. Innovación Educativa (011264)</text>
+                    <text x="930" y="142" fill="#334155" font-size="10.5" font-weight="600">• Esp. Proyectos (118858) · Esp. SST (118070)</text>
+                </g>
+            </svg>
         </div>
     </div>
 </div>
@@ -1102,13 +1217,13 @@ window.SECTIONS.inst = `
     <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:15px; margin-bottom:25px;">
         <div style="background:linear-gradient(135deg, #C8102E, #e53e3e); color:white; border-radius:12px; padding:20px; text-align:center;">
             <i class="fas fa-user-graduate" style="font-size:1.8rem; margin-bottom:8px; opacity:0.8;"></i>
-            <div style="font-size:2rem; font-weight:800; font-family:'Montserrat';">16</div>
+            <div style="font-size:2rem; font-weight:800; font-family:'Montserrat';">17</div>
             <div style="font-size:0.75rem; font-weight:600; color:rgba(255,255,255,0.8); text-transform:uppercase;">Programas Activos</div>
         </div>
         <div style="background:linear-gradient(135deg, #1A1A1B, #2D2D2E); color:white; border-radius:12px; padding:20px; text-align:center;">
             <i class="fas fa-laptop-code" style="font-size:1.8rem; margin-bottom:8px; opacity:0.8;"></i>
-            <div style="font-size:2rem; font-weight:800; font-family:'Montserrat';">9</div>
-            <div style="font-size:0.75rem; font-weight:600; color:rgba(255,255,255,0.8); text-transform:uppercase;">Programas Virtuales</div>
+            <div style="font-size:2rem; font-weight:800; font-family:'Montserrat';">70%</div>
+            <div style="font-size:0.75rem; font-weight:600; color:rgba(255,255,255,0.8); text-transform:uppercase;">Modalidad Virtual (30% Pres.)</div>
         </div>
         <div style="background:linear-gradient(135deg, #16a34a, #22c55e); color:white; border-radius:12px; padding:20px; text-align:center;">
             <i class="fas fa-map-marker-alt" style="font-size:1.8rem; margin-bottom:8px; opacity:0.8;"></i>
@@ -1200,12 +1315,10 @@ window.SECTIONS.inst = `
                     <div style="font-size:0.72rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:1px;">Metros Cuadrados</div>
                 </div>
                 <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.78rem;">
-                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-door-open mr-1" style="font-size:0.65rem;"></i>9 Aulas</div>
-                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-flask mr-1" style="font-size:0.65rem;"></i>1 Laboratorio</div>
-                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-laptop mr-1" style="font-size:0.65rem;"></i>1 Sala Inf.</div>
-                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-briefcase mr-1" style="font-size:0.65rem;"></i>4 Oficinas</div>
-                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-book mr-1" style="font-size:0.65rem;"></i>1 Biblioteca</div>
+                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-door-open mr-1" style="font-size:0.65rem;"></i>6 Aulas</div>
+                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-briefcase mr-1" style="font-size:0.65rem;"></i>1 Oficina</div>
                     <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-theater-masks mr-1" style="font-size:0.65rem;"></i>1 Auditorio</div>
+                    <div style="background:#FFF7ED; padding:6px 8px; border-radius:6px; color:#3A3A3B; font-weight:600;"><i class="fas fa-restroom mr-1" style="font-size:0.65rem;"></i>2 Bat. Baño</div>
                 </div>
             </div>
         </div>
@@ -1221,24 +1334,23 @@ window.SECTIONS.inst = `
                     <div style="font-size:0.72rem; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:1px;">Metros Cuadrados</div>
                 </div>
                 <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.78rem;">
-                    <div style="background:#fef3c7; padding:6px 8px; border-radius:6px; color:#92400e; font-weight:600;"><i class="fas fa-door-open mr-1" style="font-size:0.65rem;"></i>6 Aulas</div>
+                    <div style="background:#fef3c7; padding:6px 8px; border-radius:6px; color:#92400e; font-weight:600;"><i class="fas fa-door-open mr-1" style="font-size:0.65rem;"></i>8 Aulas</div>
                     <div style="background:#fef3c7; padding:6px 8px; border-radius:6px; color:#92400e; font-weight:600;"><i class="fas fa-briefcase mr-1" style="font-size:0.65rem;"></i>2 Oficinas</div>
-                    <div style="background:#fef3c7; padding:6px 8px; border-radius:6px; color:#92400e; font-weight:600;"><i class="fas fa-laptop mr-1" style="font-size:0.65rem;"></i>1 Sala Inf.</div>
                     <div style="background:#fef3c7; padding:6px 8px; border-radius:6px; color:#92400e; font-weight:600;"><i class="fas fa-restroom mr-1" style="font-size:0.65rem;"></i>4 Bat. Baño</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Resumen de Recursos Totales -->
+    <!-- Resumen de Recursos Totales (Ajustado: Aulas 11+6+8=25, Labs 1, Salas Inf 1, Oficinas 24+1+2=27, 3.071 m²) -->
     <div style="background:linear-gradient(135deg, #1A1A1B 0%, #2D2D2E 100%); border-radius:14px; padding:22px 25px; margin-bottom:25px; display:flex; justify-content:space-around; flex-wrap:wrap; gap:12px;">
-        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">26</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Aulas de Clase</div></div>
+        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">25</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Aulas de Clase</div></div>
         <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
-        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">2</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Laboratorios</div></div>
+        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">1</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Laboratorio</div></div>
         <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
-        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">3</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Salas Informáticas</div></div>
+        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">1</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Sala Informática</div></div>
         <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
-        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">30</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Oficinas Admin.</div></div>
+        <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">27</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">Oficinas Admin.</div></div>
         <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
         <div style="text-align:center; min-width:100px;"><div style="font-size:1.8rem; font-weight:800; color:#fbbf24; font-family:'Montserrat';">3.071</div><div style="font-size:0.72rem; color:#94a3b8; font-weight:600; text-transform:uppercase;">m² Totales</div></div>
     </div>
@@ -1308,13 +1420,114 @@ window.SECTIONS.inst = `
         </div>
     </div>
 
-    <!-- Marco Estratégico 2026-2030 -->
-    <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden;">
-        <div style="background:linear-gradient(135deg, #1A1A1B, #3A3A3B, #C8102E); color:white; padding:15px 20px; text-align:center;">
-            <h4 style="font-weight:800; font-size:1.3rem; margin:0;"><i class="fas fa-compass mr-2"></i>Marco Estratégico 2026–2030 · 8 Pilares</h4>
+    <!-- Marco Estratégico 2026-2030 (7 Pilares Estratégicos Oficiales) -->
+    <div style="background:white; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,0.04);">
+        <div style="background:linear-gradient(135deg, #1A1A1B, #2D2D2E, #C8102E); color:white; padding:18px 24px; text-align:center;">
+            <h4 style="font-weight:800; font-size:1.35rem; margin:0;"><i class="fas fa-compass mr-2" style="color:#fbbf24;"></i>Marco Estratégico 2026–2030 · 7 Pilares</h4>
+            <p style="margin:4px 0 0; font-size:0.85rem; color:#cbd5e1;">Líneas rectoras institucionales para el aseguramiento de la alta calidad y la consolidación educativa</p>
         </div>
-        <div style="padding:20px;">
-            <img src="assets/inst_slides/inst_slide_21_img_1.png" alt="Marco Estratégico 2026-2030 - 8 Pilares" style="width:100%; border-radius:8px;">
+        <div style="padding:24px;">
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(270px, 1fr)); gap:18px;">
+                
+                <!-- PILAR I -->
+                <div style="background:#F7FEE7; border:1px solid #D9F99D; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#4D7C0F; text-transform:uppercase; letter-spacing:0.5px;">PILAR I</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Excelencia académica y acreditación CNA</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Operar los programas nuevos y consolidar la autoevaluación permanente orientada a la acreditación de alta calidad.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#DCFCE7; color:#166534; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">CNA</span>
+                        <span style="background:#DCFCE7; color:#166534; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">PEP-RA</span>
+                        <span style="background:#DCFCE7; color:#166534; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Registros</span>
+                    </div>
+                </div>
+
+                <!-- PILAR II -->
+                <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#1D4ED8; text-transform:uppercase; letter-spacing:0.5px;">PILAR II</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Expansión digital y cobertura nacional</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Consolidar la plataforma virtual TO, expandir el acceso educativo en las regiones y dinamizar la matrícula virtual.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#DBEAFE; color:#1E40AF; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">LMS</span>
+                        <span style="background:#DBEAFE; color:#1E40AF; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Virtual</span>
+                        <span style="background:#DBEAFE; color:#1E40AF; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Mercadeo</span>
+                    </div>
+                </div>
+
+                <!-- PILAR III -->
+                <div style="background:#F5F3FF; border:1px solid #DDD6FE; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#6D28D9; text-transform:uppercase; letter-spacing:0.5px;">PILAR III</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Retención y bienestar estudiantil</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Consolidar el modelo integral de permanencia y bienestar estudiantil con analítica predictiva y acompañamiento psicosocial.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#EDE9FE; color:#5B21B6; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Permanencia</span>
+                        <span style="background:#EDE9FE; color:#5B21B6; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Analítica</span>
+                        <span style="background:#EDE9FE; color:#5B21B6; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Bienestar</span>
+                    </div>
+                </div>
+
+                <!-- PILAR IV -->
+                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#B45309; text-transform:uppercase; letter-spacing:0.5px;">PILAR IV</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Investigación reconocida y de valor</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Elevar el grupo de investigación en categorización MinCiencias y potenciar la transferencia aplicada I+D+i al sector productivo.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#FEF3C7; color:#92400E; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">MinCiencias</span>
+                        <span style="background:#FEF3C7; color:#92400E; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Consultoría</span>
+                        <span style="background:#FEF3C7; color:#92400E; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Cat. B</span>
+                    </div>
+                </div>
+
+                <!-- PILAR V -->
+                <div style="background:#F0FDFA; border:1px solid #99F6E4; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#0F766E; text-transform:uppercase; letter-spacing:0.5px;">PILAR V</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Gobernanza y transformación digital</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Implementar soluciones ERP integradas, certificar bajo ISO 9001 y automatizar procesos académicos y administrativos.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#CCFBF1; color:#115E59; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">ERP</span>
+                        <span style="background:#CCFBF1; color:#115E59; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">ISO 9001</span>
+                        <span style="background:#CCFBF1; color:#115E59; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Automatización</span>
+                    </div>
+                </div>
+
+                <!-- PILAR VI -->
+                <div style="background:#FFF7ED; border:1px solid #FFEDD5; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#C2410C; text-transform:uppercase; letter-spacing:0.5px;">PILAR VI</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Sostenibilidad financiera diversificada</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Diversificar ingresos mediante educación continua, licitaciones públicas, convenios de consultoría y alianzas estratégicas.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#FFEDD5; color:#9A3412; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">OPEX</span>
+                        <span style="background:#FFEDD5; color:#9A3412; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Licitaciones</span>
+                        <span style="background:#FFEDD5; color:#9A3412; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">Ed. Continua</span>
+                    </div>
+                </div>
+
+                <!-- PILAR VII (Certificaciones Internacionales) -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform=''">
+                    <div>
+                        <div style="font-size:0.75rem; font-weight:800; color:#475569; text-transform:uppercase; letter-spacing:0.5px;">PILAR VII</div>
+                        <h5 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:6px 0 8px; line-height:1.3;">Certificaciones Internacionales</h5>
+                        <p style="font-size:0.85rem; color:#4B5563; line-height:1.5; margin:0 0 14px;">Obtener certificaciones y membresías internacionales que consoliden la visibilidad y reputación global de la institución.</p>
+                    </div>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+                        <span style="background:#F1F5F9; color:#334155; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">ACBSP</span>
+                        <span style="background:#F1F5F9; color:#334155; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">QS Stars</span>
+                        <span style="background:#F1F5F9; color:#334155; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:12px;">ABET</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
@@ -1334,7 +1547,7 @@ window.switchInstTab = function(tabId) {
     var tab = document.getElementById('instTab_' + tabId);
     if (tab) tab.style.display = 'block';
     var buttons = document.querySelectorAll('.inst-tab-btn');
-    var tabNames = ['identidad','pei','evolucion','convenios','oferta','estudiantes','infra','retos'];
+    var tabNames = ['pei','evolucion','convenios','oferta','estudiantes','infra','retos'];
     var idx = tabNames.indexOf(tabId);
     if (idx >= 0 && buttons[idx]) {
         buttons[idx].style.background = '#1A1A1B';
@@ -1407,9 +1620,9 @@ window._initInstCharts = function(tabId) {
             window._instCharts.estMod = new Chart(ctx4, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Presencial', 'Virtual'],
+                    labels: ['Virtual (70%)', 'Presencial (30%)'],
                     datasets: [{
-                        data: [58, 42],
+                        data: [70, 30],
                         backgroundColor: ['#1A1A1B', '#C8102E'],
                         borderWidth: 3, borderColor: '#fff'
                     }]
@@ -1535,7 +1748,7 @@ window.instInit = function() {
     // Reset all chart refs
     window._instCharts = {};
     // Activar primera pestaña con gráficos
-    window.switchInstTab('identidad');
+    window.switchInstTab('pei');
 };
 
 
