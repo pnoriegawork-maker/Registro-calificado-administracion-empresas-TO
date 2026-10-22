@@ -64,6 +64,7 @@
 #### D. Condición 3 — Aspectos Curriculares (`sections_c3.js`)
 - Plan Vigente SACES (158 cr) y Plan Propuesto (144 cr) con diseño 100% responsive fit-to-screen sin barras horizontales.
 - Matrices de homologación (28 reestructuradas, 15 nuevas, 38 homologables), rutas de formación y resultados de aprendizaje (RAP).
+- **Ventanas Emergentes Interactivas en Numeral 3.5.2 & 3.5.3.1:** Articulación directa de los 6 Fundamentos Teóricos y Epistemológicos con sus componentes de formación oficial y las asignaturas específicas del plan de estudios que dan cumplimiento a las teorías (Planeación Estratégica, Gestión del Talento Humano, Marketing Estratégico, Emprendimiento e Innovación, RSE y Sostenibilidad, Pedagogía Virtual y SIG), competencias del perfil de egreso y aplicación real en el modelo "Formación en Contextos de Aplicación".
 
 #### E. Condición 4 — Organización de Actividades Académicas (`sections_c4.js`)
 - Modelo pedagógico constructivista por competencias, equivalencias de créditos académicos (Presencial 1:2 y Virtual 1:3) y estrategias didácticas basadas en casos y simuladores.
