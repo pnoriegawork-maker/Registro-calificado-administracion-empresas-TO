@@ -11033,6 +11033,360 @@ window.openAreaModal = function(areaId, type) {
     document.body.insertAdjacentHTML('beforeend', modalHtml);
 };
 
+
+// =========================================================
+// VENTANA EMERGENTE (MODAL) PARA LOS 6 FUNDAMENTOS TEÓRICOS
+// Y EPISTEMOLÓGICOS (NUMERAL 3.5.2 Y 3.5.3.1 DOCUMENTO MAESTRO)
+// =========================================================
+const c3EpistemologyData = {
+    1: {
+        id: 1,
+        title: "1. Teoría de la Administración & Gestión Estratégica",
+        numeral: "Numeral 3.5.2.1 & 3.5.3.1 a)",
+        color: "#D97706",
+        bgColor: "#FFFBEB",
+        borderColor: "#FDE68A",
+        icon: "fas fa-chess",
+        referentes: [
+            { autor: "Frederick W. Taylor", ano: "1911", escuela: "Escuela Clásica / Administración Científica", aporte: "Organización racional del trabajo, análisis de métodos, estandarización de procesos y optimización de tiempos y movimientos." },
+            { autor: "Henri Fayol", ano: "1916", escuela: "Teoría Clásica de la Organización", aporte: "Proceso administrativo universal (planear, organizar, dirigir, coordinar y controlar), 14 principios de gestión y división funcional de la empresa." },
+            { autor: "Max Weber", ano: "1922", escuela: "Teoría Burocrática", aporte: "Estructura formal de la organización, autoridad legal-racional, jerarquía reglamentada y previsibilidad de los procesos organizacionales." },
+            { autor: "Michael E. Porter", ano: "1980 / 1985", escuela: "Estrategia Competitiva Contemporánea", aporte: "Modelo de las 5 Fuerzas Competitivas, Estrategias Genéricas (Liderazgo en costos, Diferenciación y Enfoque), Cadena de Valor y Creación de Ventajas Competitivas." },
+            { autor: "Henry Mintzberg", ano: "1994", escuela: "Diseño Organizacional y Estrategia Emergente", aporte: "Configuraciones estructurales de las organizaciones, roles directivos del administrador y escuelas del pensamiento estratégico." },
+            { autor: "Peter F. Drucker", ano: "1985 / 1993", escuela: "Administración Moderna", aporte: "Administración por objetivos (APO), la sociedad del conocimiento, eficacia vs. eficiencia y el rol transformador del directivo contemporáneo." }
+        ],
+        componente: {
+            area: "Área de Formación Profesional / Disciplinar",
+            subarea: "Gestión Organizacional, Planeación y Dirección Estratégica",
+            nbc: "Administración (Núcleo Básico de Conocimiento)",
+            decreto: "Decreto 1330 de 2019 - Componente de Fundamentación Disciplinar y Profesional"
+        },
+        asignaturas: [
+            { nombre: "Planeación Estratégica", sem: "VI Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Formulación de planes estratégicos prospectivos, matrices DOFA, MEFE, MEFI, análisis de entorno PESTEL y posicionamiento competitivo." },
+            { nombre: "Dirección de Organizaciones", sem: "V Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Modelos de toma de decisiones de alta gerencia, gobernanza corporativa, estructuras jerárquicas y coordinación ejecutiva." },
+            { nombre: "Gestión de Recursos Empresariales", sem: "IV Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Asignación óptima de recursos financieros, materiales, tecnológicos e intangibles para la sostenibilidad del negocio." },
+            { nombre: "Gerencia Estratégica", sem: "VIII Semestre", creditos: 3, tipo: "Obligatoria Disciplinar / Énfasis", desc: "Balanced Scorecard (Cuadro de Mando Integral), control de gestión gerencial y liderazgo en transformación de modelos de negocio." },
+            { nombre: "Diagnóstico Empresarial", sem: "VII Semestre", creditos: 3, tipo: "Obligatoria Práctica", desc: "Auditoría integral organizacional, diagnóstico de capacidad competitiva y formulación de planes de mejoramiento continuo para MiPymes." },
+            { nombre: "Fundamentos de Administración", sem: "I / II Semestre", creditos: 3, tipo: "Básica Disciplinar", desc: "Evolución histórica del pensamiento administrativo, escuelas clásicas, humanistas y sistémicas de la organización." }
+        ],
+        competencias: "Capacidad para analizar, formular, ejecutar y evaluar estrategias empresariales efectivas que aseguren la viabilidad económica, competitividad y sostenibilidad de organizaciones públicas y privadas en contextos locales, nacionales e internacionales.",
+        modeloPedagogico: "Los estudiantes realizan diagnósticos estratégicos reales a micro y pequeñas empresas de Santander y del territorio nacional a través de consultoría empresarial, y aplican modelos de toma de decisiones en simuladores de alta gerencia."
+    },
+    2: {
+        id: 2,
+        title: "2. Teoría de Recursos Humanos & Liderazgo",
+        numeral: "Numeral 3.5.2.2 & 3.5.3.1 b)",
+        color: "#16A34A",
+        bgColor: "#F0FDF4",
+        borderColor: "#BBF7D0",
+        icon: "fas fa-users-cog",
+        referentes: [
+            { autor: "Elton Mayo", ano: "1933", escuela: "Escuela de las Relaciones Humanas", aporte: "Experimento de Hawthorne, relevancia del factor humano, relaciones informales, dinámicas psicosociales y liderazgo sobre la productividad." },
+            { autor: "Abraham Maslow", ano: "1943", escuela: "Teoría Humanista de la Motivación", aporte: "Pirámide de la Jerarquía de Necesidades (Fisiológicas, Seguridad, Afiliación, Reconocimiento y Autorrealización en el trabajo)." },
+            { autor: "Frederick Herzberg", ano: "1966", escuela: "Teoría Bifactorial", aporte: "Factores Higiénicos (extrínsecos, prevención de insatisfacción) y Factores Motivacionales (intrínsecos, generadores de satisfacción y alto desempeño)." },
+            { autor: "Douglas McGregor", ano: "1960", escuela: "Comportamiento Organizacional", aporte: "Teoría X (dirección autocrática y control) vs. Teoría Y (liderazgo participativo, empoderamiento, confianza y creatividad)." },
+            { autor: "Dave Ulrich", ano: "1997 / 2013", escuela: "Gestión Estratégica del Talento Humano", aporte: "El rol estratégico de RRHH como socio de negocio (Business Partner), agente de cambio, defensor del empleado y experto administrativo." }
+        ],
+        componente: {
+            area: "Área de Formación Profesional / Disciplinar",
+            subarea: "Gestión del Talento Humano, Comportamiento Organizacional y Liderazgo",
+            nbc: "Administración (Núcleo Básico de Conocimiento)",
+            decreto: "Decreto 1330 de 2019 - Componente de Gestión del Talento y Liderazgo Ético"
+        },
+        asignaturas: [
+            { nombre: "Gestión del Talento Humano", sem: "V Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Planificación estratégica del talento, selección por competencias, inducción, evaluación del desempeño 360° y planes de carrera." },
+            { nombre: "Comportamiento Organizacional", sem: "III Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Dinámica de grupos, liderazgo de equipos, clima laboral, motivación, gestión del estrés y resolución constructiva de conflictos." },
+            { nombre: "Liderazgo Ético y Habilidades Gerenciales", sem: "IV Semestre", creditos: 2, tipo: "Obligatoria Profesional", desc: "Comunicación asertiva, negociación, inteligencia emocional gerencial, oratoria ejecutiva y liderazgo transformacional." },
+            { nombre: "Cultura y Clima Organizacional", sem: "VI Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Diagnóstico cultural, gestión del cambio organizacional, bienestar laboral y cohesión de equipos presenciales y remotos." },
+            { nombre: "Seguridad y Salud en el Trabajo", sem: "V Semestre", creditos: 2, tipo: "Obligatoria Institucional", desc: "Sistemas de gestión SG-SST, ergonomía, prevención de riesgos laborales y fomento de entornos biopsicosociales saludables." }
+        ],
+        competencias: "Capacidad para liderar equipos de trabajo interdisciplinarios y multiculturales, promoviendo el bienestar biopsicosocial, la motivación, el desarrollo de capacidades humanas y un clima laboral ético, colaborativo y de alto rendimiento.",
+        modeloPedagogico: "Desarrollo de planes de intervención de clima organizacional y perfiles por competencias aplicados a empresas colaboradoras en Santander y organizaciones virtuales del país, complementados con talleres vivenciales de liderazgo."
+    },
+    3: {
+        id: 3,
+        title: "3. Teoría del Marketing & la Innovación",
+        numeral: "Numeral 3.5.2.3 & 3.5.3.1 c)",
+        color: "#2563EB",
+        bgColor: "#EFF6FF",
+        borderColor: "#BFDBFE",
+        icon: "fas fa-lightbulb",
+        referentes: [
+            { autor: "Philip Kotler & Gary Armstrong", ano: "2018", escuela: "Marketing Estratégico y Creación de Valor", aporte: "Enfoque holístico del marketing centrado en la creación de valor para el cliente, relaciones a largo plazo (CRM), marketing 4.0/5.0 y omnicanalidad." },
+            { autor: "Joseph Schumpeter", ano: "1934 / 1942", escuela: "Teoría Económica de la Innovación", aporte: "Teoría del desenvolvimiento económico y 'Destrucción Creativa': la innovación como motor primordial que transforma mercados mediante nuevos productos, procesos y modelos." },
+            { autor: "W. Chan Kim & Renée Mauborgne", ano: "2005", escuela: "Estrategia del Océano Azul", aporte: "Creación de nuevos espacios de mercado no disputados mediante innovación en valor, eliminando la competencia tradicional." }
+        ],
+        componente: {
+            area: "Área de Formación Profesional / Disciplinar",
+            subarea: "Mercadeo Estratégico, Inteligencia Comercial e Innovación de Negocios",
+            nbc: "Administración (Núcleo Básico de Conocimiento)",
+            decreto: "Decreto 1330 de 2019 - Componente de Mercadeo, Innovación y Creación de Valor"
+        },
+        asignaturas: [
+            { nombre: "Marketing Estratégico", sem: "V Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Segmentación de mercados, posicionamiento de marcas, Marketing Mix (4P/4C), pricing estratégico y planes de marketing anuales." },
+            { nombre: "Gestión de la Innovación", sem: "VI Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Design Thinking, metodologías ágiles de innovación, vigilancia tecnológica, I+D+i y desarrollo de nuevos productos y servicios." },
+            { nombre: "Investigación de Mercados", sem: "IV Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Técnicas cualitativas y cuantitativas, muestreo estadístico, estudios de hábitos del consumidor y analítica predictiva de mercado." },
+            { nombre: "Marketing Digital & Analítica Comercial", sem: "VII Semestre", creditos: 3, tipo: "Obligatoria Disciplinar / Énfasis", desc: "SEO/SEM, embudos de conversión (funnels), analítica web, pauta digital, gestión de redes sociales y comercio electrónico (e-Commerce)." },
+            { nombre: "Gestión de Marcas y Productos", sem: "VI Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Branding corporativo, arquitectura de marca, ciclo de vida del producto y estrategias de fidelización en ecosistemas omnicanal." }
+        ],
+        competencias: "Capacidad para investigar el mercado, identificar patrones de consumo y formular estrategias de marketing e innovación que generen propuestas de valor diferenciadas y rentables en entornos físicos y digitales.",
+        modeloPedagogico: "Planes reales de marketing digital y estudios de mercado aplicados a emprendimientos regionales y microempresas de los convenios institucionales, integrando laboratorios de analítica comercial y redes sociales."
+    },
+    4: {
+        id: 4,
+        title: "4. Teoría del Emprendimiento & la Innovación Social",
+        numeral: "Numeral 3.5.2.4 & 3.5.3.1 d)",
+        color: "#9333EA",
+        bgColor: "#FAF5FF",
+        borderColor: "#E9D5FF",
+        icon: "fas fa-rocket",
+        referentes: [
+            { autor: "Scott Shane", ano: "2003", escuela: "Teoría de la Oportunidad Emprendedora", aporte: "El emprendimiento como nexo sistémico entre la existencia de oportunidades lucrativas en el mercado y la presencia de individuos emprendedores capacitados para explotarlas." },
+            { autor: "Peter F. Drucker", ano: "1985", escuela: "Innovación y Espíritu Emprendedor", aporte: "El emprendimiento como práctica sistemática y disciplina gerencial: búsqueda con propósito de cambios y análisis de oportunidades para la innovación." },
+            { autor: "Alexander Osterwalder & Yves Pigneur", ano: "2010", escuela: "Modelos Ágiles de Negocio", aporte: "Generación de Modelos de Negocio mediante el Business Model Canvas (9 bloques), Lean Startup y validación temprana en el mercado." }
+        ],
+        componente: {
+            area: "Componente Transversal y de Formación Profesional",
+            subarea: "Emprendimiento, Innovación Social y Creación de Empresas",
+            nbc: "Administración e Innovación",
+            decreto: "Decreto 1330 de 2019 - Componente de Emprendimiento y Desarrollo Empresarial"
+        },
+        asignaturas: [
+            { nombre: "Emprendimiento e Innovación", sem: "V Semestre", creditos: 3, tipo: "Obligatoria Transversal", desc: "Detección de oportunidades de negocio, Lean Startup, ideación creativa, prototipado rápido y validación comercial temprana." },
+            { nombre: "Gestión de Proyectos Empresariales", sem: "VII Semestre", creditos: 3, tipo: "Obligatoria Profesional", desc: "Formulación y evaluación técnica, financiera, ambiental y de mercado bajo estándares PMI y marcos ágiles (Scrum)." },
+            { nombre: "Modelos de Negocio Lean & Creación de Empresas", sem: "VI Semestre", creditos: 3, tipo: "Obligatoria Profesional", desc: "Business Model Canvas, pruebas de tracción, plan de negocios estructurado, pitch deck y formalización jurídica y fiscal de empresas." },
+            { nombre: "Innovación Social y Desarrollo Comunitario", sem: "IV Semestre", creditos: 2, tipo: "Obligatoria Transversal", desc: "Solución de problemáticas territoriales mediante modelos de negocio inclusivos, empresas de Beneficio e Interés Colectivo (BIC) y economías colaborativas." }
+        ],
+        competencias: "Capacidad para concebir, estructurar, financiar y liderar proyectos de emprendimiento empresarial e innovación social que generen valor económico sostenible, empleo formal y soluciones pertinentes a las necesidades del entorno.",
+        modeloPedagogico: "Incubación de iniciativas de negocio en el Vivero Empresarial del CIDRE, articulación con el CUEES Santander y el caso de éxito insigne de Spin-off universitaria MYB S.A.S. (creada por docentes y egresados)."
+    },
+    5: {
+        id: 5,
+        title: "5. Teoría de la RSE & Sostenibilidad",
+        numeral: "Numeral 3.5.2.5 & 3.5.3.1 e)",
+        color: "#059669",
+        bgColor: "#ECFDF5",
+        borderColor: "#A7F3D0",
+        icon: "fas fa-leaf",
+        referentes: [
+            { autor: "Archie B. Carroll", ano: "1991", escuela: "Pirámide de la Responsabilidad Social Empresarial", aporte: "Los cuatro escalones de la RSE: Responsabilidad Económica (ser rentable), Legal (cumplir la ley), Ética (hacer lo correcto) y Filantrópica (ser un buen ciudadano corporativo)." },
+            { autor: "R. Edward Freeman", ano: "1984", escuela: "Teoría de los Grupos de Interés (Stakeholders)", aporte: "Superación del enfoque exclusivo del accionista: la sostenibilidad radica en crear valor armónico para empleados, clientes, proveedores, comunidades y el medio ambiente." },
+            { autor: "John Elkington", ano: "1997", escuela: "Triple Cuenta de Resultados (Triple Bottom Line)", aporte: "Desempeño empresarial evaluado sobre tres pilares interdependientes: Prosperidad Económica (Profit), Equidad Social (People) y Calidad Ambiental (Planet)." },
+            { autor: "Michael Porter & Mark Kramer", ano: "2011", escuela: "Creación de Valor Compartido (CSV)", aporte: "Generación de valor económico de una manera que también genere valor para la sociedad al abordar sus necesidades y desafíos." }
+        ],
+        componente: {
+            area: "Componente Institucional, Socio-Humanístico y Énfasis Gerencial Sostenible",
+            subarea: "Ética Empresarial, Sostenibilidad Corporativa y Gobierno de Organizaciones",
+            nbc: "Administración y Desarrollo Sostenible",
+            decreto: "Decreto 1330 de 2019 - Componente Socio-Humanístico y de Sostenibilidad"
+        },
+        asignaturas: [
+            { nombre: "Responsabilidad Social Empresarial (RSE)", sem: "VI Semestre", creditos: 2, tipo: "Obligatoria Institucional", desc: "Modelos de gestión ética, balances sociales, norma ISO 26000, principios del Pacto Global de la ONU y matrices de materialidad." },
+            { nombre: "Gestión Sostenible y Economía Circular", sem: "VII Semestre", creditos: 3, tipo: "Obligatoria Disciplinar / Énfasis", desc: "Criterios ESG (Environmental, Social, Governance), ecoinnovación, huella de carbono organizacional y modelos de ciclo cerrado en cadenas de valor." },
+            { nombre: "Ética Profesional y Ciudadana", sem: "III Semestre", creditos: 2, tipo: "Obligatoria Socio-Humanística", desc: "Dilemas éticos gerenciales, transparencia, código deontológico del administrador de empresas (Ley 60 de 1981) y anticorrupción." },
+            { nombre: "Gobierno Corporativo y Sostenibilidad", sem: "VIII Semestre", creditos: 3, tipo: "Obligatoria Disciplinar", desc: "Juntas directivas, derechos de accionistas y stakeholders, rendición pública de cuentas y reportes de sostenibilidad bajo estándares GRI." }
+        ],
+        competencias: "Capacidad para incorporar principios éticos, criterios ESG (Ambiental, Social y Gobernanza) y de valor compartido en la toma de decisiones, orientando la organización hacia la sostenibilidad integral y la responsabilidad comunitaria.",
+        modeloPedagogico: "Formulación de planes de RSE y balances de sostenibilidad para microempresas atendidas en el programa de consultoría del CIDRE, articulando los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030."
+    },
+    6: {
+        id: 6,
+        title: "6. Teoría de la Pedagogía Virtual & Autonomía",
+        numeral: "Numeral 3.5.2.6 & 3.5.3.1 f)",
+        color: "#475569",
+        bgColor: "#F8FAFC",
+        borderColor: "#CBD5E1",
+        icon: "fas fa-laptop-code",
+        referentes: [
+            { autor: "Jean Piaget & Lev Vygotsky", ano: "1970 / 1978", escuela: "Epistemología Constructivista y Sociocultural", aporte: "El conocimiento no se transmite pasivamente; se construye activamente por el sujeto en interacción con su entorno social y a través de la mediación cultural." },
+            { autor: "George Siemens", ano: "2005", escuela: "Teoría del Conectivismo", aporte: "Teoría del aprendizaje para la era digital: el aprendizaje reside en redes de conexiones, nodos de información diversa y la capacidad de alimentar y mantener esas conexiones activas." },
+            { autor: "Terry Anderson", ano: "2008", escuela: "Modelo de Comunidades de Indagación", aporte: "Estructuración de entornos virtuales eficaces a través de la interacción sinérgica entre tres presencias: presencia docente, presencia social y presencia cognitiva." },
+            { autor: "Malcolm Knowles", ano: "1984", escuela: "Teoría Andragógica y Aprendizaje Autónomo", aporte: "El aprendizaje del adulto guiado por la automotivación, la experiencia acumulada previa, la orientación práctica a metas y la autorregulación." }
+        ],
+        componente: {
+            area: "Componente Institucional, Metodológico y Tecnológico (Presencial y Virtual)",
+            subarea: "Pedagogía Digital, Aprendizaje Autónomo y Sistemas de Información",
+            nbc: "Metodologías de Formación y Tecnologías de la Información",
+            decreto: "Decreto 1330 de 2019 - Componente Pedagógico y Tecnológico en Ambientes Virtuales"
+        },
+        asignaturas: [
+            { nombre: "Desarrollo Profesional Virtual & Habilidades de Aprendizaje", sem: "I Semestre", creditos: 2, tipo: "Obligatoria Metodológica", desc: "Autorregulación del aprendizaje, gestión estratégica del tiempo, trabajo autónomo y colaborativo en plataformas LMS Moodle." },
+            { nombre: "Gestión de la Información Digital & Herramientas TIC", sem: "II Semestre", creditos: 3, tipo: "Obligatoria Tecnológica", desc: "Alfabetización digital avanzada, ofimática gerencial en la nube, curaduría de contenidos y analítica de datos aplicada a la administración." },
+            { nombre: "Cátedra Institucional TO", sem: "I Semestre", creditos: 1, tipo: "Obligatoria Institucional", desc: "Apropiación del Modelo Pedagógico 'Formación en Contextos de Aplicación', proyecto de vida universitario y ética del aprendizaje digital." },
+            { nombre: "Sistemas de Información Gerencial (SIG)", sem: "IV Semestre", creditos: 3, tipo: "Obligatoria Profesional", desc: "Arquitectura de información para la toma de decisiones gerenciales, ERP, CRM, Big Data básico y plataformas cloud computing." }
+        ],
+        competencias: "Capacidad para autorregular el propio proceso de aprendizaje continuo, interactuar eficazmente en entornos tecnológicos y virtuales de trabajo, y gestionar sistemas de información digital para la toma de decisiones empresariales.",
+        modeloPedagogico: "Acompañamiento tutorial sincrónico y asincrónico 24/7 en el Campus Virtual TO, uso de simuladores gerenciales en la nube, Masterclasses interactivas y proyectos de aula mediados por entornos colaborativos digitales."
+    }
+};
+
+window.openEpistemologyModal = function(theoryKey, planType) {
+    const data = c3EpistemologyData[theoryKey];
+    if (!data) return;
+
+    let existing = document.getElementById('c3EpistemologyModalOverlay');
+    if (existing) existing.remove();
+
+    const planLabel = (planType === 'prop') ? 'Plan Propuesto (144 Créditos - 8 Semestres)' : 'Registro Único Actual SACES (158 Créditos - 9 Semestres)';
+
+    const referentesHtml = data.referentes.map(r => `
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-left:4px solid ${data.color}; border-radius:8px; padding:12px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div>
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                    <strong style="color:#0F172A; font-size:0.86rem; font-family:'Montserrat',sans-serif;">${r.autor}</strong>
+                    <span style="background:${data.bgColor}; color:${data.color}; font-size:0.72rem; font-weight:800; padding:2px 6px; border-radius:4px; border:1px solid ${data.borderColor};">${r.ano}</span>
+                </div>
+                <div style="font-size:0.74rem; font-weight:700; color:#64748B; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.5px;">${r.escuela}</div>
+                <p style="font-size:0.78rem; color:#334155; line-height:1.45; margin:0;">${r.aporte}</p>
+            </div>
+        </div>
+    `).join('');
+
+    const asignaturasHtml = data.asignaturas.map(a => `
+        <div style="background:#FFFFFF; border:1px solid #CBD5E1; border-top:3px solid ${data.color}; border-radius:8px; padding:12px; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 2px 4px rgba(0,0,0,0.04);">
+            <div>
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px; margin-bottom:6px;">
+                    <strong style="color:#0F172A; font-size:0.86rem; line-height:1.3;">${a.nombre}</strong>
+                    <span style="background:#F1F5F9; color:#0F172A; font-size:0.7rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap;">${a.creditos} Créditos</span>
+                </div>
+                <div style="display:flex; gap:6px; margin-bottom:8px; flex-wrap:wrap;">
+                    <span style="background:${data.bgColor}; color:${data.color}; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:3px;">${a.sem}</span>
+                    <span style="background:#F8FAFC; color:#64748B; border:1px solid #E2E8F0; font-size:0.68rem; font-weight:600; padding:2px 6px; border-radius:3px;">${a.tipo}</span>
+                </div>
+                <p style="font-size:0.76rem; color:#475569; line-height:1.45; margin:0;">${a.desc}</p>
+            </div>
+        </div>
+    `).join('');
+
+    const modalHtml = `
+        <div id="c3EpistemologyModalOverlay" class="subject-modal-overlay" onclick="closeEpistemologyModal(event)" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(15,23,42,0.78); backdrop-filter:blur(6px); z-index:100000; display:flex; align-items:center; justify-content:center; padding:16px; box-sizing:border-box;">
+            <div class="subject-modal-container" onclick="event.stopPropagation()" style="background:#fff; border-radius:12px; width:100%; max-width:980px; max-height:92vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.4); border-top:6px solid ${data.color}; overflow:hidden;">
+                
+                <!-- HEADER DEL MODAL -->
+                <div style="background:#1A1A1B; color:#fff; padding:16px 20px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #334155;">
+                    <div style="display:flex; align-items:center; gap:12px;">
+                        <div style="width:42px; height:42px; border-radius:8px; background:${data.bgColor}; border:2px solid ${data.borderColor}; display:flex; align-items:center; justify-content:center; color:${data.color}; font-size:1.3rem;">
+                            <i class="${data.icon}"></i>
+                        </div>
+                        <div>
+                            <span style="font-size:0.7rem; text-transform:uppercase; letter-spacing:1px; color:#FBBF24; font-weight:800; display:block;">
+                                ${data.numeral} · DOCUMENTO MAESTRO OFICIAL · ${planLabel}
+                            </span>
+                            <h3 style="font-family:'Montserrat',sans-serif; font-size:1.15rem; font-weight:800; color:#fff; margin:0;">
+                                ${data.title}
+                            </h3>
+                        </div>
+                    </div>
+                    <button onclick="closeEpistemologyModal()" style="background:#334155; border:none; width:34px; height:34px; border-radius:50%; cursor:pointer; font-size:1rem; color:#fff; display:flex; align-items:center; justify-content:center; transition:background 0.2s;" title="Cerrar ventana">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- CONTENIDO SCROLLABLE -->
+                <div style="padding:20px; overflow-y:auto; flex:1; background:#F8FAFC;">
+                    
+                    <!-- COMPONENTE CURRICULAR Y ÁREA DE FORMACIÓN -->
+                    <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:10px; padding:16px; margin-bottom:18px; box-shadow:0 2px 4px rgba(0,0,0,0.03);">
+                        <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                            <i class="fas fa-sitemap" style="color:${data.color}; font-size:1rem;"></i>
+                            <h4 style="margin:0; font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#0F172A;">
+                                Componente Curricular y Área de Formación Oficial
+                            </h4>
+                        </div>
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px; font-size:0.8rem;">
+                            <div style="background:#F8FAFC; padding:10px; border-radius:6px; border-left:3px solid ${data.color};">
+                                <span style="color:#64748B; font-size:0.72rem; display:block; font-weight:700;">ÁREA DE FORMACIÓN:</span>
+                                <strong style="color:#0F172A;">${data.componente.area}</strong>
+                            </div>
+                            <div style="background:#F8FAFC; padding:10px; border-radius:6px; border-left:3px solid #2563EB;">
+                                <span style="color:#64748B; font-size:0.72rem; display:block; font-weight:700;">SUB-ÁREA / ÉNFASIS:</span>
+                                <strong style="color:#0F172A;">${data.componente.subarea}</strong>
+                            </div>
+                            <div style="background:#F8FAFC; padding:10px; border-radius:6px; border-left:3px solid #16A34A;">
+                                <span style="color:#64748B; font-size:0.72rem; display:block; font-weight:700;">NORMATIVIDAD MEN:</span>
+                                <strong style="color:#0F172A;">${data.componente.decreto}</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ASIGNATURAS QUE DAN CUMPLIMIENTO -->
+                    <div style="margin-bottom:18px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <i class="fas fa-graduation-cap" style="color:${data.color}; font-size:1rem;"></i>
+                                <h4 style="margin:0; font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#0F172A;">
+                                    Asignaturas del Plan de Estudios que Dan Cumplimiento Directo
+                                </h4>
+                            </div>
+                            <span style="font-size:0.72rem; background:#E2E8F0; color:#334155; font-weight:800; padding:3px 8px; border-radius:12px;">
+                                Numeral 3.5.3.1 Documento Maestro
+                            </span>
+                        </div>
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:12px;">
+                            ${asignaturasHtml}
+                        </div>
+                    </div>
+
+                    <!-- REFERENTES TEÓRICOS Y ESCUELAS CANÓNICAS -->
+                    <div style="margin-bottom:18px;">
+                        <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
+                            <i class="fas fa-book-reader" style="color:${data.color}; font-size:1rem;"></i>
+                            <h4 style="margin:0; font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#0F172A;">
+                                Referentes Teóricos, Autores y Escuelas Epistemológicas
+                            </h4>
+                        </div>
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+                            ${referentesHtml}
+                        </div>
+                    </div>
+
+                    <!-- COMPETENCIAS Y MODELO PEDAGÓGICO -->
+                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:12px;">
+                        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:8px; padding:14px; box-shadow:0 1px 3px rgba(0,0,0,0.03);">
+                            <div style="display:flex; align-items:center; gap:6px; margin-bottom:6px;">
+                                <i class="fas fa-award" style="color:#D97706;"></i>
+                                <strong style="color:#0F172A; font-size:0.84rem; font-family:'Montserrat',sans-serif;">Competencia del Perfil de Egreso:</strong>
+                            </div>
+                            <p style="font-size:0.78rem; color:#334155; line-height:1.5; margin:0;">
+                                ${data.competencias}
+                            </p>
+                        </div>
+                        <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:8px; padding:14px; box-shadow:0 1px 3px rgba(0,0,0,0.03);">
+                            <div style="display:flex; align-items:center; gap:6px; margin-bottom:6px;">
+                                <i class="fas fa-laptop-house" style="color:#059669;"></i>
+                                <strong style="color:#0F172A; font-size:0.84rem; font-family:'Montserrat',sans-serif;">Modelo "Formación en Contextos de Aplicación":</strong>
+                            </div>
+                            <p style="font-size:0.78rem; color:#334155; line-height:1.5; margin:0;">
+                                ${data.modeloPedagogico}
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- FOOTER DEL MODAL -->
+                <div style="background:#FFFFFF; border-top:1px solid #E2E8F0; padding:12px 20px; display:flex; justify-content:space-between; align-items:center;">
+                    <span style="font-size:0.74rem; color:#64748B;">
+                        <i class="fas fa-info-circle" style="color:${data.color};"></i> Información canónica del Documento Maestro SACES · Resolución 011375 y Acuerdo CS 021/2025.
+                    </span>
+                    <button onclick="closeEpistemologyModal()" style="background:#1A1A1B; color:#fff; border:none; padding:8px 20px; border-radius:6px; font-weight:700; cursor:pointer; font-size:0.82rem; transition:background 0.2s;">
+                        <i class="fas fa-check mr-1"></i> Cerrar Ventana
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', modalHtml);
+};
+
+window.closeEpistemologyModal = function(e) {
+    if (e && e.target && e.target.id !== 'c3EpistemologyModalOverlay' && !e.target.closest('button')) return;
+    const modal = document.getElementById('c3EpistemologyModalOverlay');
+    if (modal) modal.remove();
+};
+
 window.closeAreaModal = function(e) {
     if (e && e.target && e.target.id !== 'c3AreaModalOverlay' && !e.target.closest('button')) return;
     const modal = document.getElementById('c3AreaModalOverlay');
@@ -15815,70 +16169,153 @@ window.SECTIONS['c3'] = `
             </div>
         </div>
 
-        <!-- 2. LAS 6 CORRIENTES TEÓRICAS Y EPISTEMOLÓGICAS (3.5.2) -->
+                <!-- 2. LAS 6 CORRIENTES TEÓRICAS Y EPISTEMOLÓGICAS (3.5.2) -->
         <div class="card" style="margin-bottom:22px; border-top:4px solid #F39200;">
-            <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin-bottom:14px;">
-                <i class="fas fa-book" style="color:var(--orange); margin-right:8px;"></i> 2. Los 6 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2)
-            </h4>
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
+                <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin:0;">
+                    <i class="fas fa-book" style="color:var(--orange); margin-right:8px;"></i> 2. Los 6 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2)
+                </h4>
+                <span style="font-size:0.75rem; background:#FEF3C7; color:#92400E; font-weight:800; padding:4px 10px; border-radius:12px; border:1px solid #FDE68A;">
+                    <i class="fas fa-hand-pointer mr-1"></i> Haga clic en cualquier tarjeta para desplegar componentes y asignaturas articuladas
+                </span>
+            </div>
             <div class="grid-3" style="gap:14px;">
-                <!-- 1. Gestión Estratégica -->
-                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-left:4px solid #D97706; border-radius:8px; padding:14px;">
-                    <strong style="color:#B45309; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        1. Teoría de la Administración & Gestión Estratégica
-                    </strong>
-                    <p style="font-size:0.8rem; color:#78350F; line-height:1.5; margin:0;">
+                <!-- 1. Teoría de la Administración & Gestión Estratégica -->
+                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-left:5px solid #D97706; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(1, 'vig')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#D97706; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            1. Teoría de la Administración & Gestión Estratégica
+                        </strong>
+                        <span style="background:#FFFFFF; color:#D97706; border:1px solid #FDE68A; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Fundamentada en las escuelas clásicas (Taylor, Fayol, Weber) y contemporáneas (Michael Porter, Henry Mintzberg, Peter Drucker) para la toma de decisiones, posicionamiento competitivo y dirección estratégica.
                     </p>
+                    <div style="border-top:1px dashed #FDE68A; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#D97706;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 2. Recursos Humanos y Liderazgo -->
-                <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-left:4px solid #16A34A; border-radius:8px; padding:14px;">
-                    <strong style="color:#15803D; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        2. Teoría de Recursos Humanos & Liderazgo
-                    </strong>
-                    <p style="font-size:0.8rem; color:#14532D; line-height:1.5; margin:0;">
+                <!-- 2. Teoría de Recursos Humanos & Liderazgo -->
+                <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-left:5px solid #16A34A; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(2, 'vig')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#16A34A; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            2. Teoría de Recursos Humanos & Liderazgo
+                        </strong>
+                        <span style="background:#FFFFFF; color:#16A34A; border:1px solid #BBF7D0; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         De las relaciones humanas (Elton Mayo, Maslow, Herzberg, McGregor) a los modelos modernos de gestión estratégica del talento humano, capital intelectual y liderazgo transformacional (Dave Ulrich).
                     </p>
+                    <div style="border-top:1px dashed #BBF7D0; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#16A34A;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 3. Marketing e Innovación -->
-                <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-left:4px solid #2563EB; border-radius:8px; padding:14px;">
-                    <strong style="color:#1D4ED8; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        3. Teoría del Marketing & la Innovación
-                    </strong>
-                    <p style="font-size:0.8rem; color:#1E40AF; line-height:1.5; margin:0;">
+                <!-- 3. Teoría del Marketing & la Innovación -->
+                <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-left:5px solid #2563EB; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(3, 'vig')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#2563EB; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            3. Teoría del Marketing & la Innovación
+                        </strong>
+                        <span style="background:#FFFFFF; color:#2563EB; border:1px solid #BFDBFE; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Marketing estratégico orientado a la creación de valor y análisis del consumidor (Philip Kotler, Gary Armstrong), articulado con la teoría de la innovación y destrucción creativa (Joseph Schumpeter).
                     </p>
+                    <div style="border-top:1px dashed #BFDBFE; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#2563EB;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 4. Emprendimiento e Innovación Social -->
-                <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-left:4px solid #9333EA; border-radius:8px; padding:14px;">
-                    <strong style="color:#7E22CE; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        4. Teoría del Emprendimiento & la Innovación Social
-                    </strong>
-                    <p style="font-size:0.8rem; color:#581C87; line-height:1.5; margin:0;">
+                <!-- 4. Teoría del Emprendimiento & la Innovación Social -->
+                <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-left:5px solid #9333EA; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(4, 'vig')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#9333EA; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            4. Teoría del Emprendimiento & la Innovación Social
+                        </strong>
+                        <span style="background:#FFFFFF; color:#9333EA; border:1px solid #E9D5FF; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Emprendimiento como motor de desarrollo y generación de empleo (Scott Shane, Peter Drucker), complementado con modelos de negocio lean, innovación social y creación de empresas (Alexander Osterwalder).
                     </p>
+                    <div style="border-top:1px dashed #E9D5FF; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#9333EA;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 5. Responsabilidad Social y Sostenibilidad -->
-                <div style="background:#ECFDF5; border:1px solid #A7F3D0; border-left:4px solid #059669; border-radius:8px; padding:14px;">
-                    <strong style="color:#047857; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        5. Teoría de la RSE & Sostenibilidad
-                    </strong>
-                    <p style="font-size:0.8rem; color:#065F46; line-height:1.5; margin:0;">
+                <!-- 5. Teoría de la RSE & Sostenibilidad -->
+                <div style="background:#ECFDF5; border:1px solid #A7F3D0; border-left:5px solid #059669; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(5, 'vig')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#059669; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            5. Teoría de la RSE & Sostenibilidad
+                        </strong>
+                        <span style="background:#FFFFFF; color:#059669; border:1px solid #A7F3D0; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Ética empresarial y pirámide de RSE (Archie Carroll), teoría de grupos de interés o stakeholders (Edward Freeman), valor compartido (Porter & Kramer) y triple impacto: económico, social y ambiental (John Elkington).
                     </p>
+                    <div style="border-top:1px dashed #A7F3D0; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#059669;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 6. Pedagogía Virtual y Aprendizaje Autónomo -->
-                <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-left:4px solid #475569; border-radius:8px; padding:14px;">
-                    <strong style="color:#0F172A; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        6. Teoría de la Pedagogía Virtual & Autonomía
-                    </strong>
-                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0;">
+                <!-- 6. Teoría de la Pedagogía Virtual & Autonomía -->
+                <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-left:5px solid #475569; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(6, 'vig')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#475569; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            6. Teoría de la Pedagogía Virtual & Autonomía
+                        </strong>
+                        <span style="background:#FFFFFF; color:#475569; border:1px solid #CBD5E1; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Constructivismo (Piaget, Vygotsky), conectivismo y mediación tecnológica (George Siemens, Terry Anderson) y andragogía (Malcolm Knowles) para el desarrollo de la autonomía y autorregulación gerencial.
                     </p>
+                    <div style="border-top:1px dashed #CBD5E1; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#475569;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -20128,70 +20565,153 @@ window.SECTIONS['c3'] = `
             </div>
         </div>
 
-        <!-- 2. LAS 6 CORRIENTES TEÓRICAS Y EPISTEMOLÓGICAS (3.5.2) -->
+                <!-- 2. LAS 6 CORRIENTES TEÓRICAS Y EPISTEMOLÓGICAS (3.5.2) -->
         <div class="card" style="margin-bottom:22px; border-top:4px solid #F39200;">
-            <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin-bottom:14px;">
-                <i class="fas fa-book" style="color:var(--orange); margin-right:8px;"></i> 2. Los 6 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2)
-            </h4>
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
+                <h4 style="font-family:var(--font-heading); font-size:1.15rem; font-weight:800; color:var(--carbon); margin:0;">
+                    <i class="fas fa-book" style="color:var(--orange); margin-right:8px;"></i> 2. Los 6 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2)
+                </h4>
+                <span style="font-size:0.75rem; background:#FEF3C7; color:#92400E; font-weight:800; padding:4px 10px; border-radius:12px; border:1px solid #FDE68A;">
+                    <i class="fas fa-hand-pointer mr-1"></i> Haga clic en cualquier tarjeta para desplegar componentes y asignaturas articuladas
+                </span>
+            </div>
             <div class="grid-3" style="gap:14px;">
-                <!-- 1. Gestión Estratégica -->
-                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-left:4px solid #D97706; border-radius:8px; padding:14px;">
-                    <strong style="color:#B45309; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        1. Teoría de la Administración & Gestión Estratégica
-                    </strong>
-                    <p style="font-size:0.8rem; color:#78350F; line-height:1.5; margin:0;">
+                <!-- 1. Teoría de la Administración & Gestión Estratégica -->
+                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-left:5px solid #D97706; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(1, 'prop')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#D97706; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            1. Teoría de la Administración & Gestión Estratégica
+                        </strong>
+                        <span style="background:#FFFFFF; color:#D97706; border:1px solid #FDE68A; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Fundamentada en las escuelas clásicas (Taylor, Fayol, Weber) y contemporáneas (Michael Porter, Henry Mintzberg, Peter Drucker) para la toma de decisiones, posicionamiento competitivo y dirección estratégica.
                     </p>
+                    <div style="border-top:1px dashed #FDE68A; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#D97706;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 2. Recursos Humanos y Liderazgo -->
-                <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-left:4px solid #16A34A; border-radius:8px; padding:14px;">
-                    <strong style="color:#15803D; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        2. Teoría de Recursos Humanos & Liderazgo
-                    </strong>
-                    <p style="font-size:0.8rem; color:#14532D; line-height:1.5; margin:0;">
+                <!-- 2. Teoría de Recursos Humanos & Liderazgo -->
+                <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-left:5px solid #16A34A; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(2, 'prop')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#16A34A; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            2. Teoría de Recursos Humanos & Liderazgo
+                        </strong>
+                        <span style="background:#FFFFFF; color:#16A34A; border:1px solid #BBF7D0; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         De las relaciones humanas (Elton Mayo, Maslow, Herzberg, McGregor) a los modelos modernos de gestión estratégica del talento humano, capital intelectual y liderazgo transformacional (Dave Ulrich).
                     </p>
+                    <div style="border-top:1px dashed #BBF7D0; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#16A34A;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 3. Marketing e Innovación -->
-                <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-left:4px solid #2563EB; border-radius:8px; padding:14px;">
-                    <strong style="color:#1D4ED8; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        3. Teoría del Marketing & la Innovación
-                    </strong>
-                    <p style="font-size:0.8rem; color:#1E40AF; line-height:1.5; margin:0;">
+                <!-- 3. Teoría del Marketing & la Innovación -->
+                <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-left:5px solid #2563EB; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(3, 'prop')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#2563EB; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            3. Teoría del Marketing & la Innovación
+                        </strong>
+                        <span style="background:#FFFFFF; color:#2563EB; border:1px solid #BFDBFE; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Marketing estratégico orientado a la creación de valor y análisis del consumidor (Philip Kotler, Gary Armstrong), articulado con la teoría de la innovación y destrucción creativa (Joseph Schumpeter).
                     </p>
+                    <div style="border-top:1px dashed #BFDBFE; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#2563EB;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 4. Emprendimiento e Innovación Social -->
-                <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-left:4px solid #9333EA; border-radius:8px; padding:14px;">
-                    <strong style="color:#7E22CE; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        4. Teoría del Emprendimiento & la Innovación Social
-                    </strong>
-                    <p style="font-size:0.8rem; color:#581C87; line-height:1.5; margin:0;">
+                <!-- 4. Teoría del Emprendimiento & la Innovación Social -->
+                <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-left:5px solid #9333EA; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(4, 'prop')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#9333EA; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            4. Teoría del Emprendimiento & la Innovación Social
+                        </strong>
+                        <span style="background:#FFFFFF; color:#9333EA; border:1px solid #E9D5FF; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Emprendimiento como motor de desarrollo y generación de empleo (Scott Shane, Peter Drucker), complementado con modelos de negocio lean, innovación social y creación de empresas (Alexander Osterwalder).
                     </p>
+                    <div style="border-top:1px dashed #E9D5FF; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#9333EA;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 5. Responsabilidad Social y Sostenibilidad -->
-                <div style="background:#ECFDF5; border:1px solid #A7F3D0; border-left:4px solid #059669; border-radius:8px; padding:14px;">
-                    <strong style="color:#047857; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        5. Teoría de la RSE & Sostenibilidad
-                    </strong>
-                    <p style="font-size:0.8rem; color:#065F46; line-height:1.5; margin:0;">
+                <!-- 5. Teoría de la RSE & Sostenibilidad -->
+                <div style="background:#ECFDF5; border:1px solid #A7F3D0; border-left:5px solid #059669; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(5, 'prop')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#059669; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            5. Teoría de la RSE & Sostenibilidad
+                        </strong>
+                        <span style="background:#FFFFFF; color:#059669; border:1px solid #A7F3D0; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Ética empresarial y pirámide de RSE (Archie Carroll), teoría de grupos de interés o stakeholders (Edward Freeman), valor compartido (Porter & Kramer) y triple impacto: económico, social y ambiental (John Elkington).
                     </p>
+                    <div style="border-top:1px dashed #A7F3D0; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#059669;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
 
-                <!-- 6. Pedagogía Virtual y Aprendizaje Autónomo -->
-                <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-left:4px solid #475569; border-radius:8px; padding:14px;">
-                    <strong style="color:#0F172A; font-size:0.88rem; display:block; margin-bottom:4px;">
-                        6. Teoría de la Pedagogía Virtual & Autonomía
-                    </strong>
-                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0;">
+                <!-- 6. Teoría de la Pedagogía Virtual & Autonomía -->
+                <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-left:5px solid #475569; border-radius:8px; padding:14px; cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;"
+                     onclick="openEpistemologyModal(6, 'prop')"
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 20px -5px rgba(0,0,0,0.15)';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='none';"
+                     title="Clic para ver componentes, asignaturas y competencias articuladas">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+                        <strong style="color:#475569; font-size:0.88rem; font-family:'Montserrat',sans-serif; line-height:1.3;">
+                            6. Teoría de la Pedagogía Virtual & Autonomía
+                        </strong>
+                        <span style="background:#FFFFFF; color:#475569; border:1px solid #CBD5E1; font-size:0.68rem; font-weight:800; padding:2px 6px; border-radius:4px; white-space:nowrap; margin-left:6px;">
+                            <i class="fas fa-window-restore"></i> Ver Asignaturas
+                        </span>
+                    </div>
+                    <p style="font-size:0.8rem; color:#334155; line-height:1.5; margin:0 0 10px 0;">
                         Constructivismo (Piaget, Vygotsky), conectivismo y mediación tecnológica (George Siemens, Terry Anderson) y andragogía (Malcolm Knowles) para el desarrollo de la autonomía y autorregulación gerencial.
                     </p>
+                    <div style="border-top:1px dashed #CBD5E1; padding-top:8px; display:flex; justify-content:space-between; align-items:center; font-size:0.74rem; font-weight:800; color:#475569;">
+                        <span><i class="fas fa-layer-group mr-1"></i> Componentes & Asignaturas vinculadas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>

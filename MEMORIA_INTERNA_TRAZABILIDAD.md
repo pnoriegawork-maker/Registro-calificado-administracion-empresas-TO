@@ -506,3 +506,57 @@ Integración completa de la presentación oficial `Condición 7 Profesores ADmon
 - Sintaxis JS verificada con Node.js (`node -c`): 0 errores.
 - Cachebusters actualizados en `index.html`: `sections_c5.js?v=20261021_c5_v4` y `sections_c7.js?v=20261021_c7_v3`.
 - Sincronización realizada en `sitio_web/` y `Rep_Github/`.
+
+
+---
+
+## IX. IMPLEMENTACIÓN DE VENTANAS EMERGENTES (MODALES) Y ASIGNATURAS ARTICULADAS A LOS 6 FUNDAMENTOS TEÓRICOS (NUMERAL 3.5.2 Y 3.5.3.1) [2026-10-21]
+
+### 1. Requerimiento y Diagnóstico
+En la subpestaña **d) Conceptualización Teórica y Epistemológica del Programa** de la Condición 3 (Aspectos Curriculares), los 6 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2 del Documento Maestro) se presentaban en tarjetas estáticas sin enlace a sus asignaturas y áreas de formación.
+Se requirió la implementación de ventanas emergentes (modales interactivos) al hacer clic sobre cualquiera de las 6 tarjetas, desplegando los componentes curriculares y las asignaturas que dan cumplimiento y donde se desarrollan las teorías de los referentes señalados.
+
+### 2. Estructura Canónica Incorporada en el Modal (Numeral 3.5.3.1 Documento Maestro)
+Se desarrolló la función global window.openEpistemologyModal(theoryKey, planType) y window.closeEpistemologyModal(e) en sections_c3.js, integrando para cada teoría:
+
+1. **Teoría de la Administración & Gestión Estratégica (Numeral 3.5.2.1 & 3.5.3.1 a):**
+   - *Referentes Canónicos:* Taylor (1911), Fayol (1916), Weber (1922), Porter (1980/1985), Mintzberg (1994) y Drucker (1985/1993).
+   - *Componente:* Área de Formación Profesional / Disciplinar (Gestión Organizacional, Planeación y Dirección).
+   - *Asignaturas:* Planeación Estratégica (VI sem, 3 cr), Dirección de Organizaciones (V sem, 3 cr), Gestión de Recursos Empresariales (IV sem, 3 cr), Gerencia Estratégica (VIII sem, 3 cr), Diagnóstico Empresarial (VII sem, 3 cr) y Fundamentos de Administración (I/II sem, 3 cr).
+   - *Competencias & Aplicación:* Modelos de toma de decisiones y planes de diagnóstico estratégico aplicados a microempresas de Santander.
+
+2. **Teoría de Recursos Humanos & Liderazgo (Numeral 3.5.2.2 & 3.5.3.1 b):**
+   - *Referentes Canónicos:* Elton Mayo (1933), Abraham Maslow (1943), Frederick Herzberg (1966), Douglas McGregor (1960) y Dave Ulrich (1997/2013).
+   - *Componente:* Área de Formación Profesional / Disciplinar (Gestión del Talento Humano y Clima Organizacional).
+   - *Asignaturas:* Gestión del Talento Humano (V sem, 3 cr), Comportamiento Organizacional (III sem, 3 cr), Liderazgo Ético y Habilidades Gerenciales (IV sem, 2 cr), Cultura y Clima Organizacional (VI sem, 3 cr) y Seguridad y Salud en el Trabajo (V sem, 2 cr).
+   - *Competencias & Aplicación:* Liderazgo transformacional y diseño de planes de clima organizacional aplicados a empresas colaboradoras.
+
+3. **Teoría del Marketing & la Innovación (Numeral 3.5.2.3 & 3.5.3.1 c):**
+   - *Referentes Canónicos:* Philip Kotler & Gary Armstrong (2018), Joseph Schumpeter (1934/1942 - Destrucción Creativa) y Chan Kim & Mauborgne (2005 - Océano Azul).
+   - *Componente:* Área de Formación Profesional / Disciplinar (Mercadeo Estratégico e Innovación Comercial).
+   - *Asignaturas:* Marketing Estratégico (V sem, 3 cr), Gestión de la Innovación (VI sem, 3 cr), Investigación de Mercados (IV sem, 3 cr), Marketing Digital & Analítica Comercial (VII sem, 3 cr) y Gestión de Marcas y Productos (VI sem, 3 cr).
+   - *Competencias & Aplicación:* Creación de valor para el consumidor y planes reales de marketing digital para emprendimientos del oriente colombiano.
+
+4. **Teoría del Emprendimiento & la Innovación Social (Numeral 3.5.2.4 & 3.5.3.1 d):**
+   - *Referentes Canónicos:* Scott Shane (2003 - Oportunidad Emprendedora), Peter Drucker (1985) y Alexander Osterwalder (2010 - Canvas & Lean).
+   - *Componente:* Componente Transversal y de Formación Profesional (Emprendimiento e Innovación Social).
+   - *Asignaturas:* Emprendimiento e Innovación (V sem, 3 cr), Gestión de Proyectos Empresariales (VII sem, 3 cr), Modelos de Negocio Lean & Creación de Empresas (VI sem, 3 cr) e Innovación Social y Desarrollo Comunitario (IV sem, 2 cr).
+   - *Competencias & Aplicación:* Incubación en el Vivero del CIDRE, articulación CUEES y escalabilidad de la Spin-off institucional MYB S.A.S.
+
+5. **Teoría de la RSE & Sostenibilidad (Numeral 3.5.2.5 & 3.5.3.1 e):**
+   - *Referentes Canónicos:* Archie Carroll (1991 - Pirámide RSE), R. Edward Freeman (1984 - Stakeholders), John Elkington (1997 - Triple Bottom Line) y Porter & Kramer (2011 - Valor Compartido).
+   - *Componente:* Componente Institucional, Socio-Humanístico y Énfasis Gerencial Sostenible.
+   - *Asignaturas:* Responsabilidad Social Empresarial (VI sem, 2 cr), Gestión Sostenible y Economía Circular (VII sem, 3 cr), Ética Profesional y Ciudadana (III sem, 2 cr) y Gobierno Corporativo y Sostenibilidad (VIII sem, 3 cr).
+   - *Competencias & Aplicación:* Planes de sostenibilidad con criterios ESG (Ambiental, Social y Gobernanza) y matrices de materialidad.
+
+6. **Teoría de la Pedagogía Virtual & Autonomía (Numeral 3.5.2.6 & 3.5.3.1 f):**
+   - *Referentes Canónicos:* Piaget (1970) & Vygotsky (1978 - Constructivismo), George Siemens (2005 - Conectivismo), Terry Anderson (2008 - Comunidades de Indagación) y Malcolm Knowles (1984 - Andragogía).
+   - *Componente:* Componente Institucional, Metodológico y Tecnológico (Presencial y Virtual).
+   - *Asignaturas:* Desarrollo Profesional Virtual & Habilidades de Aprendizaje (I sem, 2 cr), Gestión de la Información Digital & Herramientas TIC (II sem, 3 cr), Cátedra Institucional TO (I sem, 1 cr) y Sistemas de Información Gerencial - SIG (IV sem, 3 cr).
+   - *Competencias & Aplicación:* Autorregulación del aprendizaje, simuladores en la nube y dinámica interactiva 24/7 en el Campus Virtual LMS Moodle.
+
+### 3. Visualización y Accesibilidad
+- Efecto hover con elevación tridimensional (	ranslateY(-4px)), sombra perimetral e indicador textual: *'Ver Asignaturas'* y *'Componentes & Asignaturas vinculadas'*.
+- Integración en ambos planes: Plan Vigente (c3-v-epistemologicos) y Plan Propuesto (c3-p-epistemologicos).
+- Soporte para cierre mediante clic en backdrop, botón de cierre y tecla Escape.
+- Cachebuster actualizado a sections_c3.js?v=20261021_v4.
