@@ -158,6 +158,7 @@ function runSlideScripts(id) {
             if (id === 'c3' && window.c3Init) window.c3Init();
             if (id === 'c4' && window.c4Init) window.c4Init();
             if (id === 'c5' && window.c5Init) window.c5Init();
+            if (id === 'c6' && window.c6Init) window.c6Init();
             if (id === 'c7' && window.c7Init) window.c7Init();
             if (id === 'c9' && window.c9Init) window.c9Init();
         }, delay);

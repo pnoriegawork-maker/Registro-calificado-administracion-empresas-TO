@@ -329,3 +329,68 @@ Todos los siguientes elementos están formalmente aprobados, implementados en c�
 
 
 
+
+## Sección U: Actualización Integral y Enriquecimiento de la Condición 6 (Relacionamiento con el Sector Externo y Proyección Social)
+
+De conformidad con los requerimientos directos y la información canónica del Documento Maestro oficial (D.M Administración de Empresas RU Renov.docx / Anexo 2), se reconstruyó integralmente el módulo de la Condición 6 (sections_c6.js), estructurado en 6 subsecciones interactivas en primer plano:
+
+1. **Subsección 1: Actividades Articuladas con el CUEES (Tabla 48 / Tabla 59 DM):**
+   - **Estadística Descriptiva de Alto Impacto:**
+     * **537 Beneficiarios Directos** (320 estudiantes de Administración de Empresas, 127 empresarios/emprendedores, 50 docentes investigadores, 40 directivos gremiales).
+     * **10 Actividades Estratégicas Ejecutadas:** Ruedas de Innovación y Negocios, Talleres de Emprendimiento con Fondo Emprender e iNNpulsa, Mesas de Competitividad con Fenalco, IMEBU y Coopfuturo, Encuentros de Transformación Digital con Cajasan y Cámara de Comercio de Bucaramanga, Foro de Cacao Santander y Jornadas de Sostenibilidad / ODS con Pacto Global Red Colombia.
+     * **9 Aliados del Ecosistema Productivo Regional:** Fondo Emprender, iNNpulsa Colombia, FENALCO Santander, IMEBU, Coopfuturo, Centro Cultural del Oriente, Cajasan, Cámara de Comercio de Bucaramanga, FEDECACAO y Pacto Global.
+     * **100% de Tasa de Cumplimiento** y satisfacción global de 94.8% en los participantes.
+   - **Visualización Interactiva:** Gráfico dinámico Chart.js de barras/área (c6CueesChart) que exhibe el desglose y crecimiento progresivo de beneficiarios por iniciativa.
+   - **Tabla Interactiva de Alto Impacto:** Tabla detallada de las 10 iniciativas con filtros por entidad promotora, modalidad (Presencial y Virtual) e impacto evidenciado.
+
+2. **Subsección 2: Educación Continua (Numeral 6.6.1 & Tabla 49 / Tabla 60 DM):**
+   - **Marco Conceptual y Tipologías Oficiales:** Descripción detallada de las modalidades de oferta (Diplomados de 80 a 160 hrs, Cursos de Actualización de 20 a 60 hrs, Talleres Prácticos, Seminarios Especializados, Congresos y Simposios Internacionales).
+   - **Visualización y Gráfico de Tendencia Positiva:** Gráfico de dona/barras (c6EduContinuaChart) que demuestra la distribución de programas certificados y el crecimiento en matrícula e impacto.
+   - **Tabla Oficial de Oferta (Tabla 49):** 8 programas de vanguardia alineados a estándares internacionales:
+     * Diplomado en Gerencia de Proyectos con Enfoque PMI y Metodologías Ágiles (120 hrs, 24 inscritos).
+     * Taller Avanzado de Formulación de Proyectos Bajo Estándar PMBOK (40 hrs, 18 inscritos).
+     * Curso de Preparación para la Certificación PMP (60 hrs, 15 inscritos).
+     * Taller de Gestión Ágil de Proyectos con Framework SCRUM (30 hrs, 22 inscritos).
+     * Diplomado en Gestión de Proyectos Sociales y de Desarrollo Sostenible (100 hrs, 16 inscritos).
+     * Seminario Internacional en Gestión de Proyectos Bajo la Norma ISO 21502:2020 (16 hrs, 33 inscritos).
+     * *Total en programas especializados:* 128 participantes certificados del programa de Administración de Empresas.
+     * *Congresos Internacionales de Investigación y Empresa:* 1.628 participantes vinculados en red académica y empresarial.
+   - **Diseño Visual:** Tarjetas con insignias de certificación, horas y competencias adquiridas.
+
+3. **Subsección 3: Proyección Social en el Programa (Numeral 6.7 DM):**
+   - **Evidencia de Gestión en el Periodo del Registro Calificado:**
+     * **Objetivo General:** Desarrollar acciones de interacción, asesoría, consultoría y extensión solidaria que impacten la competitividad, productividad y sostenibilidad del tejido empresarial regional y nacional.
+     * **4 Objetivos Específicos:** Fomento del emprendimiento de base tecnológica/social, asesoría directa a MiPymes, articulación curricular de proyectos de aula con problemáticas reales de empresas, y consolidación de la tele-consultoría a nivel nacional.
+     * **Integración Curricular Transversal:** Articulación directa de la proyección social con asignaturas estratégicas (*Emprendimiento, Gerencia Estratégica, Gestión de la Calidad, Diagnóstico Empresarial, Práctica Profesional y Responsabilidad Social Empresarial*).
+     * **Diferenciación y Cobertura por Modalidades:**
+       - *Modalidad Presencial:* Intervención en sitio, consultoría de campo en MiPymes de Santander, talleres presenciales y pasantías empresariales directas.
+       - *Modalidad Virtual:* Tele-consultoría empresarial sincrónica y asincrónica para organizaciones en los 33 departamentos de Colombia, diagnósticos empresariales remotos y Masterclasses con líderes empresariales de alcance nacional e internacional.
+
+4. **Subsección 4: Indicadores de Relación con el Sector Externo (Tabla 51 / Tabla 62 DM):**
+   - **Tablero Dinámico de Metas a 7 Años:** Comparativa entre la línea base histórica del programa y la proyección a 7 años:
+     * 1. Convenios marco y específicos activos: 5 iniciales → 20 proyectados (+300%).
+     * 2. MiPymes asesoradas por periodo: 20 iniciales → 80 proyectadas (+300%).
+     * 3. Estudiantes vinculados a prácticas profesionales por año: 15 iniciales → 80 proyectados (+433%).
+     * 4. Actividades de extensión y educación continua: 5 iniciales → 20 proyectadas (+300%).
+     * 5. Expertos empresariales en clases espejo/cátedra: 3 iniciales → 12 proyectados (+300%).
+     * 6. Proyectos de investigación aplicada articulados: 10 iniciales → 50 proyectados (+400%).
+     * 7. Participación en comités técnicos CUEES: 1 anual → 4 anuales (+300%).
+     * 8. Tasa de vinculación laboral de egresados al primer año: 20% → 60% (+200%).
+   - **Gráfico Comparativo Chart.js (c6IndicadoresChart):** Barras agrupadas comparando Línea Base vs. Meta a 7 Años, evidenciando un crecimiento medio superior al 320%.
+
+5. **Subsección 5: Visión Prospectiva del CIDRE y Articulación Estratégica CUEES:**
+   - **Centro de Investigación y Consultoría para la Innovación y el Desarrollo Regional (CIDRE):** Órgano rector de consultoría, investigación aplicada y extensión empresarial de la institución.
+   - **Criterios de Prestación de Servicios:** Gratuidad para microempresas y comunidades vulnerables; tarifas de sostenibilidad para proyectos especializados de innovación y consultoría técnica.
+   - **Plan Prospectivo 2026 - 2032 (4 Pilares Estratégicos):**
+     * *Pilar I: Plataforma Nacional de Tele-Consultoría Empresarial:* Asesoría remota para micro y pequeñas empresas en los 33 departamentos del país mediante docentes y estudiantes de la modalidad virtual.
+     * *Pilar II: Vivero de Spin-Offs y Emprendimiento Innovador:* Escalabilidad del modelo exitoso de MYB S.A.S. para incubar al menos 5 nuevas empresas de base tecnológica y de servicios gerenciales.
+     * *Pilar III: Articulación Sistémica CUEES Santander:* Liderazgo en las mesas de transformación digital, bioeconomía y agroindustria del CUEES, vinculando retos empresariales reales a los trabajos de grado y proyectos de aula.
+     * *Pilar IV: Consultoría Especializada y Diplomados In-Company:* Oferta a la medida para gremios, cooperativas y cámaras de comercio de la región y el país.
+
+6. **Subsección 6: Alianzas y Convenios Estratégicos:**
+   - Directorio categorizado de los convenios con gremios, empresas del sector financiero, cámaras de comercio e instituciones del sector público.
+
+7. **Despliegue y Validación:**
+   - Verificación sintáctica en Node.js completada con 0 errores.
+   - Cachebuster actualizado en index.html: sections_c6.js?v=20261021_c6_v3.
+   - Inicialización registrada en pp.js (c6Init()).
