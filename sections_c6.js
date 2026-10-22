@@ -636,7 +636,7 @@ window.SECTIONS['c6'] = `
                 <h6 style="margin:0; font-size:0.88rem; font-weight:800; color:#1A1A1B; font-family:'Montserrat';">Consultorio Empresarial Digital e Híbrido</h6>
             </div>
             <p style="font-size:0.76rem; color:#475569; line-height:1.5; margin:0 0 8px;">
-                Evolución del consultorio presencial hacia una plataforma nacional de <strong>Tele-consultoría Empresarial</strong> que atiende Mipymes en los 33 departamentos del país mediante docentes expertos y estudiantes practicantes virtuales.
+                Evolución del consultorio presencial hacia una plataforma nacional de <strong>Tele-consultoría Empresarial</strong> que atiende Mipymes en los 32 departamentos del país y el Distrito Capital mediante docentes expertos y estudiantes practicantes virtuales.
             </p>
             <div style="font-size:0.7rem; color:#EA580C; font-weight:700;"><i class="fas fa-check mr-1"></i> Meta: 80 Mipymes anuales asesoradas con actas de validación.</div>
         </div>

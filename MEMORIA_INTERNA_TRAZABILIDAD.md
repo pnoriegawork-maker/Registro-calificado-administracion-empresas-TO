@@ -364,7 +364,7 @@ De conformidad con los requerimientos directos y la información canónica del D
      * **Integración Curricular Transversal:** Articulación directa de la proyección social con asignaturas estratégicas (*Emprendimiento, Gerencia Estratégica, Gestión de la Calidad, Diagnóstico Empresarial, Práctica Profesional y Responsabilidad Social Empresarial*).
      * **Diferenciación y Cobertura por Modalidades:**
        - *Modalidad Presencial:* Intervención en sitio, consultoría de campo en MiPymes de Santander, talleres presenciales y pasantías empresariales directas.
-       - *Modalidad Virtual:* Tele-consultoría empresarial sincrónica y asincrónica para organizaciones en los 33 departamentos de Colombia, diagnósticos empresariales remotos y Masterclasses con líderes empresariales de alcance nacional e internacional.
+       - *Modalidad Virtual:* Tele-consultoría empresarial sincrónica y asincrónica para organizaciones en los 32 departamentos del país y el Distrito Capital, diagnósticos empresariales remotos y Masterclasses con líderes empresariales de alcance nacional e internacional.
 
 4. **Subsección 4: Indicadores de Relación con el Sector Externo (Tabla 51 / Tabla 62 DM):**
    - **Tablero Dinámico de Metas a 7 Años:** Comparativa entre la línea base histórica del programa y la proyección a 7 años:
@@ -382,7 +382,7 @@ De conformidad con los requerimientos directos y la información canónica del D
    - **Centro de Investigación y Consultoría para la Innovación y el Desarrollo Regional (CIDRE):** Órgano rector de consultoría, investigación aplicada y extensión empresarial de la institución.
    - **Criterios de Prestación de Servicios:** Gratuidad para microempresas y comunidades vulnerables; tarifas de sostenibilidad para proyectos especializados de innovación y consultoría técnica.
    - **Plan Prospectivo 2026 - 2032 (4 Pilares Estratégicos):**
-     * *Pilar I: Plataforma Nacional de Tele-Consultoría Empresarial:* Asesoría remota para micro y pequeñas empresas en los 33 departamentos del país mediante docentes y estudiantes de la modalidad virtual.
+     * *Pilar I: Plataforma Nacional de Tele-Consultoría Empresarial:* Asesoría remota para micro y pequeñas empresas en los 32 departamentos del país y el Distrito Capital mediante docentes y estudiantes de la modalidad virtual.
      * *Pilar II: Vivero de Spin-Offs y Emprendimiento Innovador:* Escalabilidad del modelo exitoso de MYB S.A.S. para incubar al menos 5 nuevas empresas de base tecnológica y de servicios gerenciales.
      * *Pilar III: Articulación Sistémica CUEES Santander:* Liderazgo en las mesas de transformación digital, bioeconomía y agroindustria del CUEES, vinculando retos empresariales reales a los trabajos de grado y proyectos de aula.
      * *Pilar IV: Consultoría Especializada y Diplomados In-Company:* Oferta a la medida para gremios, cooperativas y cámaras de comercio de la región y el país.
