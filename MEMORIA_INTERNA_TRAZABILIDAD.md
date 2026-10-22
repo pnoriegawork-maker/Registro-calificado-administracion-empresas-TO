@@ -394,3 +394,115 @@ De conformidad con los requerimientos directos y la información canónica del D
    - Verificación sintáctica en Node.js completada con 0 errores.
    - Cachebuster actualizado en index.html: sections_c6.js?v=20261021_c6_v3.
    - Inicialización registrada en pp.js (c6Init()).
+
+
+---
+
+## VIII. ACTUALIZACIÓN EVIDENCIAS C5 Y REESTRUCTURACIÓN INTEGRAL C7 (PROFESORES) [2026-10-21]
+
+### 1. Condición 5 (Investigación) – Corrección de Enlaces y Ajuste Textual Diapositiva 27
+- **Enlace Scopus Q3 (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Competitive Intelligence Methodology for the Promotion of Business Survival. Case: Microenterprises Department of Santander, Colombia"* por el enlace directo de acceso abierto en la editorial oficial:
+  `https://www.neuroquantology.com/open-access/Competitive+Intelligence+Methodology+for+the++Promotion+of+Business+Survival.+Case%253A++Microenterprises+Department+of+Santander%252C++Colombia_3052/`
+- **Enlace Human Review (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Resilience and digital competences in higher education students"* por el enlace verificado en el repositorio:
+  `https://www.historicoeagora.net/revHUMAN/article/view/4158`
+- **Diapositiva 27 (Proyección y Alianzas Internacionales):** Ajuste del texto de *"Resultado Verificable"* según requerimiento formal:
+  *Texto canónico establecido:* `Movilidad académica, proyectos de investigación conjunta.`
+
+### 2. Condición 7 (Profesores) – Reestructuración Canónica y Tablas Oficiales
+Integración completa de la presentación oficial `Condición 7 Profesores ADmon.pptx` y el Documento Maestro (Anexo 2), organizando la condición en 6 subsecciones interactivas con visualización estratégica de datos:
+
+1. **Subsección 1: Planta Docente Actual (Tablas 52 y 53):**
+   - **Tabla 52. Profesores del programa de Administración de Empresas – Modalidad Presencial:** 6 docentes calificados (100% magísteres), vinculación MT (20 h/sem) y TC (40 h/sem).
+   - **Tabla 53. Profesores del programa de Administración de Empresas – Modalidad Virtual:** 9 docentes especialistas y magísteres con dedicación balanceada de 20 h/sem (MT) y 40 h/sem (TC).
+
+2. **Subsección 2: Distribución de Dedicación Horaria (Tablas 54, 55 y 56):**
+   - **Ajuste estricto de horas para Medio Tiempo: 20 Horas Semanales (no 22):**
+     * **Tabla 54 (MT Presencial):** Docencia directa 10 h (50%), Preparación académica 4 h (20%), Investigación formativa 3 h (15%), Proyección social / Extensión 2 h (10%), Gestión académica 1 h (5%) = **Total 20 Horas (100%)**.
+     * **Tabla 55 (MT Virtual):** Dinamización Campus y foros 8 h (40%), Sesiones sincrónicas 5 h (25%), Diseño curricular y objetos de aprendizaje 2 h (10%), Investigación formativa 3 h (15%), Proyección social y consultoría remota 1 h (5%), Gestión académica y comités 1 h (5%) = **Total 20 Horas (100%)**.
+     * **Tabla 56 (Docente TC):** Docencia directa / tutoría 20 h (50%), Investigación aplicada 12 h (30%), Proyección social y extensión 5 h (12.5%), Gestión académica 3 h (7.5%) = **Total 40 Horas (100%)**.
+   - **Gráfica Interactiva Chart.js (`c7HorasChart`):** Barras apiladas que evidencian la dedicación armónica y la fortaleza institucional en investigación y extensión.
+
+3. **Subsección 3: Coherencia y Verificación Nominal (Tablas 57 y 58):**
+   - **Tabla 57. Mapa de Coherencia: Condiciones de Calidad vs. Horas Docentes por Tipo de Vinculación:** Mapeo exhaustivo de las horas de dedicación frente a las Condiciones de Calidad CC3 (Currículo), CC4 (Actividades Académicas), CC5 (Investigación) y CC6 (Relación Sector Externo), demostrando cumplimiento integral del Decreto 1330.
+   - **Tabla 58. Verificación por Docente: Asignación Horaria y Compromisos de Condiciones de Calidad:** Verificación nominal de los docentes del programa garantizando que cada docente MT cumple exactamente 20 horas y los TC 40 horas.
+
+4. **Subsección 4: Proyección a 7 Años de la Planta Docente (Tabla 54 Proyección):**
+   - **Tabla 54. Proyección diferenciada de planta docente por modalidad y periodo:** Horizonte 2026-1 a 2031-2 (cohorte plena de 10 periodos). Crecimiento sostenible de 17 a 52 docentes (15 TC y 37 MT).
+   - **Gráfica de Tendencia Sostenible (`c7ProyeccionChart`):** Tendencia positiva institucional que demuestra expansión de cobertura estudiantil preservando un ratio equilibrado de 1:15 a 1:40 estudiantes por docente.
+
+5. **Subsección 5: Gobernanza, Carrera Docente y Criterios Meritocráticos:**
+   - 5 pilares del Estatuto Docente (Ingreso, Permanencia, Promoción, Evaluación y Retiro).
+   - Proceso de selección en 7 fases con matriz meritocrática ponderada: Micro-clase pedagógica (35%), Entrevista técnica (25%), Prueba psicotécnica (25%) y Evaluación de Hoja de Vida (15%).
+   - Comité de Selección y Contratación y modalidades de contratación laboral según normatividad colombiana.
+
+6. **Subsección 6: Cualificación de Alto Impacto, Bienestar y Evaluación 360°:**
+   - **Impactos Positivos de Cualificación Docente (Diapositiva 13 PPT oficial):**
+     * 8 becarios doctorales en Ciencias de la Educación (UPEL, 40% de la planta docente).
+     * 100% de la planta docente certificada por el SENA en competencias pedagógicas y didácticas.
+     * 100% de la planta cualificada en tecnologías e innovación educativa para entornos digitales.
+     * 100% de la planta capacitada en diseño de Resultados de Aprendizaje y taxonomía de Bloom.
+   - **Diagrama de Causa-Efecto (Ishikawa) de Bienestar Integral Docente:** 4 espinas estratégicas (Salud y Seguridad Laboral, Clima Organizacional, Desarrollo Personal y Familiar, Reconocimiento al Mérito).
+   - **Sistema de Evaluación Docente Integral 360° con Gráficos Concénctricos (`c7EvalFuentesChart` y `c7EvalDimensionesChart`):**
+     * *Fuentes de evaluación:* Heteroevaluación estudiantil (60%), Evaluación directiva y coordinación (20%), Autoevaluación docente (20%).
+     * *Dimensiones evaluadas:* Pedagógica (35%), Didáctica y tecnológica (35%), Investigación formativa (20%), Gestión institucional (10%).
+
+### 3. Validación Técnica y Despliegue
+- Sintaxis JS verificada con Node.js (`node -c`): 0 errores.
+- Cachebusters actualizados en `index.html`: `sections_c5.js?v=20261021_c5_v4` y `sections_c7.js?v=20261021_c7_v3`.
+- Sincronización realizada en `sitio_web/` y `Rep_Github/`.
+
+
+---
+
+## VIII. ACTUALIZACIÓN EVIDENCIAS C5 Y REESTRUCTURACIÓN INTEGRAL C7 (PROFESORES) [2026-10-21]
+
+### 1. Condición 5 (Investigación) – Corrección de Enlaces y Ajuste Textual Diapositiva 27
+- **Enlace Scopus Q3 (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Competitive Intelligence Methodology for the Promotion of Business Survival. Case: Microenterprises Department of Santander, Colombia"* por el enlace directo de acceso abierto en la editorial oficial:
+  `https://www.neuroquantology.com/open-access/Competitive+Intelligence+Methodology+for+the++Promotion+of+Business+Survival.+Case%253A++Microenterprises+Department+of+Santander%252C++Colombia_3052/`
+- **Enlace Human Review (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Resilience and digital competences in higher education students"* por el enlace verificado en el repositorio:
+  `https://www.historicoeagora.net/revHUMAN/article/view/4158`
+- **Diapositiva 27 (Proyección y Alianzas Internacionales):** Ajuste del texto de *"Resultado Verificable"* según requerimiento formal:
+  *Texto canónico establecido:* `Movilidad académica, proyectos de investigación conjunta.`
+
+### 2. Condición 7 (Profesores) – Reestructuración Canónica y Tablas Oficiales
+Integración completa de la presentación oficial `Condición 7 Profesores ADmon.pptx` y el Documento Maestro (Anexo 2), organizando la condición en 6 subsecciones interactivas con visualización estratégica de datos:
+
+1. **Subsección 1: Planta Docente Actual (Tablas 52 y 53):**
+   - **Tabla 52. Profesores del programa de Administración de Empresas – Modalidad Presencial:** 6 docentes calificados (100% magísteres), vinculación MT (20 h/sem) y TC (40 h/sem).
+   - **Tabla 53. Profesores del programa de Administración de Empresas – Modalidad Virtual:** 9 docentes especialistas y magísteres con dedicación balanceada de 20 h/sem (MT) y 40 h/sem (TC).
+
+2. **Subsección 2: Distribución de Dedicación Horaria (Tablas 54, 55 y 56):**
+   - **Ajuste estricto de horas para Medio Tiempo: 20 Horas Semanales (no 22):**
+     * **Tabla 54 (MT Presencial):** Docencia directa 10 h (50%), Preparación académica 4 h (20%), Investigación formativa 3 h (15%), Proyección social / Extensión 2 h (10%), Gestión académica 1 h (5%) = **Total 20 Horas (100%)**.
+     * **Tabla 55 (MT Virtual):** Dinamización Campus y foros 8 h (40%), Sesiones sincrónicas 5 h (25%), Diseño curricular y objetos de aprendizaje 2 h (10%), Investigación formativa 3 h (15%), Proyección social y consultoría remota 1 h (5%), Gestión académica y comités 1 h (5%) = **Total 20 Horas (100%)**.
+     * **Tabla 56 (Docente TC):** Docencia directa / tutoría 20 h (50%), Investigación aplicada 12 h (30%), Proyección social y extensión 5 h (12.5%), Gestión académica 3 h (7.5%) = **Total 40 Horas (100%)**.
+   - **Gráfica Interactiva Chart.js (`c7HorasChart`):** Barras apiladas que evidencian la dedicación armónica y la fortaleza institucional en investigación y extensión.
+
+3. **Subsección 3: Coherencia y Verificación Nominal (Tablas 57 y 58):**
+   - **Tabla 57. Mapa de Coherencia: Condiciones de Calidad vs. Horas Docentes por Tipo de Vinculación:** Mapeo exhaustivo de las horas de dedicación frente a las Condiciones de Calidad CC3 (Currículo), CC4 (Actividades Académicas), CC5 (Investigación) y CC6 (Relación Sector Externo), demostrando cumplimiento integral del Decreto 1330.
+   - **Tabla 58. Verificación por Docente: Asignación Horaria y Compromisos de Condiciones de Calidad:** Verificación nominal de los docentes del programa garantizando que cada docente MT cumple exactamente 20 horas y los TC 40 horas.
+
+4. **Subsección 4: Proyección a 7 Años de la Planta Docente (Tabla 54 Proyección):**
+   - **Tabla 54. Proyección diferenciada de planta docente por modalidad y periodo:** Horizonte 2026-1 a 2031-2 (cohorte plena de 10 periodos). Crecimiento sostenible de 17 a 52 docentes (15 TC y 37 MT).
+   - **Gráfica de Tendencia Sostenible (`c7ProyeccionChart`):** Tendencia positiva institucional que demuestra expansión de cobertura estudiantil preservando un ratio equilibrado de 1:15 a 1:40 estudiantes por docente.
+
+5. **Subsección 5: Gobernanza, Carrera Docente y Criterios Meritocráticos:**
+   - 5 pilares del Estatuto Docente (Ingreso, Permanencia, Promoción, Evaluación y Retiro).
+   - Proceso de selección en 7 fases con matriz meritocrática ponderada: Micro-clase pedagógica (35%), Entrevista técnica (25%), Prueba psicotécnica (25%) y Evaluación de Hoja de Vida (15%).
+   - Comité de Selección y Contratación y modalidades de contratación laboral según normatividad colombiana.
+
+6. **Subsección 6: Cualificación de Alto Impacto, Bienestar y Evaluación 360°:**
+   - **Impactos Positivos de Cualificación Docente (Diapositiva 13 PPT oficial):**
+     * 8 becarios doctorales en Ciencias de la Educación (UPEL, 40% de la planta docente).
+     * 100% de la planta docente certificada por el SENA en competencias pedagógicas y didácticas.
+     * 100% de la planta cualificada en tecnologías e innovación educativa para entornos digitales.
+     * 100% de la planta capacitada en diseño de Resultados de Aprendizaje y taxonomía de Bloom.
+   - **Diagrama de Causa-Efecto (Ishikawa) de Bienestar Integral Docente:** 4 espinas estratégicas (Salud y Seguridad Laboral, Clima Organizacional, Desarrollo Personal y Familiar, Reconocimiento al Mérito).
+   - **Sistema de Evaluación Docente Integral 360° con Gráficos Concénctricos (`c7EvalFuentesChart` y `c7EvalDimensionesChart`):**
+     * *Fuentes de evaluación:* Heteroevaluación estudiantil (60%), Evaluación directiva y coordinación (20%), Autoevaluación docente (20%).
+     * *Dimensiones evaluadas:* Pedagógica (35%), Didáctica y tecnológica (35%), Investigación formativa (20%), Gestión institucional (10%).
+
+### 3. Validación Técnica y Despliegue
+- Sintaxis JS verificada con Node.js (`node -c`): 0 errores.
+- Cachebusters actualizados en `index.html`: `sections_c5.js?v=20261021_c5_v4` y `sections_c7.js?v=20261021_c7_v3`.
+- Sincronización realizada en `sitio_web/` y `Rep_Github/`.

@@ -1123,7 +1123,7 @@ window.SECTIONS['c5'] = `
                 </div>
             </div>
             <div style="border-top:1px solid #F1F5F9; padding-top:8px;">
-                <a href="https://doi.org/10.14704/nq.2022.20.8.NQ44312" target="_blank" style="background:#1A1A1B; color:#F39200; font-size:0.7rem; font-weight:800; padding:6px 12px; border-radius:6px; text-decoration:none; display:inline-flex; align-items:center; gap:6px; border:1px solid #334155; transition:background 0.2s;">
+                <a href="https://www.neuroquantology.com/open-access/Competitive+Intelligence+Methodology+for+the++Promotion+of+Business+Survival.+Case%253A++Microenterprises+Department+of+Santander%252C++Colombia_3052/" target="_blank" style="background:#1A1A1B; color:#F39200; font-size:0.7rem; font-weight:800; padding:6px 12px; border-radius:6px; text-decoration:none; display:inline-flex; align-items:center; gap:6px; border:1px solid #334155; transition:background 0.2s;">
                     <i class="fas fa-external-link-alt" style="font-size:0.65rem;"></i> Ver DOI: 10.14704/nq.2022.20.8.NQ44312
                 </a>
             </div>
@@ -1195,7 +1195,7 @@ window.SECTIONS['c5'] = `
                 </div>
             </div>
             <div style="border-top:1px solid #F1F5F9; padding-top:8px;">
-                <a href="https://doi.org/10.37467/revhuman.v11.4158" target="_blank" style="background:#1A1A1B; color:#F39200; font-size:0.7rem; font-weight:800; padding:6px 12px; border-radius:6px; text-decoration:none; display:inline-flex; align-items:center; gap:6px; border:1px solid #334155; transition:background 0.2s;">
+                <a href="https://www.historicoeagora.net/revHUMAN/article/view/4158" target="_blank" style="background:#1A1A1B; color:#F39200; font-size:0.7rem; font-weight:800; padding:6px 12px; border-radius:6px; text-decoration:none; display:inline-flex; align-items:center; gap:6px; border:1px solid #334155; transition:background 0.2s;">
                     <i class="fas fa-external-link-alt" style="font-size:0.65rem;"></i> Ver DOI: 10.37467/revhuman.v11.4158
                 </a>
             </div>
@@ -2372,7 +2372,7 @@ window.SECTIONS['c5'] = `
                 <strong style="display:flex; align-items:center; gap:6px; color:#15803D; margin-bottom:3px; font-size:0.75rem;">
                     <i class="fas fa-check-circle" style="color:#10B981;"></i> Resultado Verificable:
                 </strong>
-                Movilidad académica de docentes y estudiantes, redes temáticas conjuntas y publicaciones coautoradas en revistas científicas indexadas.
+                Movilidad académica, proyectos de investigación conjunta.
             </div>
         </div>
         
