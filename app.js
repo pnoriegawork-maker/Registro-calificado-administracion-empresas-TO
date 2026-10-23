@@ -79,12 +79,12 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="cond-card" onclick="openPresentation('${c.id}', '${c.title.replace(/'/g, "\\'")}')">
             <div class="cond-card-img" style="${c.id === 'inst' ? 'background: linear-gradient(135deg, #1A1A1B 0%, #1A1A1B 100%);' : ''}">
                 <img src="${c.img}" alt="${c.title}" onerror="this.parentElement.outerHTML='<div class=\\'cond-card-icon-bg\\'><i class=\\'${c.icon}\\'></i></div>';">
-                <div class="cond-card-badge" style="${c.id === 'inst' ? 'background:#1A1A1B; color:#FFFFFF;' : c.id === 'virtual' ? 'background:#111827; color:#F39200; border:1px solid rgba(243,146,0,0.4);' : c.id === 'bienestar' ? 'background:#059669; color:#FFFFFF; border:1px solid rgba(255,255,255,0.3);' : ''}">${c.badge || ('Condición ' + c.id.replace('c',''))}</div>
+                <div class="cond-card-badge" style="${c.id === 'inst' ? 'background:#1A1A1B; color:#FFFFFF;' : (c.id === 'virtual' || c.id === 'bienestar') ? 'background:#111827; color:#F39200; border:1px solid rgba(243,146,0,0.5);' : ''}">${c.badge || ('Condición ' + c.id.replace('c',''))}</div>
             </div>
             <div class="cond-card-body">
                 <h4 class="cond-card-title">${c.title}</h4>
                 <p class="cond-card-desc">${c.desc}</p>
-                <div class="cond-card-action" style="${(c.id === 'inst' || c.id === 'virtual' || c.id === 'bienestar') ? 'color:#C8102E; font-weight:800;' : ''}"><i class="${c.icon}"></i> ${c.slideLabel || 'Ver Sustentación'}</div>
+                <div class="cond-card-action" style="${(c.id === 'inst' || c.id === 'virtual' || c.id === 'bienestar') ? 'color:#F39200; font-weight:800;' : ''}"><i class="${c.icon}"></i> ${c.slideLabel || 'Ver Sustentación'}</div>
             </div>
         </div>
     `).join('');
