@@ -1726,3 +1726,29 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     }
 }
 
+/* =========================================================
+   CINEMA MODE / PRIMER PLANO ABSOLUTO (BIENESTAR INSTITUCIONAL)
+   Garantiza que la diapositiva quede 100% en primer plano superior
+   sin cabeceras redundantes ni desplazamientos verticales bruscos
+   ========================================================= */
+.viewer.viewer-cinema-focus .viewer-scroll {
+    padding: 10px 18px 24px !important;
+}
+
+.viewer.viewer-cinema-focus .viewer-card {
+    max-width: 1280px !important;
+    border-radius: 12px !important;
+}
+
+.viewer.viewer-cinema-focus .viewer-card-header {
+    display: none !important;
+}
+
+.viewer.viewer-cinema-focus .viewer-card-body {
+    padding: 10px 14px 24px !important;
+}
+
+.viewer.viewer-cinema-focus .viewer-card-footer {
+    display: none !important;
+}
+

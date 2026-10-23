@@ -98,6 +98,13 @@ function openPresentation(id, title) {
     const viewer = document.getElementById('presentationViewer');
     const cond = condInfo.find(c => c.id === id);
 
+    // Toggle Cinema Focus Mode for Bienestar (primer plano absoluto)
+    if (id === 'bienestar') {
+        viewer.classList.add('viewer-cinema-focus');
+    } else {
+        viewer.classList.remove('viewer-cinema-focus');
+    }
+
     document.getElementById('viewerTitle').innerText = title || cond?.title || id;
     
     if (id === 'inst') {
@@ -155,7 +162,9 @@ function prevSlide() {
 }
 
 function closePresentation() {
-    document.getElementById('presentationViewer').classList.add('hidden');
+    const viewer = document.getElementById('presentationViewer');
+    viewer.classList.add('hidden');
+    viewer.classList.remove('viewer-cinema-focus');
     document.body.style.overflow = 'auto';
 }
 
