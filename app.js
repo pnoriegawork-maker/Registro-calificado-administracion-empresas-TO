@@ -160,6 +160,7 @@ function runSlideScripts(id) {
             if (id === 'c5' && window.c5Init) window.c5Init();
             if (id === 'c6' && window.c6Init) window.c6Init();
             if (id === 'c7' && window.c7Init) window.c7Init();
+            if (id === 'c8' && window.c8Init) window.c8Init();
             if (id === 'c9' && window.c9Init) window.c9Init();
         }, delay);
     });
