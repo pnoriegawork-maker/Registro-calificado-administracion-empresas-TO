@@ -398,165 +398,184 @@ De conformidad con los requerimientos directos y la información canónica del D
 
 ---
 
-## VIII. ACTUALIZACIÓN EVIDENCIAS C5 Y REESTRUCTURACIÓN INTEGRAL C7 (PROFESORES) [2026-10-21]
+## X. JUSTIFICACIÓN ACADÉMICA Y CURRICULAR AMPLIADA: TABLA 26 (COMPARATIVO ENTRE MALLAS CURRICULARES) Y GENERACIÓN DE DOCUMENTO OFICIAL WORD [2026-10-22]
 
-### 1. Condición 5 (Investigación) – Corrección de Enlaces y Ajuste Textual Diapositiva 27
-- **Enlace Scopus Q3 (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Competitive Intelligence Methodology for the Promotion of Business Survival. Case: Microenterprises Department of Santander, Colombia"* por el enlace directo de acceso abierto en la editorial oficial:
-  `https://www.neuroquantology.com/open-access/Competitive+Intelligence+Methodology+for+the++Promotion+of+Business+Survival.+Case%253A++Microenterprises+Department+of+Santander%252C++Colombia_3052/`
-- **Enlace Human Review (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Resilience and digital competences in higher education students"* por el enlace verificado en el repositorio:
-  `https://www.historicoeagora.net/revHUMAN/article/view/4158`
-- **Diapositiva 27 (Proyección y Alianzas Internacionales):** Ajuste del texto de *"Resultado Verificable"* según requerimiento formal:
-  *Texto canónico establecido:* `Movilidad académica, proyectos de investigación conjunta.`
+### 1. Contexto, Propósito y Requerimiento Institucional
+En atención a las solicitudes de profundización curricular de la Sala de Evaluación de Administración de Empresas y Derecho de CONACES y los requerimientos de sustentación ante pares académicos del Ministerio de Educación Nacional (MEN), se ejecutó un desglose técnico, epistemológico y metodológico exhaustivo de la **Tabla 26. Comparativo entre las dos mallas curriculares** (consignada en las páginas 132 a 135 del Documento Maestro Anexo 2).
 
-### 2. Condición 7 (Profesores) – Reestructuración Canónica y Tablas Oficiales
-Integración completa de la presentación oficial `Condición 7 Profesores ADmon.pptx` y el Documento Maestro (Anexo 2), organizando la condición en 6 subsecciones interactivas con visualización estratégica de datos:
+El requerimiento demandó explicitar de manera textual y probatoria la columna **[Justificación académica y curricular]** para cada uno de sus doce (12) aspectos constitutivos, demostrando de forma evidente cómo se justifica la modificación, cuáles metodologías de simulación se implementan, qué prototipos se desarrollan, cuáles herramientas y software se utilizan, y cómo se exhiben estas evidencias documentales y operativas durante la visita de verificación de condiciones de calidad (Condición 3: Aspectos Curriculares).
 
-1. **Subsección 1: Planta Docente Actual (Tablas 52 y 53):**
-   - **Tabla 52. Profesores del programa de Administración de Empresas – Modalidad Presencial:** 6 docentes calificados (100% magísteres), vinculación MT (20 h/sem) y TC (40 h/sem).
-   - **Tabla 53. Profesores del programa de Administración de Empresas – Modalidad Virtual:** 9 docentes especialistas y magísteres con dedicación balanceada de 20 h/sem (MT) y 40 h/sem (TC).
+### 2. Generación del Documento Técnico Oficial en Formato Word (.docx)
+Se desarrolló un generador automatizado en Python (uild_complete_justificacion_docx.py) con la librería python-docx que estructuró un informe técnico de nivel ejecutivo y publicación oficial:
+- **Nombre oficial generado:** justificación ampliada admon.docx (y copia idéntica de respaldo (justificación ampliada admon).docx).
+- **Ubicaciones:**
+  * Carpeta del Proyecto: c:\Users\Estudiante 08\Documents\Pedro_Noriega\Acreditación_Alta Calidad\Visitas_programas\Administración de empresas_Renovación RU\justificación ampliada admon.docx
+  * Raíz del Espacio de Trabajo: c:\Users\Estudiante 08\Documents\Pedro_Noriega\Acreditación_Alta Calidad\Visitas_programas\justificación ampliada admon.docx
+- **Aislamiento Técnico:** Cumpliendo estrictamente la instrucción institucional, **no se subió ni actualizó nada en GitHub**; el trabajo quedó 100% resguardado en almacenamiento local y memoria interna.
+- **Estructura Documental:** 64 párrafos, 26 tablas estilizadas (bordes limpios, cabeceras en Navy #0F172A, fondos alternados, cajas de llamado y cuadros de evidencias verificables en verde esmeralda #16A34A), portada institucional, reproducción íntegra de la Tabla 26, 12 capítulos específicos de análisis, Matriz Sinóptica de Trazabilidad y Protocolo de Defensa Oral para el Equipo Directivo.
 
-2. **Subsección 2: Distribución de Dedicación Horaria (Tablas 54, 55 y 56):**
-   - **Ajuste estricto de horas para Medio Tiempo: 20 Horas Semanales (no 22):**
-     * **Tabla 54 (MT Presencial):** Docencia directa 10 h (50%), Preparación académica 4 h (20%), Investigación formativa 3 h (15%), Proyección social / Extensión 2 h (10%), Gestión académica 1 h (5%) = **Total 20 Horas (100%)**.
-     * **Tabla 55 (MT Virtual):** Dinamización Campus y foros 8 h (40%), Sesiones sincrónicas 5 h (25%), Diseño curricular y objetos de aprendizaje 2 h (10%), Investigación formativa 3 h (15%), Proyección social y consultoría remota 1 h (5%), Gestión académica y comités 1 h (5%) = **Total 20 Horas (100%)**.
-     * **Tabla 56 (Docente TC):** Docencia directa / tutoría 20 h (50%), Investigación aplicada 12 h (30%), Proyección social y extensión 5 h (12.5%), Gestión académica 3 h (7.5%) = **Total 40 Horas (100%)**.
-   - **Gráfica Interactiva Chart.js (`c7HorasChart`):** Barras apiladas que evidencian la dedicación armónica y la fortaleza institucional en investigación y extensión.
+### 3. Síntesis Técnica por Aspecto Curricular (Los 12 Aspectos de la Tabla 26)
 
-3. **Subsección 3: Coherencia y Verificación Nominal (Tablas 57 y 58):**
-   - **Tabla 57. Mapa de Coherencia: Condiciones de Calidad vs. Horas Docentes por Tipo de Vinculación:** Mapeo exhaustivo de las horas de dedicación frente a las Condiciones de Calidad CC3 (Currículo), CC4 (Actividades Académicas), CC5 (Investigación) y CC6 (Relación Sector Externo), demostrando cumplimiento integral del Decreto 1330.
-   - **Tabla 58. Verificación por Docente: Asignación Horaria y Compromisos de Condiciones de Calidad:** Verificación nominal de los docentes del programa garantizando que cada docente MT cumple exactamente 20 horas y los TC 40 horas.
+1. **Duración del programa (8 semestres – 144 créditos vs. 9 semestres – 158 créditos):**
+   - *Justificación Textual:* «Ajuste para cumplir estándares de eficiencia académica y coherencia con programas nacionales. Permite optimizar recursos y mantener la carga académica sin afectar la formación integral.»
+   - *Sustento Ampliado:* Benchmarking con 10 programas líderes acreditados en Colombia (Andes, Rosario, EAFIT, Javeriana, UIS, UNAB, Sabana, Norte, etc.) donde el 85% opera en 8 semestres y 140-144 créditos.
+   - *Impacto Cuantitativo:* Reducción de 672 horas totales (de 7.584 a 6.912 h). Disminución del costo de matrícula en 11.1%. Equilibrio en 8 semestres de 18 créditos exactos (6 asignaturas de 3 créditos por periodo).
+   - *Evidencias en Visita:* Malla interactiva oficial, matriz de benchmarking, estudio de retención y deserción de SPADIES, y Plan de Transición Curricular con homologación 1:1 sin sobrecosto.
 
-4. **Subsección 4: Proyección a 7 Años de la Planta Docente (Tabla 54 Proyección):**
-   - **Tabla 54. Proyección diferenciada de planta docente por modalidad y periodo:** Horizonte 2026-1 a 2031-2 (cohorte plena de 10 periodos). Crecimiento sostenible de 17 a 52 docentes (15 TC y 37 MT).
-   - **Gráfica de Tendencia Sostenible (`c7ProyeccionChart`):** Tendencia positiva institucional que demuestra expansión de cobertura estudiantil preservando un ratio equilibrado de 1:15 a 1:40 estudiantes por docente.
+2. **Enfoque formativo (Gerencial, estratégico, tecnológico e innovador vs. Tradicional funcional):**
+   - *Justificación Textual:* «Se adopta un enfoque moderno que integra gestión, innovación, sostenibilidad y transformación digital.»
+   - *Sustento Ampliado:* Superación del paradigma mecanicista-clásico (Taylor, Fayol, Weber) de silos aislados hacia la complejidad (Morin), la ventaja competitiva (Porter), la estrategia emergente (Mintzberg), el liderazgo transformacional (Goleman) y la sociedad del conocimiento (Drucker).
+   - *Evidencias en Visita:* Silabos con metodologías activas y RAPs, articulación con el CIDRE y CUEES Santander, proyectos de consultoría a MiPymes y nuevo Perfil del Egresado en el PEP.
 
-5. **Subsección 5: Gobernanza, Carrera Docente y Criterios Meritocráticos:**
-   - 5 pilares del Estatuto Docente (Ingreso, Permanencia, Promoción, Evaluación y Retiro).
-   - Proceso de selección en 7 fases con matriz meritocrática ponderada: Micro-clase pedagógica (35%), Entrevista técnica (25%), Prueba psicotécnica (25%) y Evaluación de Hoja de Vida (15%).
-   - Comité de Selección y Contratación y modalidades de contratación laboral según normatividad colombiana.
+3. **Asignaturas de tecnología y digitalización (Big Data, IA, E-commerce, HSEQ):**
+   - *Justificación Textual:* «Se amplía la formación en herramientas digitales, datos e inteligencia artificial, respondiendo a la transformación tecnológica del entorno empresarial.»
+   - *Herramientas y Software:* Microsoft Power BI Desktop (dashboards gerenciales), Python en Google Colab/Jupyter (Pandas, NumPy, Matplotlib), lenguaje R, datasets de Supersociedades (SIREM) y DANE; Inteligencia Artificial Generativa gerencial (ChatGPT, Claude, Copilot), Prompt Engineering directivo y Machine Learning (árboles de decisión, clustering K-means, regresión); E-commerce en Shopify y WooCommerce con pasarelas Wompi/PayU/Stripe y Google Analytics 4 (GA4); Sistemas Integrados HSEQ bajo ISO 9001, 14001, 45001 y 31000 con matrices IPERC.
+   - *Evidencias en Visita:* Dashboards en Power BI, notebooks de Python ejecutables, tiendas virtuales en sandbox y manuales de SIG diseñados para empresas reales.
 
-6. **Subsección 6: Cualificación de Alto Impacto, Bienestar y Evaluación 360°:**
-   - **Impactos Positivos de Cualificación Docente (Diapositiva 13 PPT oficial):**
-     * 8 becarios doctorales en Ciencias de la Educación (UPEL, 40% de la planta docente).
-     * 100% de la planta docente certificada por el SENA en competencias pedagógicas y didácticas.
-     * 100% de la planta cualificada en tecnologías e innovación educativa para entornos digitales.
-     * 100% de la planta capacitada en diseño de Resultados de Aprendizaje y taxonomía de Bloom.
-   - **Diagrama de Causa-Efecto (Ishikawa) de Bienestar Integral Docente:** 4 espinas estratégicas (Salud y Seguridad Laboral, Clima Organizacional, Desarrollo Personal y Familiar, Reconocimiento al Mérito).
-   - **Sistema de Evaluación Docente Integral 360° con Gráficos Concénctricos (`c7EvalFuentesChart` y `c7EvalDimensionesChart`):**
-     * *Fuentes de evaluación:* Heteroevaluación estudiantil (60%), Evaluación directiva y coordinación (20%), Autoevaluación docente (20%).
-     * *Dimensiones evaluadas:* Pedagógica (35%), Didáctica y tecnológica (35%), Investigación formativa (20%), Gestión institucional (10%).
+4. **Asignaturas de innovación y emprendimiento (Modelos de Emprendimiento, Laboratorio de Innovación, Juego Gerencial):**
+   - *Justificación Textual:* «Se moderniza la línea de emprendimiento, con metodologías de simulación, prototipado y desarrollo de modelos de negocio innovadores.»
+   - *Metodologías de Simulación:*
+     * *Juego Gerencial (Semestre 8, TP):* Simuladores de negocios en la nube (Harvard Business Publishing Simulators / CompanyGame / Simdef / Labs virtuales TO). Juntas directivas multidisciplinarias tomando decisiones en mercado oligopólico competitivo (precios, capacidad, I+D, marketing, financiamiento bancario/bonos). Evaluación por rondas trimestrales de EBITDA, ROE, ROA y Market Share.
+     * *Modelos de Emprendimiento (Semestre 6, TP):* Simulación estocástica de Monte Carlo en Excel/@Risk para flujo de caja y estrés financiero de startups.
+   - *Metodologías y Tipos de Prototipado:*
+     * Metodologías Design Thinking (Stanford) y Lean Startup (Ciclo Crear-Medir-Aprender de Eric Ries).
+     * Prototipos Low-Fi: Storyboards, Customer Journey Maps, Value Proposition Canvas.
+     * Prototipos Digitales Interactivos (Mid/High-Fi): Wireframes navegables en Figma, Balsamiq, Canva Pro y Landing Pages en WordPress/Carrd para Smoke Testing de validación de compra antes de fabricar.
+     * Prototipos Físicos (MVPs): Maquetas a escala, prototipado rápido en impresoras 3D y empaques en la Feria Anual de Emprendimiento.
+     * Prototipos de Procesos: Service Blueprint y BPMN.
+   - *Modelos de Negocio y Ecosistema:* Business Model Canvas, Lean Canvas, modelos de suscripción, economía circular y modelos B-Corp. Vivero del CIDRE, CUEES Santander y caso insigne de Spin-off universitaria MYB S.A.S.
+   - *Evidencias en Visita:* Guías de cátedra de Juego Gerencial con corridas de simulación, enlaces a prototipos en Figma y Landing Pages de MVPs, y acta de constitución de la Spin-off MYB S.A.S.
 
-### 3. Validación Técnica y Despliegue
-- Sintaxis JS verificada con Node.js (`node -c`): 0 errores.
-- Cachebusters actualizados en `index.html`: `sections_c5.js?v=20261021_c5_v4` y `sections_c7.js?v=20261021_c7_v3`.
-- Sincronización realizada en `sitio_web/` y `Rep_Github/`.
+5. **Línea financiera y económica (5 asignaturas articuladas de Semestre 1 a 5):**
+   - *Justificación Textual:* «Se integran finanzas corporativas, análisis financiero y gestión presupuestal con herramientas modernas de decisión.»
+   - *Sustento Ampliado:* Cierre de la brecha de 5 semestres entre costos y presupuestos. Secuencia armónica: Fundamentos Contables y Financieros (Sem 1) -> Costos y Presupuestos (Sem 2) -> Análisis Financiero (Sem 3) -> Matemática Financiera (Sem 4) -> Administración Financiera (Sem 5).
+   - *Herramientas Modernas:* SIIGO Nube Académico, Helisa, Excel Financiero Avanzado (Solver, Tablas de Datos, Administrador de Escenarios), valoración por Flujos de Caja Descontados (DCF), WACC, EVA, EBITDA, KTNO, Bloomberg / Yahoo Finance.
+   - *Evidencias en Visita:* Modelos en Excel aplicados a estados reales de Supersociedades (SIREM), guías de NIIF para PYMES en SIIGO y diagnósticos financieros integrales.
+
+6. **Línea de gestión organizacional (Fundamentos, Procesos, Teoría Org., Talento Humano, Prospectiva):**
+   - *Justificación Textual:* «Se refuerzan competencias de liderazgo estratégico, planeación prospectiva y desarrollo organizacional.»
+   - *Sustento Ampliado:* Eliminación de 'Administración de Salarios' (tarea operativa rutinaria) y adopción de 'Gerencia del Talento Humano' (Sem 5) con People Analytics, competencias laborales (Martha Alles, Chiavenato) y clima laboral. Inclusión de 'Procesos Administrativos' (Sem 3) y 'Pensamiento Estratégico y Prospectivo' (Sem 7).
+   - *Herramientas Prospectivas y de Procesos:* Metodología de la Escuela Francesa de Prospectiva de Michel Godet (software MICMAC para matrices de impacto cruzado, MACTOR para actores sociales, SMIC-Prob-Expert para escenarios probabilísticos); modelado BPMN en Bizagi Modeler/Visio; Cuadro de Mando Integral (Balanced Scorecard) con mapas estratégicos y KPIs.
+   - *Evidencias en Visita:* Informes prospectivos MICMAC de sectores productivos de Santander, mapas de procesos BPMN y tableros BSC.
+
+7. **Línea de mercadeo y negocios internacionales (Fundamentos, Marketing, Inv. de Mercados, Negocios Internacionales):**
+   - *Justificación Textual:* «Se fortalecen competencias de marketing estratégico, comercio digital y negocios internacionales.»
+   - *Sustento Ampliado:* Reemplazo de 'Gerencia del Servicio' por 'Negocios y Gerencia Internacional' (Sem 5) en el tronco común, articulada con 'Investigación de Mercados' (Sem 4), 'Gerencia de Marketing' (Sem 5), 'Gerencia de Ventas y Distribución' (Sem 7) y 'E-commerce' (Sem 7).
+   - *Herramientas de Inteligencia Comercial:* Legiscomex (declaraciones de importación/exportación, aranceles), Trade Map y Market Access Map (ITC), ProColombia, Incoterms 2020 de la ICC, cartas de crédito y cubicaje. Investigación de mercados con muestreo probabilístico y SPSS/Jamovi; CRM en HubSpot.
+   - *Evidencias en Visita:* Planes de internacionalización para café, cacao y calzado santandereano; estudios de mercado con fichas técnicas estadísticas; consultas en Legiscomex.
+
+8. **Componente investigativo (Ruta en 3 momentos de Semestres 4, 6 y 8):**
+   - *Justificación Textual:* «Se consolida la formación investigativa en tres momentos (bases, métodos y aplicación), mejor articulada con el proyecto final.»
+   - *Los Tres Momentos:*
+     * *Momento 1 (Bases):* Competencias Investigativas (Sem 4) - bases indexadas (Scopus, WoS, ScienceDirect, Redalyc, Scielo, E-Libro), gestores Mendeley/Zotero, APA 7ª.
+     * *Momento 2 (Métodos):* Métodos Cualitativos y Cuantitativos (Sem 6) - diseño empírico/cualitativo, SPSS, Atlas.ti, formulación y aprobación de anteproyecto.
+     * *Momento 3 (Aplicación):* Proyecto de Grado (Sem 8) - ejecución, análisis y sustentación ante jurados pares.
+   - *Impacto:* Se erradica la dilatación y reprobación de la malla anterior (que tenía Proyecto I y II). Articulación con el Grupo de Investigación GIDEST y el Semillero GESTNOVA.
+   - *Evidencias en Visita:* Banco de proyectos de grado sustentados con actas oficiales, publicaciones en revistas Scopus Q3 / Human Review (Condición 5) y ponencias en RedCOLSI.
+
+9. **Asignaturas de calidad y sostenibilidad (Sistemas Integrados HSEQ y Gerencia de la Calidad):**
+   - *Justificación Textual:* «Se orienta la formación hacia la sostenibilidad, las normas ISO y la mejora continua.»
+   - *Sustento Ampliado:* Tránsito de la RSE filantrópica hacia los Sistemas Integrados HSEQ trinorma (ISO 9001 Calidad, ISO 14001 Ambiente, ISO 45001 SST, ISO 31000 Riesgos) bajo el ciclo PHVA; Gerencia de la Calidad (Sem 8, TP) con TQM, Lean Management, 5S, Kaizen, AMFE, CEP y auditorías ISO 19011; Sostenibilidad con criterios ESG, economía circular y reportes GRI (Agenda 2030).
+   - *Evidencias en Visita:* Manuales SIG trinorma y matrices IPERC para empresas aliadas, talleres de auditorías simuladas con listas de chequeo y reportes GRI.
+
+10. **Componente humanista y ético (Cátedra de la Paz, Comunicación, Inglés I a III):**
+    - *Justificación Textual:* «Se prioriza la educación para la paz, la comunicación efectiva y la ética profesional, articuladas con la formación integral.»
+    - *Sustento Ampliado:* Cumplimiento estricto de la Ley 1732 de 2014 y Decreto 1038 de 2015 (Cátedra de la Paz y Resolución de Conflictos, Sem 1) enfocado en mediación laboral, negociación colectiva, DDHH y Competencias Ciudadanas Saber Pro; Comunicación Oral y Escrita gerencial; condensación de inglés de 6 niveles dispersos a 3 niveles intensivos alineados al MCER (nivel B1) con soporte virtual interactivo.
+    - *Evidencias en Visita:* Simulaciones de mediación laboral documentadas, ensayos argumentativos evaluados con rúbricas y trazabilidad en plataforma de idiomas.
+
+11. **Electivas (Cuatro asignaturas de profundización profesional - 12 créditos):**
+    - *Justificación Textual:* «Las electivas se orientan a temas actuales: analítica, sostenibilidad, innovación, liderazgo o finanzas.»
+    - *Las Cuatro Rutas Estratégicas:*
+      * *Ruta 1 (Transformación Digital & Analítica):* Business Intelligence, Ciberseguridad, Fintech.
+      * *Ruta 2 (Finanzas Corporativas & Mercados):* Valoración de empresas, riesgos financieros, banca de inversión.
+      * *Ruta 3 (Sostenibilidad & Economía Circular):* Negocios verdes, reportes GRI, cooperativismo.
+      * *Ruta 4 (Gerencia Global & Cadena de Suministro):* Supply Chain 4.0, negociación intercultural, franquicias.
+    - *Flexibilidad:* Conforme al Decreto 1330; absorción de electivas humanísticas en el tronco transversal obligatorio.
+    - *Evidencias en Visita:* Catálogo oficial SIGA, silabos de electivas por competencias y registros de matrícula vocacional en Moodle.
+
+12. **Carga académica total (144 créditos – 6.912 horas vs. 158 créditos – 7.584 horas):**
+    - *Justificación Textual:* «El rediseño mejora la eficiencia curricular y la pertinencia frente a estándares nacionales e internacionales.»
+    - *Desglose Legal y Diferenciado (Decreto 1330 - 48 h/crédito):*
+      * *Modalidad Presencial (Relación 1:2):* 16 h HAD + 32 h HTI por crédito -> 2.304 h docencia directa presencial + 4.608 h trabajo autónomo = 6.912 horas totales.
+      * *Modalidad Virtual (Relación 1:3 mediada):* 12 h TAD mediadas + 36 h TAI autónomas por crédito -> 1.728 h acompañamiento virtual mediado (sincrónico Teams/Zoom 24/7, foros, tutorías) + 5.184 h trabajo autónomo en Moodle = 6.912 horas totales.
+      * *Política de Grupos:* 20–30 estudiantes en presencial y máximo 35 en virtual.
+    - *Evidencias en Visita:* Tablas 24 y 25 del Documento Maestro, métricas de conexión en LMS Moodle (AWS) y documento oficial de Aclaración del Proceso Formativo radicado ante el MEN.
+
+### 4. Estado de Archivos y Recursos Locales Generados
+- uild_complete_justificacion_docx.py: Script generador en Python.
+- justificación ampliada admon.docx: Documento Word principal en la carpeta del proyecto.
+- (justificación ampliada admon).docx: Copia con paréntesis exactos del requerimiento.
+- Copias sincronizadas en la raíz de Visitas_programas/ para salvaguarda multi-ubicación.
+- Cero sincronizaciones a repositorios remotos de GitHub ejecutadas.
 
 
 ---
 
-## VIII. ACTUALIZACIÓN EVIDENCIAS C5 Y REESTRUCTURACIÓN INTEGRAL C7 (PROFESORES) [2026-10-21]
+## XI. INTEGRACIÓN Y ACTUALIZACIÓN INTEGRAL DE CONDICIONES 8 Y 9 (MEDIOS EDUCATIVOS E INFRAESTRUCTURA) [2026-10-22]
 
-### 1. Condición 5 (Investigación) – Corrección de Enlaces y Ajuste Textual Diapositiva 27
-- **Enlace Scopus Q3 (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Competitive Intelligence Methodology for the Promotion of Business Survival. Case: Microenterprises Department of Santander, Colombia"* por el enlace directo de acceso abierto en la editorial oficial:
-  `https://www.neuroquantology.com/open-access/Competitive+Intelligence+Methodology+for+the++Promotion+of+Business+Survival.+Case%253A++Microenterprises+Department+of+Santander%252C++Colombia_3052/`
-- **Enlace Human Review (Diapositiva 18):** Reemplazo del hipervínculo para el artículo *"Resilience and digital competences in higher education students"* por el enlace verificado en el repositorio:
-  `https://www.historicoeagora.net/revHUMAN/article/view/4158`
-- **Diapositiva 27 (Proyección y Alianzas Internacionales):** Ajuste del texto de *"Resultado Verificable"* según requerimiento formal:
-  *Texto canónico establecido:* `Movilidad académica, proyectos de investigación conjunta.`
+### 1. Requerimiento Institucional y Fuentes Oficiales
+En estricta atención al requerimiento de la Dirección y el equipo de Acreditación, se realizó la adaptación, modernización y despliegue integral en la plataforma web de las Condiciones 8 y 9 a partir de los archivos de presentación oficiales:
+- `CONDICIÓN 8. MEDIOS EDUCATIVOS.pptx` (22 Diapositivas)
+- `CONDICIÓN 9. INFRAESTRUCTURA Y TECNOLOG.pptx` (29 Diapositivas)
+- Destino oficial en producción: [https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/](https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/)
 
-### 2. Condición 7 (Profesores) – Reestructuración Canónica y Tablas Oficiales
-Integración completa de la presentación oficial `Condición 7 Profesores ADmon.pptx` y el Documento Maestro (Anexo 2), organizando la condición en 6 subsecciones interactivas con visualización estratégica de datos:
+### 2. Condición 8 — Medios Educativos (22 Diapositivas PPT Oficiales)
+- **Estructura en 6 Ejes Temáticos:**
+  1. *Eje 1: Marco & Selección de Medios (Slides 1–4):* Principio institucional de articulación con el PEI y misión del programa; selección bimodal presencial y virtual; recursos constitutivos: Aulas Extendidas, Campus Virtual LMS y CRM Servicio al Cliente.
+  2. *Eje 2: Biblioteca Digital & E-Libro (Slides 5–9):*
+     - Más de 100.000 títulos en texto completo, multiusuario y 515+ editoriales académicas mundiales.
+     - Búsqueda avanzada por materias de administración, economía, contabilidad y TIC.
+     - Estantería propia, notas, resaltado a 3 colores y generador de citas normalizadas en **Normas APA 7.ª edición**.
+     - Accesibilidad e inclusión: Lector de pantalla text-to-speech y lectura offline en apps móviles (Decreto 1421 de 2017).
+     - **Gráfica Oficial Interactiva Chart.js de Total Visitas por Año (2020 – 2026):** Consolidado de **47.507 consultas registradas** (Cátedra: 23.982 | Básicas: 18.645 | Económicas y Administrativas: 4.880), con tabla comparativa completa por periodos.
+  3. *Eje 3: Ecosistema Virtual: SIGA & Moodle (Slides 10–13):*
+     - Sistema Integrado de Gestión Académica (SIGA) para matrículas en línea, calificaciones y evaluación docente 360°.
+     - Moodle Campus Virtual: Arquitectura canónica de aula en 5 secciones pedagógicas (Información, Contenidos, Actividades, Evaluación y Canales de Comunicación).
+     - Seguimiento académico continuo y analítica articulada al Sistema de Alertas Tempranas (SAT).
+  4. *Eje 4: Colaboración Microsoft 365 (Slides 14–15):*
+     - Teams, OneDrive 1 TB, Office web/móvil, Forms y Planner.
+     - Cobertura de licenciamiento institucional A3 asignada al 100% de estudiantes, profesores y directivos.
+  5. *Eje 5: CRM Atención & Soporte (Slide 16):*
+     - **Tabla y Gráfica Interactiva de 962 Casos Resueltos (2025-1 a 2026-2):** Acceso a Plataforma Virtual (329), Restablecer Contraseñas (245), Acceso Correo Electrónico (173), Información General y Claves (156), Plataforma Campus (35), Plataforma Moodle (24).
+     - SLA de atención en menos de 24 horas y satisfacción > 95%.
+  6. *Eje 6: Capacitación, Videos Institucionales & Cierre (Slides 17–22):*
+     - Plan de cualificación docente y estudiantil con certificaciones pedagógicas del SENA y la TO.
+     - **Video Oficial 1 Integrado:** `assets/c8/c8_video_servicios_tecnologicos.mp4` (14.6 MB) con reproductor nativo HTML5.
+     - **Video Oficial 2 Integrado:** `assets/c8/c8_video_inge_portal.mp4` (optimizado a 11.4 MB en 720p H.264) con reproductor nativo HTML5.
+     - Tarjeta de enlace directo y activación de la **Respuesta a la Sala de CONACES (Observación 12: Medios Educativos y Protocolo de Inclusión Decreto 1421)**.
 
-1. **Subsección 1: Planta Docente Actual (Tablas 52 y 53):**
-   - **Tabla 52. Profesores del programa de Administración de Empresas – Modalidad Presencial:** 6 docentes calificados (100% magísteres), vinculación MT (20 h/sem) y TC (40 h/sem).
-   - **Tabla 53. Profesores del programa de Administración de Empresas – Modalidad Virtual:** 9 docentes especialistas y magísteres con dedicación balanceada de 20 h/sem (MT) y 40 h/sem (TC).
+### 3. Condición 9 — Infraestructura Física y Tecnológica (29 Diapositivas PPT Oficiales)
+- **Estructura en 6 Ejes Temáticos:**
+  1. *Eje 1: Marco & Visión General de Sedes (Slides 1–4):*
+     - Tres sedes estratégicas en el centro de Bucaramanga a menos de 5 minutos entre sí.
+     - **Sede A (Principal y Administrativa):** Calle 41 N.° 10-30 Centro (1.140 m², 11 aulas modernas, oficinas, consultorio CIDRE y semilleros).
+     - **Sede B (Aulas y Posgrados):** Carrera 10 N.° 41-73 Centro (sala de cómputo actualizada, 6 salones posgrados, espacios de estudio).
+     - **Sede C (Complejo Académico):** Carrera 10 N.° 35-40 Centro (6.135 m², 21 salones, 1 sala de cómputo, 1 auditorio).
+  2. *Eje 2: Sede A – Principal & Administrativa (Slides 5–12):*
+     - Ficha técnica general de 1.140 m² con licencia institucional y uso de suelo educativo vigente.
+     - Aulas dotadas de mobiliario ergonómico, videoproyectores y Wi-Fi 6.
+     - Galerías comparativas de modernización **ANTES / AHORA**: Biblioteca física híbrida, Área común / Sala de lectura silenciosa, Cafetería higiénica y confortable, Fachada con rampa incluyente (Decreto 1421), Pasillos de alto tráfico y Patios interiores de permanencia.
+  3. *Eje 3: Cómputo & Aula Móvil (Slides 13–14):*
+     - **Sala de Cómputo:** Trayectoria de inversión institucional de **$100.000.000 COP** (2022) y dotación 2025 para software SIIGO Nube, Power BI, Python, Bizagi y simuladores en la nube.
+     - **Aula Móvil:** Salto tecnológico verificable de laptops Lenovo HDD 1TB / 8GB RAM (2019) a **HP ProBook 440 empresariales con disco SSD 1 TB NVMe y 32 GB RAM** (2024–2026).
+  4. *Eje 4: Sedes B y C & Capacidad de Espacios (Slides 15–20):*
+     - Sede B: Salones de clase colaborativos y Auditorio institucional dotado de microfonía envolvente y streaming en vivo para los Congresos Multidisciplinarios.
+     - Sede C: Salones de clase con iluminación natural y capacidad media de 25-30 alumnos por aula.
+     - **Tabla Oficial de Disponibilidad de Espacios:** Matriz de 23 salones, sala de cómputo, 2 bibliotecas, 2 cafeterías, 2 enfermerías, 3 recepciones y 3 bloques administrativos + Gráfico interactivo Chart.js (`c9EspaciosChart`).
+  5. *Eje 5: Red & Telecomunicaciones (Slides 21–24):*
+     - Red cableada Cat 6A certificada, switches administrables, telefonía IP integrada y **4 Puntos de Acceso (AP) Wi-Fi empresariales en Sede A**.
+     - Enlace simétrico dedicado en Sede B y topología de red con túnel VPN IPsec inter-sedes y firewall UTM corporativo.
+  6. *Eje 6: Cloud & Moodle AWS (Slides 25–29):*
+     - Diagrama de arquitectura de SIGA de 3 capas (Presentación Web SSL, Lógica de Negocio y Base de Datos).
+     - Arquitectura Campus Virtual Moodle en **Amazon Web Services (AWS)**: Amazon RDS Multi-AZ tolerante a fallos, balanceadores ALB con Auto Scaling en EC2, almacenamiento durable S3, distribución por CDN CloudFront y certificación de disponibilidad **SLA 99.9%**.
+     - Diapositiva de cierre y tarjeta de activación de la **Respuesta a la Sala de CONACES (Observación 13: Capacidad instalada, Sedes A, B y C y garantía de disponibilidad a 7 años)**.
 
-2. **Subsección 2: Distribución de Dedicación Horaria (Tablas 54, 55 y 56):**
-   - **Ajuste estricto de horas para Medio Tiempo: 20 Horas Semanales (no 22):**
-     * **Tabla 54 (MT Presencial):** Docencia directa 10 h (50%), Preparación académica 4 h (20%), Investigación formativa 3 h (15%), Proyección social / Extensión 2 h (10%), Gestión académica 1 h (5%) = **Total 20 Horas (100%)**.
-     * **Tabla 55 (MT Virtual):** Dinamización Campus y foros 8 h (40%), Sesiones sincrónicas 5 h (25%), Diseño curricular y objetos de aprendizaje 2 h (10%), Investigación formativa 3 h (15%), Proyección social y consultoría remota 1 h (5%), Gestión académica y comités 1 h (5%) = **Total 20 Horas (100%)**.
-     * **Tabla 56 (Docente TC):** Docencia directa / tutoría 20 h (50%), Investigación aplicada 12 h (30%), Proyección social y extensión 5 h (12.5%), Gestión académica 3 h (7.5%) = **Total 40 Horas (100%)**.
-   - **Gráfica Interactiva Chart.js (`c7HorasChart`):** Barras apiladas que evidencian la dedicación armónica y la fortaleza institucional en investigación y extensión.
-
-3. **Subsección 3: Coherencia y Verificación Nominal (Tablas 57 y 58):**
-   - **Tabla 57. Mapa de Coherencia: Condiciones de Calidad vs. Horas Docentes por Tipo de Vinculación:** Mapeo exhaustivo de las horas de dedicación frente a las Condiciones de Calidad CC3 (Currículo), CC4 (Actividades Académicas), CC5 (Investigación) y CC6 (Relación Sector Externo), demostrando cumplimiento integral del Decreto 1330.
-   - **Tabla 58. Verificación por Docente: Asignación Horaria y Compromisos de Condiciones de Calidad:** Verificación nominal de los docentes del programa garantizando que cada docente MT cumple exactamente 20 horas y los TC 40 horas.
-
-4. **Subsección 4: Proyección a 7 Años de la Planta Docente (Tabla 54 Proyección):**
-   - **Tabla 54. Proyección diferenciada de planta docente por modalidad y periodo:** Horizonte 2026-1 a 2031-2 (cohorte plena de 10 periodos). Crecimiento sostenible de 17 a 52 docentes (15 TC y 37 MT).
-   - **Gráfica de Tendencia Sostenible (`c7ProyeccionChart`):** Tendencia positiva institucional que demuestra expansión de cobertura estudiantil preservando un ratio equilibrado de 1:15 a 1:40 estudiantes por docente.
-
-5. **Subsección 5: Gobernanza, Carrera Docente y Criterios Meritocráticos:**
-   - 5 pilares del Estatuto Docente (Ingreso, Permanencia, Promoción, Evaluación y Retiro).
-   - Proceso de selección en 7 fases con matriz meritocrática ponderada: Micro-clase pedagógica (35%), Entrevista técnica (25%), Prueba psicotécnica (25%) y Evaluación de Hoja de Vida (15%).
-   - Comité de Selección y Contratación y modalidades de contratación laboral según normatividad colombiana.
-
-6. **Subsección 6: Cualificación de Alto Impacto, Bienestar y Evaluación 360°:**
-   - **Impactos Positivos de Cualificación Docente (Diapositiva 13 PPT oficial):**
-     * 8 becarios doctorales en Ciencias de la Educación (UPEL, 40% de la planta docente).
-     * 100% de la planta docente certificada por el SENA en competencias pedagógicas y didácticas.
-     * 100% de la planta cualificada en tecnologías e innovación educativa para entornos digitales.
-     * 100% de la planta capacitada en diseño de Resultados de Aprendizaje y taxonomía de Bloom.
-   - **Diagrama de Causa-Efecto (Ishikawa) de Bienestar Integral Docente:** 4 espinas estratégicas (Salud y Seguridad Laboral, Clima Organizacional, Desarrollo Personal y Familiar, Reconocimiento al Mérito).
-   - **Sistema de Evaluación Docente Integral 360° con Gráficos Concénctricos (`c7EvalFuentesChart` y `c7EvalDimensionesChart`):**
-     * *Fuentes de evaluación:* Heteroevaluación estudiantil (60%), Evaluación directiva y coordinación (20%), Autoevaluación docente (20%).
-     * *Dimensiones evaluadas:* Pedagógica (35%), Didáctica y tecnológica (35%), Investigación formativa (20%), Gestión institucional (10%).
-
-### 3. Validación Técnica y Despliegue
-- Sintaxis JS verificada con Node.js (`node -c`): 0 errores.
-- Cachebusters actualizados en `index.html`: `sections_c5.js?v=20261021_c5_v4` y `sections_c7.js?v=20261021_c7_v3`.
-- Sincronización realizada en `sitio_web/` y `Rep_Github/`.
-
-
----
-
-## IX. IMPLEMENTACIÓN DE VENTANAS EMERGENTES (MODALES) Y ASIGNATURAS ARTICULADAS A LOS 6 FUNDAMENTOS TEÓRICOS (NUMERAL 3.5.2 Y 3.5.3.1) [2026-10-21]
-
-### 1. Requerimiento y Diagnóstico
-En la subpestaña **d) Conceptualización Teórica y Epistemológica del Programa** de la Condición 3 (Aspectos Curriculares), los 6 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2 del Documento Maestro) se presentaban en tarjetas estáticas sin enlace a sus asignaturas y áreas de formación.
-Se requirió la implementación de ventanas emergentes (modales interactivos) al hacer clic sobre cualquiera de las 6 tarjetas, desplegando los componentes curriculares y las asignaturas que dan cumplimiento y donde se desarrollan las teorías de los referentes señalados.
-
-### 2. Estructura Canónica Incorporada en el Modal (Numeral 3.5.3.1 Documento Maestro)
-Se desarrolló la función global window.openEpistemologyModal(theoryKey, planType) y window.closeEpistemologyModal(e) en sections_c3.js, integrando para cada teoría:
-
-1. **Teoría de la Administración & Gestión Estratégica (Numeral 3.5.2.1 & 3.5.3.1 a):**
-   - *Referentes Canónicos:* Taylor (1911), Fayol (1916), Weber (1922), Porter (1980/1985), Mintzberg (1994) y Drucker (1985/1993).
-   - *Componente:* Área de Formación Profesional / Disciplinar (Gestión Organizacional, Planeación y Dirección).
-   - *Asignaturas:* Planeación Estratégica (VI sem, 3 cr), Dirección de Organizaciones (V sem, 3 cr), Gestión de Recursos Empresariales (IV sem, 3 cr), Gerencia Estratégica (VIII sem, 3 cr), Diagnóstico Empresarial (VII sem, 3 cr) y Fundamentos de Administración (I/II sem, 3 cr).
-   - *Competencias & Aplicación:* Modelos de toma de decisiones y planes de diagnóstico estratégico aplicados a microempresas de Santander.
-
-2. **Teoría de Recursos Humanos & Liderazgo (Numeral 3.5.2.2 & 3.5.3.1 b):**
-   - *Referentes Canónicos:* Elton Mayo (1933), Abraham Maslow (1943), Frederick Herzberg (1966), Douglas McGregor (1960) y Dave Ulrich (1997/2013).
-   - *Componente:* Área de Formación Profesional / Disciplinar (Gestión del Talento Humano y Clima Organizacional).
-   - *Asignaturas:* Gestión del Talento Humano (V sem, 3 cr), Comportamiento Organizacional (III sem, 3 cr), Liderazgo Ético y Habilidades Gerenciales (IV sem, 2 cr), Cultura y Clima Organizacional (VI sem, 3 cr) y Seguridad y Salud en el Trabajo (V sem, 2 cr).
-   - *Competencias & Aplicación:* Liderazgo transformacional y diseño de planes de clima organizacional aplicados a empresas colaboradoras.
-
-3. **Teoría del Marketing & la Innovación (Numeral 3.5.2.3 & 3.5.3.1 c):**
-   - *Referentes Canónicos:* Philip Kotler & Gary Armstrong (2018), Joseph Schumpeter (1934/1942 - Destrucción Creativa) y Chan Kim & Mauborgne (2005 - Océano Azul).
-   - *Componente:* Área de Formación Profesional / Disciplinar (Mercadeo Estratégico e Innovación Comercial).
-   - *Asignaturas:* Marketing Estratégico (V sem, 3 cr), Gestión de la Innovación (VI sem, 3 cr), Investigación de Mercados (IV sem, 3 cr), Marketing Digital & Analítica Comercial (VII sem, 3 cr) y Gestión de Marcas y Productos (VI sem, 3 cr).
-   - *Competencias & Aplicación:* Creación de valor para el consumidor y planes reales de marketing digital para emprendimientos del oriente colombiano.
-
-4. **Teoría del Emprendimiento & la Innovación Social (Numeral 3.5.2.4 & 3.5.3.1 d):**
-   - *Referentes Canónicos:* Scott Shane (2003 - Oportunidad Emprendedora), Peter Drucker (1985) y Alexander Osterwalder (2010 - Canvas & Lean).
-   - *Componente:* Componente Transversal y de Formación Profesional (Emprendimiento e Innovación Social).
-   - *Asignaturas:* Emprendimiento e Innovación (V sem, 3 cr), Gestión de Proyectos Empresariales (VII sem, 3 cr), Modelos de Negocio Lean & Creación de Empresas (VI sem, 3 cr) e Innovación Social y Desarrollo Comunitario (IV sem, 2 cr).
-   - *Competencias & Aplicación:* Incubación en el Vivero del CIDRE, articulación CUEES y escalabilidad de la Spin-off institucional MYB S.A.S.
-
-5. **Teoría de la RSE & Sostenibilidad (Numeral 3.5.2.5 & 3.5.3.1 e):**
-   - *Referentes Canónicos:* Archie Carroll (1991 - Pirámide RSE), R. Edward Freeman (1984 - Stakeholders), John Elkington (1997 - Triple Bottom Line) y Porter & Kramer (2011 - Valor Compartido).
-   - *Componente:* Componente Institucional, Socio-Humanístico y Énfasis Gerencial Sostenible.
-   - *Asignaturas:* Responsabilidad Social Empresarial (VI sem, 2 cr), Gestión Sostenible y Economía Circular (VII sem, 3 cr), Ética Profesional y Ciudadana (III sem, 2 cr) y Gobierno Corporativo y Sostenibilidad (VIII sem, 3 cr).
-   - *Competencias & Aplicación:* Planes de sostenibilidad con criterios ESG (Ambiental, Social y Gobernanza) y matrices de materialidad.
-
-6. **Teoría de la Pedagogía Virtual & Autonomía (Numeral 3.5.2.6 & 3.5.3.1 f):**
-   - *Referentes Canónicos:* Piaget (1970) & Vygotsky (1978 - Constructivismo), George Siemens (2005 - Conectivismo), Terry Anderson (2008 - Comunidades de Indagación) y Malcolm Knowles (1984 - Andragogía).
-   - *Componente:* Componente Institucional, Metodológico y Tecnológico (Presencial y Virtual).
-   - *Asignaturas:* Desarrollo Profesional Virtual & Habilidades de Aprendizaje (I sem, 2 cr), Gestión de la Información Digital & Herramientas TIC (II sem, 3 cr), Cátedra Institucional TO (I sem, 1 cr) y Sistemas de Información Gerencial - SIG (IV sem, 3 cr).
-   - *Competencias & Aplicación:* Autorregulación del aprendizaje, simuladores en la nube y dinámica interactiva 24/7 en el Campus Virtual LMS Moodle.
-
-### 3. Visualización y Accesibilidad
-- Efecto hover con elevación tridimensional (	ranslateY(-4px)), sombra perimetral e indicador textual: *'Ver Asignaturas'* y *'Componentes & Asignaturas vinculadas'*.
-- Integración en ambos planes: Plan Vigente (c3-v-epistemologicos) y Plan Propuesto (c3-p-epistemologicos).
-- Soporte para cierre mediante clic en backdrop, botón de cierre y tecla Escape.
-- Cachebuster actualizado a sections_c3.js?v=20261021_v4.
+### 4. Trazabilidad Técnica, Commits y Despliegue en GitHub
+- **Exportación 1080p Full HD:** 51 diapositivas PNG exportadas mediante PowerPoint COM (`assets/c8/` y `assets/c9/`).
+- **Videos Oficiales:** Integración de `c8_video_servicios_tecnologicos.mp4` (14.6 MB) y `c8_video_inge_portal.mp4` (optimizado a 11.4 MB, asegurando que ningún archivo exceda el límite de GitHub).
+- **Control de Navegación:** Visores secuenciales con botones Ant./Sig., selectores tipo píldora (`1..22` y `1..29`) y reposicionamiento suave al contenedor superior (`#scrollContainer`).
+- **Cachebusters:** Actualizados en `index.html` a `sections_c8.js?v=20261022_c8_c9_full_v1` y `sections_c9.js?v=20261022_c8_c9_full_v1`.
+- **Commit y Push a GitHub:**
+  * Repositorio remoto: `https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO.git`
+  * Commit: `871d489` (`feat(c8-c9): implementar diapositivas oficiales PPTX, videos HD y analitica interactiva de Medios Educativos e Infraestructura`).
+  * Rama: `main -> main` desplegado con éxito.
