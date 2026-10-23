@@ -25,6 +25,15 @@ const condInfo = [
         desc: 'Modelo pedagógico Formación en Contextos de Aplicación, 4 dimensiones y Campus Virtual TO.',
         img: 'assets/virtual_card_cover.png'
     },
+    {
+        id: 'bienestar',
+        title: 'Bienestar Institucional',
+        icon: 'fas fa-heartbeat',
+        badge: 'INSTITUCIONAL',
+        slideLabel: 'Modelo Integral · 15 Diapositivas',
+        desc: 'Estrategia articulada para la permanencia y formación integral, caracterización presencial y virtual, y 16h semestrales.',
+        img: 'assets/bienestar/slide_1.png'
+    },
     { id: 'c1', title: '1. Denominación del Programa', icon: 'fas fa-id-badge', desc: 'Denominación académica, título otorgado, NBC y clasificación CINE.', img: 'assets/sedes_institucionales.png' },
     { id: 'c2', title: '2. Justificación del Programa', icon: 'fas fa-chart-line', desc: 'Pertinencia, estudios de contexto, necesidades del sector y análisis de oferta.', img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80' },
     { id: 'c3', title: '3. Aspectos Curriculares', icon: 'fas fa-sitemap', desc: 'Malla curricular, competencias, RAP, flexibilidad y plan de estudios unificado.', img: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80' },
@@ -70,12 +79,12 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="cond-card" onclick="openPresentation('${c.id}', '${c.title.replace(/'/g, "\\'")}')">
             <div class="cond-card-img" style="${c.id === 'inst' ? 'background: linear-gradient(135deg, #1A1A1B 0%, #1A1A1B 100%);' : ''}">
                 <img src="${c.img}" alt="${c.title}" onerror="this.parentElement.outerHTML='<div class=\\'cond-card-icon-bg\\'><i class=\\'${c.icon}\\'></i></div>';">
-                <div class="cond-card-badge" style="${c.id === 'inst' ? 'background:#1A1A1B; color:#FFFFFF;' : c.id === 'virtual' ? 'background:#111827; color:#F39200; border:1px solid rgba(243,146,0,0.4);' : ''}">${c.badge || ('Condición ' + c.id.replace('c',''))}</div>
+                <div class="cond-card-badge" style="${c.id === 'inst' ? 'background:#1A1A1B; color:#FFFFFF;' : c.id === 'virtual' ? 'background:#111827; color:#F39200; border:1px solid rgba(243,146,0,0.4);' : c.id === 'bienestar' ? 'background:#059669; color:#FFFFFF; border:1px solid rgba(255,255,255,0.3);' : ''}">${c.badge || ('Condición ' + c.id.replace('c',''))}</div>
             </div>
             <div class="cond-card-body">
                 <h4 class="cond-card-title">${c.title}</h4>
                 <p class="cond-card-desc">${c.desc}</p>
-                <div class="cond-card-action" style="${(c.id === 'inst' || c.id === 'virtual') ? 'color:#C8102E; font-weight:800;' : ''}"><i class="${c.icon}"></i> ${c.slideLabel || 'Ver Sustentación'}</div>
+                <div class="cond-card-action" style="${(c.id === 'inst' || c.id === 'virtual' || c.id === 'bienestar') ? 'color:#C8102E; font-weight:800;' : ''}"><i class="${c.icon}"></i> ${c.slideLabel || 'Ver Sustentación'}</div>
             </div>
         </div>
     `).join('');
@@ -95,6 +104,8 @@ function openPresentation(id, title) {
         document.getElementById('slideCategory').innerText = `IDENTIDAD Y GOBERNANZA · CORPORACIÓN ESCUELA TECNOLÓGICA DEL ORIENTE`;
     } else if (id === 'virtual') {
         document.getElementById('slideCategory').innerText = `ECOSISTEMA DIGITAL · SISTEMA DE EDUCACIÓN VIRTUAL TO`;
+    } else if (id === 'bienestar') {
+        document.getElementById('slideCategory').innerText = `BIENESTAR INSTITUCIONAL · MODELO INTEGRAL DE PERMANENCIA TO`;
     } else {
         document.getElementById('slideCategory').innerText = `CONDICIÓN ${id.replace('c','')} · RENOVACIÓN REGISTRO CALIFICADO`;
     }
@@ -153,6 +164,7 @@ function runSlideScripts(id) {
         setTimeout(() => {
             if (id === 'inst' && window.instInit) window.instInit();
             if (id === 'virtual' && window.virtualInit) window.virtualInit();
+            if (id === 'bienestar' && window.bienestarInit) window.bienestarInit();
             if (id === 'c1' && window.c1Init) window.c1Init();
             if (id === 'c2' && window.c2Init) window.c2Init();
             if (id === 'c3' && window.c3Init) window.c3Init();

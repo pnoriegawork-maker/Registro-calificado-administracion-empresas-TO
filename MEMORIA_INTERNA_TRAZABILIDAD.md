@@ -579,3 +579,48 @@ En estricta atención al requerimiento de la Dirección y el equipo de Acreditac
   * Repositorio remoto: `https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO.git`
   * Commit: `871d489` (`feat(c8-c9): implementar diapositivas oficiales PPTX, videos HD y analitica interactiva de Medios Educativos e Infraestructura`).
   * Rama: `main -> main` desplegado con éxito.
+
+---
+
+## SECCIÓN V: BIENESTAR INSTITUCIONAL — MODELO INTEGRAL DE PERMANENCIA (VIGENCIA 2026)
+**Fecha de Implementación:** 23 de octubre de 2026  
+**Documento Fuente Oficial:** `BIENESTAR INSTITUCIONAL 2026-1 (1).pdf` (15 diapositivas panorámicas 16:9).  
+**Liderazgo Institucional:** Laura Juliana Suárez (Psicóloga Especialista, Coordinadora de Bienestar Institucional TO).
+
+### 1. Arquitectura y Renderizado de Alta Definición
+- **Extracción de diapositivas a 150 DPI:** 15 imágenes PNG ultra-nítidas de resolución `3000 x 1688 px` alojadas en:
+  - `sitio_web/assets/bienestar/slide_1.png` hasta `slide_15.png`
+  - `Rep_Github/assets/bienestar/slide_1.png` hasta `slide_15.png`
+- **Módulo Independiente:** Archivo `sections_bienestar.js` (81 KB) incorporado como sección de primer nivel en el Dashboard y en el visor interactivo institucional (`#presentationViewer`).
+
+### 2. Estructuración en 7 Ejes Temáticos y 15 Diapositivas
+1. **Eje 1: Marco & Dimensiones (Slides 1–3):**
+   - Presentación oficial de la Coordinación de Bienestar (Laura Juliana Suárez).
+   - 4 dimensiones fundamentales: Emocional (salud mental, acompañamiento psicológico), Física (deporte, actividad física, estilos de vida saludable), Social (convivencia, integración comunitaria, sentido de pertenencia) y Académica (acompañamiento tutorial, hábitos de estudio, prevención del rezago).
+   - Ciclo de permanencia en 5 hitos articulados: Inducción & Acogida, Caracterización Temprana, Alertas Tempranas en Aula, Intervención y Seguimiento de Caso, y Graduación & Proyecto de Vida.
+2. **Eje 2: Ruta de Permanencia & Alertas (Slide 4):**
+   - Mapeo comparativo de rutas: Presencial (4 fases: Detección por docentes, Tamizaje psicoeducativo, Plan de intervención personalizada y Monitoreo académico) vs. Virtual (3 fases: Monitoreo analítico en Campus Virtual Moodle, Contacto telefónico/WhatsApp y Sesiones sincrónicas de apoyo).
+3. **Eje 3: Horas de Bienestar & 5 Áreas (Slides 5–6):**
+   - Normativa reglamentaria: **16 horas semestrales** estipuladas en el Reglamento Estudiantil como requisito formativo de permanencia (no cuantificable como nota numérica sino como dimensión holística del ser).
+   - 5 áreas funcionales: Salud Integral, Deporte y Recreación, Arte y Cultura, Desarrollo Humano y Acompañamiento Socioeconómico.
+4. **Eje 4: Caracterización Presencial Mañana/Noche (Slides 7–8):**
+   - Matriz diagnóstica bimodal:
+     - Jornada Diurna (Mañana): Dificultades primarias vinculadas a la *mala gestión del tiempo*, procrastinación y hábitos de estudio; intervención basada en estructuración de agendas y métodos de estudio.
+     - Jornada Nocturna (Noche): Dificultades de *falta de tiempo real* por jornada laboral activa y cargas familiares; intervención mediante flexibilización, talleres asincrónicos y pausas activas nocturnas.
+5. **Eje 5: Ruta Virtual en 3 Fases (Slide 9):**
+   - Estrategia para estudiantes 100% virtuales:
+     - Fase 1: Identificación temprana por inactividad en Moodle (>5 días sin ingresar).
+     - Fase 2: Cápsulas psicoeducativas en el aula virtual de Bienestar (Salud Mental, Manejo del Estrés, Habilidades Blandas).
+     - Fase 3: Acompañamiento individual tele-psicológico sincrónico.
+6. **Eje 6: Modelo Sistémico & Enfoque de Intervención (Slides 10–11):**
+   - Los 5 engranajes articulados del modelo TO: Estudiante, Docente Tutor, Coordinación de Programa, Bienestar Institucional y Familia/Entorno.
+   - Manifiesto de intervenciones diferenciales: de lo reactivo a lo preventivo y formativo.
+7. **Eje 7: Galería de Evidencias Reales & Cierre (Slides 12–15):**
+   - Registro fotográfico auténtico de actividades de aula, talleres de manejo del estrés, torneos relámpago de futsal en canchas polideportivas, jornadas de salud visual/general, pausas activas e inclusión institucional bajo el Decreto 1421 de 2017.
+   - Slide de cierre con acreditación institucional y contactos oficiales de Bienestar TO.
+
+### 3. Navegación e Integración en la Plataforma Web
+- **Dashboard Card:** Tarjeta con badge `INSTITUCIONAL`, icono `fas fa-heartbeat`, label `Modelo Integral · 15 Diapositivas` y portada en alta resolución `slide_1.png`.
+- **Visor Panorámico:** Botones de ejes temáticos (`1. Marco & Dimensiones` a `7. Galería de Evidencias`), barra de navegación por píldoras numeradas `1..15`, contador en vivo `X / 15` y desplazamiento automático `#scrollContainer`.
+- **Integridad Técnica:** Cero scrolls atrapados, tipografía corporativa institucional (`Montserrat` y `Open Sans`) y colores corporativos oficiales (`#1A1A1B`, `#F39200`, `#16A34A`).
+
