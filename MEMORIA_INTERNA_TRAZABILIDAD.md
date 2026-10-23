@@ -624,3 +624,71 @@ En estricta atención al requerimiento de la Dirección y el equipo de Acreditac
 - **Visor Panorámico:** Botones de ejes temáticos (`1. Marco & Dimensiones` a `7. Galería de Evidencias`), barra de navegación por píldoras numeradas `1..15`, contador en vivo `X / 15` y desplazamiento automático `#scrollContainer`.
 - **Integridad Técnica:** Cero scrolls atrapados, tipografía corporativa institucional (`Montserrat` y `Open Sans`) y colores corporativos oficiales (`#1A1A1B`, `#F39200`, `#16A34A`).
 
+---
+
+## XII. SECCIÓN INSTITUCIONAL: BIENESTAR INSTITUCIONAL — MODELO INTEGRAL Y PRIMER PLANO ABSOLUTO [2026-10-23]
+
+### 1. Requerimiento Institucional y Fuentes Oficiales
+- **Solicitud de la Dirección de Acreditación:** Incorporar y diseñar la sección independiente de **Bienestar Institucional** con base en el documento oficial cargado al proyecto:
+  * Documento fuente: `BIENESTAR INSTITUCIONAL 2026-1 (1).pdf` (15 diapositivas panorámicas 16:9).
+  * Liderazgo especializado: **Laura Juliana Suárez** (Psicóloga Especialista · Coordinadora de Bienestar Institucional TO).
+  * Directriz técnica de experiencia de usuario: *"al dar click debe verse en primer plano la presentación, no en la parte inferior, y los iconos con el mismo diseño profesional de las otras secciones. Pilas, que no se mueva hacia abajo"*.
+
+### 2. Diagnóstico Pericial de Comportamiento y Causa Raíz
+- **Problema Detectado:** Al abrir la sección o al pulsar las píldoras de diapositivas (`1..15`), la presentación se desplazaba bruscamente hacia abajo saliendo del foco del usuario.
+- **Causa Raíz Identificada:**
+  1. *Llamada a smooth scroll ascendente:* En `goToBienestarSlide(num, true)` se invocaba `scroller.scrollTo({ top: 0, behavior: 'smooth' })`.
+  2. *Apilamiento de cabeceras redundantes:* Existían ~380px ocupados por la barra superior de ventana, la cabecera interna (`.viewer-card-header`), un banner informativo oscuro y títulos repetidos. Al hacer scroll hacia el tope (y = 0), el viewport enfocaba los textos superiores y la diapositiva quedaba oculta por debajo del fold visual.
+  3. *Re-ejecución periódica en app.js:* `runSlideScripts('bienestar')` llamaba `bienestarInit()` a los 100ms, 300ms, 600ms y 1000ms, disparando animaciones repetitivas de scroll.
+
+### 3. Solución de Ingeniería Implementada (Ground Truth 100% Funcional)
+- **Modo Cine en Primer Plano (`.viewer-cinema-focus`):**
+  * Control dinámico en `openPresentation(id)` y `closePresentation()` en `app.js`.
+  * Regla CSS dedicada en `styles.css`: suprime completamente la cabecera redundante `.viewer-card-header` y el pie `.viewer-card-footer`, reduciendo el padding a solo 8-10px.
+  * La presentación queda fijada en el **primer plano absoluto superior**.
+- **Toolbar Compacta Homogénea (Estándar C8 y C9):**
+  * Ocupa únicamente ~45px sobre la presentación.
+  * **Fila 1 (Ejes Temáticos):** 7 botones píldora con iconos FontAwesome coordinados en `#F39200` y `#1A1A1B`:
+    1. `<i class="fas fa-compass"></i> 1. Marco & Dimensiones` (Slides 1–3)
+    2. `<i class="fas fa-route"></i> 2. Ruta de Permanencia` (Slide 4)
+    3. `<i class="fas fa-clock"></i> 3. Horas & 5 Áreas` (Slides 5–6)
+    4. `<i class="fas fa-users-cog"></i> 4. Presencial Mañana/Noche` (Slides 7–8)
+    5. `<i class="fas fa-laptop-house"></i> 5. Ruta Virtual 3 Fases` (Slide 9)
+    6. `<i class="fas fa-cogs"></i> 6. Modelo Sistémico` (Slides 10–11)
+    7. `<i class="fas fa-camera-retro"></i> 7. Galería de Evidencias` (Slides 12–15)
+  * **Fila 2 (Navegación):** Botones `Ant.` y `Sig.`, 15 píldoras circulares (`1..15`) con fondo naranja `#F39200` al activarse y contador `X / 15`.
+- **Cine-Frame Adaptativo con Ajuste Perfecto al Viewport:**
+  * Marco oscuro `#0F172A` con sombra suave.
+  * Altura responsiva calculada: `max-height: calc(100vh - 170px); object-fit: contain;`
+  * Garantiza que en cualquier pantalla (1366x768, 1080p, 2K, 4K) la diapositiva completa de 16:9 quepa 100% en la pantalla de inmediato sin scroll y sin recortes.
+  * Clic sobre la diapositiva activa zoom en resolución Ultra HD original (3000 × 1688 px, 150 DPI).
+- **Transición Instantánea en el Mismo Plano (Zero Scroll Jump):**
+  * Erradicación total de llamadas a `scrollTo` en `goToBienestarSlide(num)`.
+  * El cambio de diapositiva se produce por intercambio de `display: block/none` inmediatamente en el mismo plano visual.
+  * Si el usuario se encuentra visualizando la diapositiva, pulsar cualquier píldora cambia la lámina en su mismo lugar con cero desplazamientos verticales.
+- **Desglose Analítico Exhaustivo Ubicado Debajo:**
+  * Se mantiene la sustentación técnica rigurosa debajo del visor de diapositivas para consulta detallada de los pares del MEN:
+    - 4 Dimensiones del Bienestar (Emocional, Física, Social, Académica).
+    - Ciclo de permanencia en 5 hitos.
+    - Matriz de rutas diferenciadas Presencial vs. Virtual.
+    - Cumplimiento de **16 horas semestrales de bienestar** normadas en el Reglamento Estudiantil.
+    - Las 5 áreas de acción (Salud, Deporte, Cultura, Desarrollo Humano, Socioeconómico).
+    - Caracterización psicosocial: Jornada Diurna (Mala gestión del tiempo) vs. Nocturna (Falta de tiempo real laboral).
+    - Protocolo de Inclusión bajo el **Decreto 1421 de 2017** y planes individuales PIAR.
+    - Galería fotográfica auténtica de actividades institucionales, torneos de futsal, jornadas de salud y acompañamiento tutorial.
+
+### 4. Trazabilidad Técnica de Archivos y Commits
+- **Archivos Generadores y Modificados:**
+  * `build_professional_bienestar.py`: script generador con arquitectura limpia y primer plano.
+  * `sitio_web/sections_bienestar.js` y `Rep_Github/sections_bienestar.js`: módulo completo (112 KB).
+  * `sitio_web/styles.css` y `Rep_Github/styles.css`: adición de `.viewer.viewer-cinema-focus`.
+  * `sitio_web/app.js` y `Rep_Github/app.js`: lógica de activación de cinema focus y control de scroll.
+  * `sitio_web/index.html` y `Rep_Github/index.html`: cachebusters actualizados a `v=20261023_cinema_focus_v4`.
+  * `assets/bienestar/slide_[1-15].png`: 15 diapositivas extraídas a 150 DPI (3000 × 1688 px).
+- **Commits en Repositorio GitHub:**
+  * Commit `1b94d1e`: Incorporación de sección oficial Bienestar con 15 diapositivas HD y 7 ejes.
+  * Commit `bffef1e`: Primer rediseño con cine-frame e iconos institucionales.
+  * Commit `624547e`: Fijación definitiva de presentación en primer plano absoluto con cinema focus, supresión de cabeceras redundantes y erradicación de saltos de scroll.
+- **Despliegue y Validación:**
+  * Repositorio remoto: `https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO.git` (rama `main`).
+  * URL Pública verificada en vivo: `https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/`

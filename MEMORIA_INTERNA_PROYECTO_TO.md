@@ -1,10 +1,10 @@
 # MEMORIA TÉCNICA E INSTITUCIONAL DE CONTROL Y CONTINUIDAD
 ## PROYECTO: RENOVACIÓN DE REGISTRO CALIFICADO - ADMINISTRACIÓN DE EMPRESAS (REGISTRO ÚNICO)
 ### INSTITUCIÓN: CORPORACIÓN ESCUELA TECNOLÓGICA DEL ORIENTE (TO)
-**Fecha de corte de sesión:** 21 de Octubre de 2026  
-**Rama activa Git:** `main`  
-**Repositorio oficial activo:** `https://github.com/pnoriegawork-maker/Registro-calificado-administracion-empresas-TO.git`  
-**URL Pública de Producción (GitHub Pages):** `https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/`  
+**Fecha de corte de sesión:** 21 de Octubre de 2026
+**Rama activa Git:** `main` (commit `a2783b3`)  
+**Repositorio remoto:** `https://github.com/pedronoriega-eng/Registro-calificado-administracion-empresas-TO.git`  
+**URL Pública (GitHub Pages):** `https://pedronoriega-eng.github.io/Registro-calificado-administracion-empresas-TO/`  
 **Clave de acceso institucional:** `TO2026` (o `TO`)
 
 ---
@@ -21,17 +21,8 @@
      - **Plan Propuesto (144 créditos, 8 semestres):** Renovación curricular aprobada mediante **Acuerdo de Consejo Superior No. 021 de 2025** (Anexo 2 SACES), manteniendo la figura de Registro Único con 240 cupos virtuales y 60 cupos presenciales, y titulación inclusiva *Administrador(a) de Empresas*.
    - Queda prohibido categorizar el plan vigente como «Presencial únicamente». Ambas fichas deben reflejar la dualidad metodológica autorizada.
 
-3. **Cero Rivalidad Metodológica (Eliminación de "VS"):**
-   - No se utiliza la expresión "VS" para comparar Presencial y Virtual. Ambas modalidades conviven sinérgica y armónicamente en el marco del Registro Único, representándose siempre con un guion o enlace constructivo: `Presencial - Virtual`.
-
-4. **Rigor Geográfico y Constitucional de Colombia:**
-   - De conformidad con la Constitución Política de Colombia de 1991 (Art. 286), la división territorial del país comprende exactamente **32 departamentos y 1 Distrito Capital** (Bogotá D.C.). Queda terminantemente prohibido referirse a "33 departamentos".
-
-5. **Dedicación Docente Estricta para Medio Tiempo (20 Horas):**
-   - En todas las tablas de asignación horaria, condiciones de calidad y compromisos (Tablas 52, 53, 54, 55, 57 y 58), los docentes de **Medio Tiempo (MT)** tienen asignadas exactamente **20 horas semanales** (100%), eliminando de forma tajante cualquier cifra obsoleta de 22 horas. Los docentes de **Tiempo Completo (TC)** cumplen **40 horas semanales**.
-
-6. **Paleta Oficial Exclusiva de Administración de Empresas (Zero Azul):**
-   - El color azul (`#0A2540`, `#173A66`, `#2563EB`, `#3B82F6`, etc.) pertenecía a Ingeniería Industrial y queda **terminantemente prohibido** en este aplicativo.
+3. **Paleta Oficial Exclusiva de Administración de Empresas (Zero Azul):**
+   - **Regla estricta:** El color azul (`#0A2540`, `#173A66`, `#2563EB`, `#3B82F6`, etc.) pertenecía a la plantilla de Ingeniería Industrial y queda **terminantemente prohibido** en este aplicativo.
    - **Colores oficiales:**
      - Carbón Institucional: `#1A1A1B` y `#2D2D2E` (fondos de cabecera, textos oscuros y tarjetas).
      - Naranja TO Oficial: `#F39200` y `#D97F00` (acentos primarios, bordes destacados, botones de acción).
@@ -39,116 +30,127 @@
      - Terracota / Dorado: `#EA580C` y `#D97706` (subcategorías y métricas).
      - Neutros y Cremas: `#FFFFFF`, `#FAFAFA`, `#F4F4F4`, `#FFF7ED` y `#FFF3E0`.
 
-7. **Control de Calidad "Zero Regression":**
-   - Malla Curricular Condición 3 (144 créditos, 8 semestres, 48 asignaturas modulares, 100% fit-to-screen sin scroll horizontal).
-   - Observatorio Geoespacial Google Maps Relieve (Condición 2) con datos oficiales SNIES y SPADIES/SAT.
-   - Caso Spin-Off MYB S.A.S. y Grupo COLLEGIUM en Condición 5.
+4. **Oferta Académica Vigente Oficial (17 Programas del MEN):**
+   - Toda la información proviene estrictamente del portal oficial institucional ([tecnologicadeloriente.edu.co/oferta-academica/](https://tecnologicadeloriente.edu.co/oferta-academica/)).
+   - Los 17 programas se presentan mediante 4 paneles de selectores compactos (Pregrado Presencial, Pregrado Virtual, Posgrado Presencial, Posgrado Virtual), evitando el desplazamiento vertical excesivo.
+   - Al hacer clic en cualquier programa, se abre una **ventana emergente (modal sintético)** en segundo plano que muestra exclusivamente: Nombre, Nivel Académico, Modalidad, Duración (Semestres), Créditos Académicos, Código SNIES y enlace directo al portal institucional.
+
+5. **Convenios y Alianzas Oficiales de la TO:**
+   - Se utilizan exclusivamente los **15 logotipos oficiales de convenios** descargados del carrusel oficial del portal de la TO (`assets/convenios/`), articulados con los +70 convenios activos de la institución. Cero banners genéricos o imágenes desactualizadas.
+
+6. **Control de Calidad "Zero Regression":**
+   - No alterar, sobreescribir ni eliminar componentes previamente validados:
+     - Malla Curricular Condición 3 (Presencial 1:2 con 48h/crédito, Virtual 1:3 con 36h/crédito, 144 créditos, 8 semestres, 48 asignaturas modulares, 100% fit-to-screen sin scroll horizontal).
+     - Factores Diferenciadores y Resultados de Aprendizaje (RAP).
+     - Condición 2: Observatorio Geoespacial Google Maps Relieve con datos oficiales del SNIES y gráficas de tendencia Chart.js en Tablas 12 y 13.
+     - Condición 2: Tableros dinámicos unificados de permanencia, matrícula histórica y seguimiento a la deserción estudiantil (SPADIES/SAT) - (Condición 10 unificada).
 
 ---
 
-### 2. ESTADO DETALLADO DE CONDICIONES CONSTRUIDAS Y CONSOLIDADAS
+### 2. REGISTRO DE CAMBIOS APROBADOS Y COMPONENTES ACTIVOS
 
-#### A. Presentación Institucional (`sections_inst.js`)
-- **Línea de Tiempo Histórica 1992–2026:** Evolución integral de la institución en un solo nivel horizontal compacto, destacando la personería jurídica (Res. 4108/1992), hitos de acreditación, transformación digital y renovación curricular con oferta de 17 programas del MEN.
-- **Ecosistema Institucional:** 15 logotipos oficiales de convenios (`assets/convenios/`), +70 alianzas activas, distribución estudiantil 70% Virtual y 30% Presencial, e inventario verificado de aulas (Sede B: 6 aulas; Sede C: 12 aulas; Sede A principal con laboratorios especializados).
+#### A. Condición 1 — Denominación del Programa (`sections_c1.js`)
+- **Ficha Técnica Oficial Dual en Paralelo:** Visible inmediatamente tras las subsecciones. Muestra lado a lado:
+  - Plan Vigente: 158 créditos, 9 semestres, Acuerdo CS 011/2024, Registro Único (Presencial y Virtual).
+  - Plan Propuesto: 144 créditos, 8 semestres, Acuerdo CS 021/2025, Registro Único (Presencial y Virtual), titulación inclusiva *Administrador(a) de Empresas*.
+- **Mapa Conceptual Sistémico de Pertinencia:** 5 ramas conceptuales integradas (Taxonómico/Normativo, Benchmarking Alta Calidad, Coherencia Curricular, Armonización RU, Pertinencia Social/OLE).
+- **Ventanas Emergentes (Modales en segundo plano):** Profundización interactiva por dimensión sin romper la continuidad visual.
+- **Limpieza de Protocolo para Pares:** 0 notas internas de orador, 0 consejos de exposición, lenguaje 100% formal y académico.
 
-#### B. Condición 1 — Denominación del Programa (`sections_c1.js`)
-- Ficha técnica oficial dual en paralelo (Plan Vigente 158 cr / 9 sem vs. Plan Propuesto 144 cr / 8 sem).
-- Mapa conceptual sistémico de pertinencia, modales de profundización y titulación *Administrador(a) de Empresas*.
+#### B. Condición 2 — Justificación y Estudio de Demanda (`sections_c2_google.js` / `sections_c2.js`)
+- **Observatorio Geoespacial Google Maps Relieve:** 18 programas en Santander (Bucaramanga: 11, Floridablanca: 3, Barrancabermeja: 3, San Gil/Socorro: 1; Girón y Piedecuesta filtrados por tener 0 programas).
+- **Gráficas de Tendencia Interactivas (Chart.js):** Integradas en Tablas 12 y 13 (matrícula histórica, permanencia y cobertura SAT).
+- **Planos Internacional, Nacional y Regional:** Tendencias WEF/OCDE, PND 2022-2026, PDD Santander 2024-2027, PDM Bucaramanga 2024-2027 y OLE (78.5% cotización formal).
 
-#### C. Condición 2 — Justificación y Estudio de Demanda (`sections_c2_google.js` / `sections_c2.js`)
-- Observatorio geoespacial interactivo Google Maps Relieve con los 18 programas de Administración de Empresas en Santander (11 Bucaramanga, 3 Floridablanca, 3 Barrancabermeja, 1 Socorro/San Gil).
-- Análisis de tendencias OLE, WEF, PND 2022-2026, PDD Santander y PDM Bucaramanga.
-- Tableros dinámicos SPADIES/SAT (Tablas 12 y 13) con tasa de permanencia institucional superior al 94%.
+#### C. Condición 3 — Aspectos Curriculares (`sections_c3.js`)
+- **Pestaña 1 (Predeterminada al abrir):** Plan Vigente SACES (158 Créditos - 9 Semestres).
+- **Pestaña 2:** Plan Propuesto (144 Créditos - 8 Semestres).
+- **Pestaña 3:** Comparación Curricular (28 reestructuradas, 15 nuevas, 38 homologables).
+- **Subpestañas:** 2. Áreas de Formación, 5. Inducción Docente Académico, 6. Rutas de Formación.
+- **Diseño Fit-to-Screen:** 100% responsive, ancho proporcional exacto, sin barra de desplazamiento horizontal.
+- **Paleta de Colores:** Totalmente unificada a la paleta oficial (0 azul).
 
-#### D. Condición 3 — Aspectos Curriculares (`sections_c3.js`)
-- Plan Vigente SACES (158 cr) y Plan Propuesto (144 cr) con diseño 100% responsive fit-to-screen sin barras horizontales.
-- Matrices de homologación (28 reestructuradas, 15 nuevas, 38 homologables), rutas de formación y resultados de aprendizaje (RAP).
-- **Ventanas Emergentes Interactivas en Numeral 3.5.2 & 3.5.3.1:** Articulación directa de los 6 Fundamentos Teóricos y Epistemológicos con sus componentes de formación oficial y las asignaturas específicas del plan de estudios que dan cumplimiento a las teorías (Planeación Estratégica, Gestión del Talento Humano, Marketing Estratégico, Emprendimiento e Innovación, RSE y Sostenibilidad, Pedagogía Virtual y SIG), competencias del perfil de egreso y aplicación real en el modelo "Formación en Contextos de Aplicación".
+#### D. Presentación Institucional (`sections_inst.js`)
+- **8 Secciones Completas:** Identidad corporativa, PEI (Modelo Constructivista), Evolución Histórica, Convenios y Alianzas, Oferta Académica Vigente, Estudiantes, Bienestar e Infraestructura Física.
+- **Convenios y Alianzas:** 15 logos oficiales de aliados en `assets/convenios/` (BIT Institute, Strategy Minds, IBERO, UPEL, Positiva, U. Católica, Unigermana, UMECIT, Prevent Group, Policía Nacional, Personería Bucaramanga, Gobernación Santander, Cajasan, Alcaldía Lebrija, Alcaldía Bucaramanga). Indicador de +70 convenios activos.
+- **Oferta Académica Vigente:** Catálogo de 17 programas oficiales del MEN con selectores interactivos y ventana emergente (modal sintético con Nombre, Nivel, Modalidad, Duración, Créditos y SNIES).
 
-#### E. Condición 4 — Organización de Actividades Académicas (`sections_c4.js`)
-- Modelo pedagógico constructivista por competencias, equivalencias de créditos académicos (Presencial 1:2 y Virtual 1:3) y estrategias didácticas basadas en casos y simuladores.
+#### E. Sistema de Educación Virtual (`sections_virtual.js`)
+- **5 Dimensiones del Modelo Virtual:** Pedagógica, Tecnológica, Organizacional, Diseño Curricular y Calidad.
+- **Arquitectura de Plataforma:** Campus LMS Moodle 24/7, simuladores en la nube, acompañamiento tutorial y analítica de aprendizaje.
 
-#### F. Condición 5 — Investigación, Innovación y Creación Artística (`sections_c5.js`)
-- **Estructura Oficial PPT:** 29 diapositivas organizadas en 7 ejes temáticos en primer plano.
-- **Video Oficial del Congreso 2025:** Integrado de forma interactiva en la Diapositiva 15 para evidenciar la trayectoria del semillero GESTNOVA y el Congreso de Innovación Multidisciplinar.
-- **Enlaces de Evidencia Funcionales (Diapositiva 18):**
-  * *Artículo Scopus Q3:* Enlace directo de acceso abierto verificado en NeuroQuantology.
-  * *Artículo Human Review:* Enlace directo en el repositorio oficial de Histórico Eágora.
-- **Diapositiva 27:** Ajuste formal del resultado verificable a: `Movilidad académica, proyectos de investigación conjunta.`
-- **Grupo de Investigación COLLEGIUM:** Líneas de profundización, semilleros, caso MYB S.A.S. (Spin-off institucional) y producción académica categorizada por Minciencias.
-
-#### G. Condición 6 — Relación con el Sector Externo (`sections_c6.js`)
-- **Tabla 48. Actividades articuladas con el CUEES:** Estadística descriptiva de impacto regional (mesas de bioeconomía, agroindustria y transformación digital).
-- **Numeral 6.6.1 Educación Continua (Tabla 49):** Oferta integral con diplomados, seminarios y cursos especializados en modalidades presencial y virtual con tendencias de alta participación.
-- **Numeral 6.7 Proyección Social en el Programa:** Consultoría y acompañamiento a microempresas en los 32 departamentos del país y Bogotá D.C., y consultoría presencial de campo en Santander.
-- **Tabla 51. Indicadores a 7 Años:** Tablero dinámico comparativo con gráfica Chart.js (`c6IndicadoresChart`) evidenciando un crecimiento institucional promedio de +320% en impacto externo.
-- **Visión Prospectiva CIDRE:** Centro de Investigación y Consultoría para la Innovación y el Desarrollo Regional, escalabilidad del modelo de Spin-offs y tele-consultoría remota.
-
-#### H. Condición 7 — Personal Docente (`sections_c7.js`)
-- **Integración Canónica PPT & Documento Maestro:** Reestructuración integral basada en `Condición 7 Profesores ADmon.pptx` y el Anexo 2 del Documento Maestro.
-- **Visualización Estratégica de las 8 Tablas Oficiales:**
-  * **Tabla 52:** Profesores del programa – Modalidad Presencial (6 docentes, MT estrictamente a 20 h/sem, TC a 40 h/sem).
-  * **Tabla 53:** Profesores del programa – Modalidad Virtual (9 docentes, MT a 20 h/sem, TC a 40 h/sem).
-  * **Tabla 54 (MT Presencial):** Distribución horaria con total exacto de **20 horas** (Docencia 10h [50%], Prep 4h [20%], Invest 3h [15%], Proyección 2h [10%], Gestión 1h [5%]).
-  * **Tabla 55 (MT Virtual):** Distribución horaria con total exacto de **20 horas** (Campus 8h [40%], Sincrónicas 5h [25%], Diseño 2h [10%], Invest 3h [15%], Proyección 1h [5%], Gestión 1h [5%]).
-  * **Tabla 56 (Docente TC):** Distribución de 40 horas semanales (Docencia 20h, Invest 12h, Proyección 5h, Gestión 3h).
-  * **Tabla 57 (Mapa de Coherencia):** Condiciones de Calidad (CC3, CC4, CC5, CC6) vs. Horas docentes por vinculación (MT Pres 20h, MT Virt 20h, TC 40h).
-  * **Tabla 58 (Verificación por Docente):** Asignación nominal donde cada docente MT cumple 20h y TC 40h.
-  * **Tabla 54 (Proyección a 7 Años):** Horizonte 2026-1 a 2031-2, crecimiento escalonado de 17 a 52 docentes con ratios de 1:15 a 1:40 estudiantes por docente.
-- **Gráficas de Impacto Institucional Positivo:**
-  * `c7HorasChart`: Barras apiladas de equilibrio funcional sustantivo.
-  * `c7ProyeccionChart`: Área de crecimiento y sostenibilidad profesoral.
-  * `c7EvalFuentesChart` y `c7EvalDimensionesChart`: Donas concéntricas del Sistema de Evaluación Integral 360° (60% Estudiantes, 70% Pedagógico-Didáctico).
-- **Gobernanza y Cualificación de Alto Nivel:**
-  * Estatuto Docente en 5 pilares institucionales.
-  * Proceso meritocrático en 7 fases con ponderación objetiva (35% micro-clase, 25% entrevista, 25% psicotécnica, 15% hoja de vida).
-  * **Impactos de Cualificación (Slide 13 PPT oficial):** 8 becarios doctorales UPEL (40% de la planta docente), 100% de la planta certificada por SENA en pedagogía, 100% cualificada en tecnologías digitales e innovación educativa, y 100% en diseño y evaluación de Resultados de Aprendizaje bajo taxonomía de Bloom.
-  * Diagrama de Ishikawa de Bienestar Integral Docente (4 dimensiones).
+#### F. Datos Estadísticos y Analítica de Permanencia Unificada en Condición 2 (`sections_c2_google.js`)
+- Tableros dinámicos SPADIES (Tabla 11), Sistema de Alertas Tempranas (SAT), matrícula histórica (Tabla 12) y tasa de permanencia institucional >94% (Tabla 13). Condición 10 retirada formalmente del menú.
 
 ---
 
-### 3. MAPA DE ARCHIVOS Y ESTADO EN GIT
-
-| Archivo / Componente | Ubicación en Repositorio | Estado de Sincronización |
-|---|---|:---:|
-| `index.html` | Raíz web | Sincronizado (Cachebusters actualizados) |
-| `app.js` | Raíz web | Sincronizado (Hooks `c1Init` a `c7Init`) |
-| `styles.css` | Raíz web | Sincronizado (Paleta oficial 0 azul) |
-| `sections_inst.js` | Raíz web | Sincronizado (Línea de tiempo 1992-2026) |
-| `sections_c1.js` | Raíz web | Sincronizado (RU Dual 158 vs 144 cr) |
-| `sections_c2_google.js` | Raíz web | Sincronizado (Google Maps 18 programas) |
-| `sections_c2.js` | Raíz web | Sincronizado (Estudio de contexto OLE/SPADIES) |
-| `sections_c3.js` | Raíz web | Sincronizado (Malla 144 cr fit-to-screen) |
-| `sections_c4.js` | Raíz web | Sincronizado (Organización académica y créditos) |
-| `sections_c5.js` | Raíz web | Sincronizado (29 diapositivas, video congreso, enlaces NeuroQuantology y Eágora, Diap. 27 ajustada) |
-| `sections_c6.js` | Raíz web | Sincronizado (Tablas 48, 49, 51, Proyección Social 32 dptos + Bogotá, CIDRE) |
-| `sections_c7.js` | Raíz web | Sincronizado (Tablas 52 a 58 con MT a 20h, 3 gráficas, gobernanza, 8 doctores UPEL y 100% SENA) |
-| `assets/c5/Video_congreso_2025.mp4` | `assets/c5/` | Sincronizado (16.7 MB verificado en CDN) |
-| `MEMORIA_INTERNA_TRAZABILIDAD.md` | Raíz web | Sincronizado (Secciones I a VIII completas) |
-| `MEMORIA_INTERNA_PROYECTO_TO.md` | Raíz web | Sincronizado (Estado integral para reanudar) |
+#### G. Condición 5 — Investigación, Innovación y Creación Artística (`sections_c5.js`)
+- Presentación oficial de 29 diapositivas y 7 ejes temáticos en primer plano (fit-to-screen sin saltos forzados).
+- Diapositiva 2: Marco normativo con diagrama de procesos en gran escala y texto tachado excluido.
+- Diapositiva 3 original eliminada por solicitud del experto institucional.
+- Diapositiva 6 (antigua 7): Evolución 2013–2030 sin recuadros espinosos de horas o presupuesto.
+- Diapositiva 7 (antigua 8): Slide oficial en Full HD 1920×1080 (`c5_slide8_ppt_export.png`) con 3 transversales, 2 específicas y línea temporal.
+- Diapositiva 8 (antigua 9): Investigación 4.0 en alta resolución 1920×1080 (`c5_slide9_ppt_export.png`).
+- Diapositiva 12: Tarjetas de tendencias contemporáneas con diseño limpio, iconos en cajas dedicadas de 36×36px y badges horizontales anti-solapamiento (`white-space: nowrap`).
+- Caso de éxito Spin-off MYB S.A.S. (NIT 901604941-7), semillero GESTNOVA, Grupo COLLEGIUM y ruta formativa en IV, VI y VIII semestres.
 
 ---
 
-### 4. PROCEDIMIENTO EXACTO PARA REANUDAR MAÑANA
+#### H. Bienestar Institucional (`sections_bienestar.js`) [2026-10-23]
+- **Modelo Integral de Permanencia:** 15 diapositivas oficiales (PDF Bienestar 2026-1) extraídas a 150 DPI (3000x1688 px).
+- **Primer Plano Absoluto:** Modo `.viewer-cinema-focus` que suprime cabeceras redundantes y posiciona la presentación en la parte superior sin necesidad de scroll.
+- **Toolbar Homogénea:** 7 Ejes temáticos coordinados con C8/C9 y selector por 15 píldoras con transiciones instantáneas en su mismo plano (cero saltos de pantalla).
+- **Directrices Institucionales:** 16 horas semestrales de bienestar, caracterización presencial diurna/nocturna, ruta virtual en 3 fases, protocolo de inclusión (Decreto 1421) y 5 áreas funcionales.
 
-1. **Abrir el IDE Antigravity** en el directorio del proyecto:
-   `c:\Users\Estudiante 08\Documents\Pedro_Noriega\Acreditación_Alta Calidad\Visitas_programas`
-2. **Servidor Local para Pruebas Inmediatas:**
+---
+
+### 3. LO NO APROBADO / DESCARTADO / TERMINANTEMENTE PROHIBIDO
+
+1. **RECHAZADO: Ficha del Registro Calificado Vigente como "Presencial únicamente".** (Viola Acuerdo 011/2024 y Anexo 5 oficial).
+2. **RECHAZADO: Uso de la paleta de color Azul.** (Perteneciente a Ingeniería Industrial; prohibido en Administración de Empresas).
+3. **RECHAZADO: Despliegue de fichas gigantes con textos extensos en Oferta Académica.** (Se exige el uso de selectores y modales sintéticos).
+4. **RECHAZADO: Uso de la sigla "CETO".** (Única sigla válida: **TO**).
+5. **RECHAZADO: Logos de convenios obsoletos o banners institucionales en la sección de Alianzas.**
+6. **RECHAZADO: URLs externas de Moodle para logotipos.** (Todo activo debe residir localmente en `sitio_web/assets/`).
+7. **RECHAZADO: Barra de desplazamiento horizontal en mallas curriculares.** (Las tablas deben ser 100% fit-to-screen).
+8. **RECHAZADO: Poner el Plan Propuesto como primera pestaña.** (El Plan Vigente SACES debe abrir siempre de primero).
+
+---
+
+### 4. ARCHIVOS CRÍTICOS Y ESTADO DEL REPOSITORIO
+
+| Archivo | Estado en Git (`main`) | Función Principal |
+|---|---|---|
+| `sitio_web/sections_c1.js` | Sincronizado (`a2783b3`) | Ficha técnica dual RU Vigente vs Propuesto, mapa conceptual y modales |
+| `sitio_web/sections_c2_google.js` | Sincronizado (`a2783b3`) | Motor Google Maps relieve con datos SNIES oficiales y 18 programas Santander |
+| `sitio_web/sections_c2.js` | Sincronizado (`a2783b3`) | Estudio de mercado, tendencias y gráficas Chart.js Tablas 12 y 13 |
+| `sitio_web/sections_c3.js` | Sincronizado (`a2783b3`) | Malla curricular fit-to-screen, modales pedagógicos, paleta 0 azul |
+| `sitio_web/sections_inst.js` | Sincronizado (`a2783b3`) | 8 secciones institucionales, 15 logos convenios, oferta con modal sintético |
+| `sitio_web/sections_virtual.js` | Sincronizado (`a2783b3`) | Sistema de Educación Virtual, 5 dimensiones, paleta 0 azul |
+| `sitio_web/sections_bienestar.js` | Sincronizado (`624547e`) | Bienestar Institucional, 15 slides HD, 7 ejes, primer plano absoluto |
+| `sitio_web/sections_c10.js` | Sincronizado (`a2783b3`) | Tableros de permanencia, SPADIES y SAT |
+| `sitio_web/styles.css` | Sincronizado (`a2783b3`) | Sistema de diseño institucional Glassmorphism, paleta Carbón / Naranja / Rojo |
+| `sitio_web/app.js` | Sincronizado (`a2783b3`) | Navegación global, apertura de modales, paleta unificada |
+| `sitio_web/index.html` | Sincronizado (`a2783b3`) | Contenedor principal con cachebusters activos |
+| `sitio_web/assets/convenios/` | Sincronizado (`a2783b3`) | 15 logotipos PNG oficiales de convenios institucionales |
+| `MEMORIA_INTERNA_PROYECTO_TO.md` | Actualizado | Memoria técnica institucional de cabecera |
+| `MEMORIA_INTERNA_TRAZABILIDAD.md` | Actualizado | Trazabilidad histórica completa |
+
+---
+
+### 5. PROCEDIMIENTO PARA REANUDAR EL TRABAJO EN LA PRÓXIMA SESIÓN
+
+1. Encender el equipo e ingresar al IDE Antigravity.
+2. Iniciar el servidor web local en el puerto 8085 ejecutando:
    ```powershell
    python -m http.server 8085 --directory "c:\Users\Estudiante 08\Documents\Pedro_Noriega\Acreditación_Alta Calidad\Visitas_programas\Administración de empresas_Renovación RU\sitio_web"
    ```
-   Abrir en el navegador: `http://localhost:8085/`  
-   Contraseña: `TO2026` (o `TO`)
-3. **Plataforma Web Desplegada en la Nube:**  
-   `https://pnoriegawork-maker.github.io/Registro-calificado-administracion-empresas-TO/`
-4. **Para Guardar y Sincronizar Nuevos Cambios en GitHub:**
-   El remoto de `Rep_Github` tiene el token de acceso configurado de forma permanente. Para subir cambios solo se requiere ejecutar:
+3. Abrir en el navegador: `http://localhost:8085/`
+4. Contraseña de acceso institucional: `TO2026`
+5. Para sincronizar futuros cambios con GitHub:
    ```powershell
    git status
-   git add -A
-   git commit -m "feat: descripcion del ajuste"
+   git add .
+   git commit -m "..."
    git push origin main
    ```
-5. **Próximos Pasos Identificados:**
-   - Continuar con la **Condición 8 (Medios Educativos)** y **Condición 9 (Infraestructura Física y Tecnológica)**, aplicando la misma metodología canónica de tablas del Documento Maestro, gráficas interactivas y paleta visual oficial TO.
